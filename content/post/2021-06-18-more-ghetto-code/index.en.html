@@ -1,0 +1,281 @@
+---
+title: More ghetto code
+author: Joey Trampush
+date: '2021-06-18'
+slug: more-ghetto-code
+categories:
+  - R
+  - rmarkdown
+tags:
+  - R Markdown
+subtitle: 'bad code'
+summary: 'drilldown plot in highcharter'
+authors: [joey]
+lastmod: '2021-06-18T18:11:39-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: [data-visualization]
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/pymjs/pym.v1.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/widgetframe-binding/widgetframe.js"></script>
+
+
+<div id="highcharter-drilldown" class="section level1">
+<h1>Highcharter Drilldown</h1>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;
+## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+## Registered S3 method overwritten by &#39;quantmod&#39;:
+##   method            from
+##   as.zoo.data.frame zoo
+## Highcharts (www.highcharts.com) is a Highsoft software product which is
+## not free for commercial and Governmental use
+## ── Attaching packages ────────────────────────────────── tidyverse 1.3.1.9000 ──
+## ✓ ggplot2 3.3.4     ✓ tidyr   1.1.3
+## ✓ tibble  3.1.2     ✓ stringr 1.4.0
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+## Loading required package: htmlwidgets</code></pre>
+<pre><code>## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_character(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_logical(),
+##   absort = col_character()
+## )
+## 
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_character(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_logical(),
+##   absort = col_character()
+## )
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_logical(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_character(),
+##   pass = col_character(),
+##   absort = col_character()
+## )
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_logical(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_character(),
+##   absort = col_character()
+## )
+## 
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_logical(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_character(),
+##   absort = col_character()
+## )
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_character(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_character(),
+##   absort = col_character()
+## )
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_logical(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_test = col_character(),
+##   domain_broad = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_logical(),
+##   absort = col_character()
+## )
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_character(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_logical(),
+##   absort = col_character()
+## )
+## 
+## 
+## ── Column specification ────────────────────────────────────────────────────────
+## cols(
+##   scale = col_character(),
+##   score = col_double(),
+##   percentile = col_double(),
+##   range = col_character(),
+##   ci_95 = col_character(),
+##   raw_score = col_double(),
+##   test = col_character(),
+##   test_name = col_character(),
+##   domain = col_character(),
+##   subdomain = col_character(),
+##   narrow = col_character(),
+##   domain_broad = col_character(),
+##   domain_test = col_character(),
+##   test_type = col_character(),
+##   score_type = col_character(),
+##   timed = col_logical(),
+##   fluid_crystal = col_logical(),
+##   pass = col_logical(),
+##   absort = col_character()
+## )</code></pre>
+<div id="percentiles" class="section level2">
+<h2>Percentiles</h2>
+<div class="figure"><span style="display:block;" id="fig:drill"></span>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"index.en_files/figure-html//widgets/widget_drill.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 1: Drilldown Neuropsych
+</p>
+</div>
+</div>
+<div id="zscores" class="section level2">
+<h2>zScores</h2>
+<div class="figure"><span style="display:block;" id="fig:drillz"></span>
+<div id="htmlwidget-2" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"index.en_files/figure-html//widgets/widget_drillz.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 2: Drilldown Neuropsych
+</p>
+</div>
+</div>
+</div>
