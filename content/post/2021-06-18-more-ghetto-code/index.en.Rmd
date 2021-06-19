@@ -2,22 +2,24 @@
 title: More ghetto code
 author: Joey Trampush
 date: '2021-06-18'
-slug: more-ghetto-code
 categories:
   - R
   - rmarkdown
 tags:
-  - R Markdown
-subtitle: 'bad code'
-summary: 'drilldown plot in highcharter'
-authors: [joey]
+  - drilldown
+slug: more-ghetto-code
+subtitle: bad code
+summary: drilldown plot in highcharter
+authors:
+  - joey
 lastmod: '2021-06-18T18:11:39-07:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: [data-visualization]
+projects:
+  - data-visualization
 ---
 
 ```{r setup, include=FALSE}
