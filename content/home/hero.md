@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+title = "brainworkup"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "jwt.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -42,6 +42,6 @@ hero_media = "user-2.jpg"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## My name is **Joey Trampush** and I'm a **Professor** specializing in **Neuropsychology and Genetics**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+Dr. Trampush has expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury, and is a former high school and college athlete; neuropsychiatric illness, especially those that emerge during early adulthood; and cognitive aging and dementia.  He is an active researcher who studies brain and neurocognitive functioning in psychiatric illness, and the underlying genetic architecture of brain development.
