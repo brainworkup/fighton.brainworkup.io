@@ -2,9 +2,9 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: My research interests include brain-behavior relationships, neurodevelopment, and the molecular genetic architecture of neurocognitive functions; and novel methods to communicate this work to the public.
+bio: I'm pretty much a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, pretty much a developmental neuropsychologist who sees kids and young adults referred for a wide range of cognitive difficulties, and lately have been trying to become a data scientist. 
 btn:
-- label: Download CV
+- label: Download CV (its a trick)
   url: https://sourcethemes.com/academic/docs/install/
 display_education: true
 education:
@@ -29,8 +29,8 @@ interests:
 name: Joey Trampush
 organizations:
 - name: University of Southern California
-  url: "https://usc.edu"
-role: Della Martin Assistant Professor of Psychiatry & Behavioral Sciences
+  url: "usc.edu"
+role: Della Martin Assistant Professor of Psychiatry and the Behavioral Sciences
 social:
 - icon: envelope
   icon_pack: fas

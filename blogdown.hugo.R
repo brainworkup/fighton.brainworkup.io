@@ -25,7 +25,9 @@ file.edit('.Rprofile')
 
 ## to edit a website
 1. blogdown::hugo_build()
+
 blogdown::hugo_build()
+
 2. login to netlify
   - drag/drop "public" folder to file viewer
 3. netlify will deploy w random subdomain
