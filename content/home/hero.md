@@ -20,8 +20,8 @@ hero_media = "jwt.jpg"
   color = "#fff"
   
   # Background gradient.
-  gradient_start = "#8b949e"
-  gradient_end = "#c3cbd3"
+  # gradient_start = "#8b949e"
+  # gradient_end = "#c3cbd3"
   
   # Background image.
   # image = "logo_bwu_banner.png"  # Name of image in `static/img/`.

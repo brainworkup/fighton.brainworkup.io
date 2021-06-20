@@ -39,7 +39,7 @@ tags: []
 title: Drilldown on Neuropsych Data with R
 subtitle: drilldown plot in highcharter
 summary: drilldown plot in highcharter
-slug: drilldown-neuropsych
+slug: npsych-drilldown
 lastmod: '2021-06-18T18:11:39-07:00'
 keep_md: yes
 ---

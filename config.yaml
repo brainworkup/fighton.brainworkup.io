@@ -17,7 +17,9 @@ ignoreFiles:
   - .ipynb_checkpoints$
   - \.Rmd$
   - \.Rmarkdown$
-  - _files$
+  - \.knit\.md$
+  - \.utf8\.md$
+  #- _files$
   - _cache$
 outputs:
   home:

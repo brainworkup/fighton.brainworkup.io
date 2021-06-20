@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: ""
 summary: ""
@@ -27,3 +25,11 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+**Insert Lead paragraph here.**
+
+## New Cool Post
+
+{{ range first 10 ( where .Site.RegularPages "Type" "cool" ) }}\
+\* {{ .Title }}\
+{{ end }}
