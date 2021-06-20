@@ -37,193 +37,25 @@
 ## Registered S3 method overwritten by &#39;quantmod&#39;:
 ##   method            from
 ##   as.zoo.data.frame zoo
-## Highcharts (www.highcharts.com) is a Highsoft software product which is
-## not free for commercial and Governmental use
-## ── Attaching packages ────────────────────────────────── tidyverse 1.3.1.9000 ──
-## ✓ ggplot2 3.3.4     ✓ tidyr   1.1.3
-## ✓ tibble  3.1.2     ✓ stringr 1.4.0
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
+## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.1.9000 ──
+## ✔ ggplot2 3.3.4     ✔ tidyr   1.1.3
+## ✔ tibble  3.1.2     ✔ stringr 1.4.0
+## ── Conflicts ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;import-data&#34;&gt;Import data&lt;/h3&gt;
 &lt;h2 id=&#34;drilldown-using-percentiles&#34;&gt;Drilldown using percentiles&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;colors &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#058DC7&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#50B432&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ED561B&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#DDDF00&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#24CBE5&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#64E572&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FF9655&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FFF263&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#6AF9C4&amp;#34;&lt;/span&gt;
-  )
-
-colors8 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#058DC7&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#50B432&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#DDDF00&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#24CBE5&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#64E572&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FF9655&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FFF263&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#6AF9C4&amp;#34;&lt;/span&gt;
-  )
-
-&lt;span style=&#34;color:#75715e&#34;&gt;## for Tooltip&lt;/span&gt;
-
-ncogL1status &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; ncogL1status &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-  dplyr&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mutate&lt;/span&gt;(
-    rangep &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;case_when&lt;/span&gt;(
-      y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;98&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exceptionally High&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;91&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;97&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Above Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;75&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;High-Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;74&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Low-Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Below Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exceptionally Low&amp;#34;&lt;/span&gt;,
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;as.character&lt;/span&gt;(y)
-    )
-  )
-
-x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Name&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Score&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Range&amp;#34;&lt;/span&gt;)
-y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.name}&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.y}&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.rangep}&amp;#34;&lt;/span&gt;)
-tt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tooltip_table&lt;/span&gt;(x, y)
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Create drilldown bar plot&lt;/span&gt;
-
-&lt;span style=&#34;color:#a6e22e&#34;&gt;frameWidget&lt;/span&gt;(
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;highchart&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_title&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; patient,
-             style &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(fontSize &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;15px&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_add_series&lt;/span&gt;(
-      ncogL1status,
-      type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bar&amp;#34;&lt;/span&gt;,
-      name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Neuropsychological Test Scores&amp;#34;&lt;/span&gt;,
-      &lt;span style=&#34;color:#a6e22e&#34;&gt;hcaes&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; name, y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; y, color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; colors8)
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_xAxis&lt;/span&gt;(
-      type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;category&amp;#34;&lt;/span&gt;,
-      title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Domain&amp;#34;&lt;/span&gt;),
-      categories &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; .$name
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_yAxis&lt;/span&gt;(
-      title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Percentile&amp;#34;&lt;/span&gt;),
-      labels &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(format &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{value} ‰&amp;#34;&lt;/span&gt;)
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_tooltip&lt;/span&gt;(
-      pointFormat &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tt,
-      useHTML &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-      valueDecimals &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_plotOptions&lt;/span&gt;(
-      series &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(
-        colorByPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-        allowPointSelect &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-        dataLabels &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;
-      )
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_drilldown&lt;/span&gt;(
-      allowPointDrilldown &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-      series &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ncogL2drill, ncogL3drill, ncogL4drill)
-    )
-)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;figure&#34;&gt;
-&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:100%;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillp.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Drilldown Neuropsych Pct
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;drilldown-using-zscores&#34;&gt;Drilldown using zScores&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;colors &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#058DC7&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#50B432&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ED561B&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#DDDF00&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#24CBE5&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#64E572&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FF9655&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FFF263&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#6AF9C4&amp;#34;&lt;/span&gt;
-  )
-
-colors8 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#058DC7&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#50B432&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#DDDF00&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#24CBE5&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#64E572&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FF9655&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FFF263&amp;#34;&lt;/span&gt;,
-    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#6AF9C4&amp;#34;&lt;/span&gt;
-  )
-
-&lt;span style=&#34;color:#75715e&#34;&gt;## for Tooltip&lt;/span&gt;
-
-ncogL1statusz &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; ncogL1statusz &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-  dplyr&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mutate&lt;/span&gt;(
-    rangez &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;case_when&lt;/span&gt;(
-      y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exceptionally High&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1.3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1.9&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Above Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.7&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1.2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;High-Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-0.7&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.6&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-1.3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-0.6&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Low-Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;%in%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-1.4&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Below Average&amp;#34;&lt;/span&gt;,
-      y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exceptionally Low&amp;#34;&lt;/span&gt;,
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;as.character&lt;/span&gt;(y)
-    )
-  )
-
-x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Name&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Score&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Range&amp;#34;&lt;/span&gt;)
-y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.name}&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.y}&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{point.rangez}&amp;#34;&lt;/span&gt;)
-tt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tooltip_table&lt;/span&gt;(x, y)
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Create drilldown bar plot&lt;/span&gt;
-
-&lt;span style=&#34;color:#a6e22e&#34;&gt;frameWidget&lt;/span&gt;(
-  &lt;span style=&#34;color:#a6e22e&#34;&gt;highchart&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_title&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; patient,
-             style &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(fontSize &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;15px&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_add_series&lt;/span&gt;(
-      ncogL1statusz,
-      type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bar&amp;#34;&lt;/span&gt;,
-      name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Neuropsychological Test Scores&amp;#34;&lt;/span&gt;,
-      &lt;span style=&#34;color:#a6e22e&#34;&gt;hcaes&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; name, y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; y, color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; colors8)
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_xAxis&lt;/span&gt;(
-      type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;category&amp;#34;&lt;/span&gt;,
-      title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Domain&amp;#34;&lt;/span&gt;),
-      categories &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; .$name
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_yAxis&lt;/span&gt;(
-      title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(text &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;z-score&amp;#34;&lt;/span&gt;),
-      labels &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(format &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{value}&amp;#34;&lt;/span&gt;)
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_tooltip&lt;/span&gt;(
-      pointFormat &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tt,
-      useHTML &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-      valueDecimals &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_plotOptions&lt;/span&gt;(
-      series &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt;(
-        colorByPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-        allowPointSelect &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-        dataLabels &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;
-      )
-    ) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
-    &lt;span style=&#34;color:#a6e22e&#34;&gt;hc_drilldown&lt;/span&gt;(
-      allowPointDrilldown &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TRUE&lt;/span&gt;,
-      series &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ncogL2drillz, ncogL3drillz, ncogL4drillz)
-    )
-)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;figure&#34;&gt;
-&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:100%;height:100%;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillz.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Drilldown Neuropsych zScores
