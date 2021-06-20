@@ -10,7 +10,7 @@ weight = 80  # Order that this section will appear.
 draft = true # false it if you want a featured section
 
 title = "Featured Publications"
-subtitle = "COGENT"
+subtitle = "Cognitive Genomics"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -54,7 +54,7 @@ subtitle = "COGENT"
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  # text_color_light = false  
   
 [advanced]
  # Custom CSS. 

@@ -1,0 +1,3 @@
+# dr. trampush
+
+Dr. Trampush has expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury, and is a former high school and college athlete; neuropsychiatric illness, especially those that emerge during early adulthood; and cognitive aging and dementia.  He is an active researcher who studies brain and neurocognitive functioning in psychiatric illness, and the underlying genetic architecture of brain development.

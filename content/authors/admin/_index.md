@@ -4,8 +4,8 @@ authors:
 avatar_image: jwt_fighton.jpg
 bio: I'm pretty much a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, pretty much a developmental neuropsychologist who sees kids and young adults referred for a wide range of cognitive difficulties, and lately have been trying to become a data scientist. 
 btn:
-- label: Download CV (its a trick)
-  url: https://sourcethemes.com/academic/docs/install/
+- label: Download CV
+  url: http://localhost:4321/files/cv.pdf
 display_education: true
 education:
   courses:
@@ -26,10 +26,13 @@ interests:
 - Molecular Genetics
 - Neuropsychology
 - Neurodevelopment
-name: Joey Trampush
+- Data Science
+name: Joey W. Trampush, Ph.D.
 organizations:
-- name: University of Southern California
-  url: "usc.edu"
+- name: USC University of Southern California
+  url: "https://usc.edu"
+- name: Keck School of Medicine
+  url: "https://keck.usc.edu/"
 role: Della Martin Assistant Professor of Psychiatry and the Behavioral Sciences
 social:
 - icon: envelope
@@ -43,14 +46,16 @@ social:
   link: https://scholar.google.com/citations?user=uG4qu4IAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/jtrampush
+  link: https://github.com/brainworkup
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-My research interests include brain-behavior relationships, neurodevelopment,
+I'm a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, a developmental neuropsychologist who sees individuals referred for a wide range of cognitive difficulties, and an advocate and supporter of open-source data science.
+
+<!-- My research interests include brain-behavior relationships, neurodevelopment,
 and the molecular genetic architecture of neurocognitive functions; and novel
-methods to communicate this work to the public.
+methods to communicate this work to the public. -->
 
