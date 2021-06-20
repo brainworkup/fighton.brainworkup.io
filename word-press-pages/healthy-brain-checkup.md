@@ -1,5 +1,0 @@
-# healthy brain checkup
-
-ANNUAL BRAIN HEALTH CHECKUPS
-
-BE PROACTIVE! We encourage everyone in our community to take charge of their own brain and emotional well being by getting annual "brain health checkups," even if you are in good health otherwise.  Preventative medicine is the future of medicine: by being proactive and completing annual workups of your cognitive functions (e.g., attention, learning and memory, processing speed, and changes in executive functions), we can monitor subtle changes in brain function that may be a precursor to a more severe psychiatric or neurologic disorder emerging. BE PROACTIVE!
