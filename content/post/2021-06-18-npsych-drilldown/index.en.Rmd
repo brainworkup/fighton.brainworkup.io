@@ -50,7 +50,7 @@ output: tufte::tufte_html
 ### R Markdown chunk options
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE, class.source = "drilld")
+knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld"))
 ```
 
 ### Load libraries
@@ -76,6 +76,20 @@ library(htmlwidgets)
 library(widgetframe)
 library(crosstalk)
 library(manipulateWidget)
+```
+
+```{css, echo=FALSE}
+aside {
+  margin-left: 100%;
+  position: absolute;
+}
+```
+
+```{css, echo=FALSE}
+img {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
 ```
 
 ### Import data
@@ -177,7 +191,7 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
 
 ```{css, echo=FALSE}
 .drilld {
-  width: 100vw
+  width: 100vw;
   margin-left: calc(50% - 50vw);
 }
 ```
