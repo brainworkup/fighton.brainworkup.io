@@ -80,8 +80,8 @@ devtools::install_github(
   force = TRUE)
 
 
-remotes::install_github(
-  "tidyverse/tidyverse",
+devtools::install_github(
+  "kbodwin/flair",
   lib = .libPaths()[[2L]],
   dependencies = TRUE,
   upgrade = "default",

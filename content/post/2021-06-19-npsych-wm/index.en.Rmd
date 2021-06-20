@@ -36,11 +36,12 @@ image:
   preview_only: false
 projects: []
 tags: []
-title: Real Post Maybe
+title: Neuropsych WM
 subtitle: trying genomicsem for wm
 summary: trying genomicsem for wm
 slug: npsych-wm
 lastmod: '2021-06-19T21:24:48-07:00'
+output: distill::distill_article
 ---
 
 **Insert Lead paragraph here.**

@@ -50,7 +50,7 @@ output: tufte::tufte_html
 ### R Markdown chunk options
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
+knitr::opts_chunk$set(collapse = TRUE, class.source = "drilld")
 ```
 
 ### Load libraries
