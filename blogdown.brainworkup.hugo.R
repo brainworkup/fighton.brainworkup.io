@@ -31,6 +31,8 @@ blogdown::hugo_build()
 
 rmarkdown::clean_site(preview = FALSE)
 
+blogdown::clean_duplicates(preview = FALSE)
+
 # To update a file, re-knit or use
 blogdown::build_site(build_rmd = 'timestamp')
 
