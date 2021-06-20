@@ -50,7 +50,7 @@ output: tufte::tufte_html
 ### R Markdown chunk options
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld"))
+knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld", "rect"))
 ```
 
 ### Load libraries
@@ -89,6 +89,18 @@ aside {
 img {
   width: 100vw;
   margin-left: calc(50% - 50vw);
+}
+```
+
+```{css, echo=FALSE}
+rect[Attributes Style] {
+    fill: transparent;
+    x: 0;
+    y: 0;
+    width: 800;
+    height: 500;
+    rx: 0;
+    ry: 0;
 }
 ```
 
@@ -196,7 +208,7 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
 }
 ```
 
-```{r drillp, class.source="drilld", fig.cap='Drilldown Neuropsych Pct', echo=F, out.width="100%"}
+```{r drillp, fig.cap='Drilldown Neuropsych Pct', echo=F}
 colors <-
   c(
     "#058DC7",

@@ -88,6 +88,17 @@ img {
   margin-left: calc(50% - 50vw);
 }
 </style>
+<style type="text/css">
+rect[Attributes Style] {
+    fill: transparent;
+    x: 0;
+    y: 0;
+    width: 800;
+    height: 500;
+    rx: 0;
+    ry: 0;
+}
+</style>
 
 ### Import data
 
