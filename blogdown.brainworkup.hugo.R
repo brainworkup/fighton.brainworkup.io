@@ -7,6 +7,8 @@ library(httpuv)
 library(htmltools)
 library(htmlwidgets)
 library(widgetframe)
+library(crosstalk)
+library(manipulateWidget)
 
 file.edit("~/.Rprofile")
 

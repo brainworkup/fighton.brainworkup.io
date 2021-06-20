@@ -74,6 +74,8 @@ library(highcharter)
 library(tidyverse)
 library(htmlwidgets)
 library(widgetframe)
+library(crosstalk)
+library(manipulateWidget)
 ```
 
 ### Import data
@@ -173,7 +175,14 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
 }) %>% unlist(recursive = FALSE)
 ```
 
-```{r drillp, fig.cap='Drilldown Neuropsych Pct', echo=F, out.width="100%"}
+```{css, echo=FALSE}
+.drilld {
+  width: 100vw
+  margin-left: calc(50% - 50vw);
+}
+```
+
+```{r drillp, class.source="drilld", fig.cap='Drilldown Neuropsych Pct', echo=F, out.width="100%"}
 colors <-
   c(
     "#058DC7",
@@ -256,7 +265,7 @@ frameWidget(
       allowPointDrilldown = TRUE,
       series = c(ncogL2drill, ncogL3drill, ncogL4drill)
     )
-)
+) 
 ```
 
 ## Drilldown using zScores
@@ -327,7 +336,7 @@ ncogL4drillz <- lapply(unique(neuropsych$domain), function(x_level) {
 }) %>% unlist(recursive = FALSE)
 ```
 
-```{r drillz, fig.cap='Drilldown Neuropsych zScores', echo=F, out.width="100%"}
+```{r drillz, class.source="drilld", fig.cap='Drilldown Neuropsych zScores', echo=F, out.width="100%"}
 colors <-
   c(
     "#058DC7",
