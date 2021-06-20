@@ -12,6 +12,125 @@
     
     
     <item>
+      <title>Neuropsych WM</title>
+      <link>https://brainworkup.org/post/npsych-wm/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/post/npsych-wm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;new-cool-post&#34;&gt;New Cool Post&lt;/h2&gt;
+&lt;h2 id=&#34;developmentallifespan-trajectory-of-wm-skills&#34;&gt;Developmental/Lifespan Trajectory of WM Skills&lt;/h2&gt;
+&lt;h2 id=&#34;tidy-data&#34;&gt;Tidy Data&lt;/h2&gt;
+&lt;h3 id=&#34;import&#34;&gt;Import&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Error in files %&amp;gt;% purrr::set_names() %&amp;gt;% purrr::map_df(~readr::read_tsv(file.path(data_path, : could not find function &amp;quot;%&amp;gt;%&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in as_tibble(wm): could not find function &amp;quot;as_tibble&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;clean-with-janitor&#34;&gt;Clean with Janitor&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Error in wm %&amp;gt;% janitor::clean_names(): could not find function &amp;quot;%&amp;gt;%&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;glimpse-1&#34;&gt;Glimpse 1&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_clean): could not find function &amp;quot;glimpse&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;paged-table&#34;&gt;paged table&lt;/h2&gt;
+&lt;h3 id=&#34;mean-dsf&#34;&gt;Mean dsf&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Error in select(., c(phe_digit_span_fwd, phe_digit_span_bkwd, phe_digit_span, : object &#39;wm_clean&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;create-list&#34;&gt;Create list&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## Error in cols(IID = col_character(), FID = col_character()): could not find function &amp;quot;cols&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list): object &#39;wm_list&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in select(wm, one_of(&amp;quot;phe_digit_span_fwd&amp;quot;, &amp;quot;phe_digit_span_bkwd&amp;quot;, : object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list[2]): object &#39;wm_list&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;genomic-sem&#34;&gt;Genomic SEM&lt;/h2&gt;
+&lt;h3 id=&#34;create-list-column&#34;&gt;Create list column&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Error in tibble::enframe(wm_list): object &#39;wm_list&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in mutate(., type = map_chr(phe_digit_span_fwd, typeof), length = map_int(phe_digit_span_fwd, : object &#39;wm1&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in mutate(., smry = map2_chr(name, value, ~stringr::str_c(.x, &amp;quot;: &amp;quot;, : object &#39;wm_list&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &#39;output&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;function (x, na.rm = FALSE, &amp;hellip;)
+UseMethod(&amp;ldquo;median&amp;rdquo;)
+&amp;lt;bytecode: 0x7ff8ff116068&amp;gt;
+&amp;lt;environment: namespace:stats&amp;gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &#39;na&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in select(., contains(c(&amp;quot;filename&amp;quot;, &amp;quot;fid&amp;quot;, &amp;quot;iid&amp;quot;, &amp;quot;digit_span&amp;quot;, : object &#39;wm_clean&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in is.data.frame(x): object &#39;phe_wm&#39; not found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list): object &#39;wm_list&#39; not found
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drilldown on Neuropsych Data with R</title>
+      <link>https://brainworkup.org/post/npsych-drilldown/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/post/npsych-drilldown/</guid>
+      <description>&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;highcharter-drilldown-setup&#34;&gt;Highcharter Drilldown Setup&lt;/h2&gt;
+&lt;h3 id=&#34;r-markdown-chunk-options&#34;&gt;R Markdown chunk options&lt;/h3&gt;
+&lt;h3 id=&#34;load-libraries&#34;&gt;Load libraries&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+## Registered S3 method overwritten by &#39;quantmod&#39;:
+##   method            from
+##   as.zoo.data.frame zoo
+## ── Attaching packages ────────────────────────────────── tidyverse 1.3.1.9000 ──
+## ✓ ggplot2 3.3.4     ✓ tidyr   1.1.3
+## ✓ tibble  3.1.2     ✓ stringr 1.4.0
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+aside {
+  margin-left: 100%;
+  position: absolute;
+}
+&lt;/style&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+img {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+&lt;/style&gt;
+&lt;h3 id=&#34;import-data&#34;&gt;Import data&lt;/h3&gt;
+&lt;h2 id=&#34;drilldown-using-percentiles&#34;&gt;Drilldown using percentiles&lt;/h2&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.drilld {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+&lt;/style&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillp.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Drilldown Neuropsych Pct
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;drilldown-using-zscores&#34;&gt;Drilldown using zScores&lt;/h2&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillz.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Drilldown Neuropsych zScores
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
       <link>https://brainworkup.org/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>

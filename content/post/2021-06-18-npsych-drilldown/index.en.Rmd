@@ -79,14 +79,14 @@ library(manipulateWidget)
 ```
 
 ```{css, echo=FALSE}
-.aside {
+aside {
   margin-left: 100%;
   position: absolute;
 }
 ```
 
 ```{css, echo=FALSE}
-.img {
+img {
   width: 100vw;
   margin-left: calc(50% - 50vw);
 }
