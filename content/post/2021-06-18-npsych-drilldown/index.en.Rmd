@@ -172,7 +172,7 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
 }) %>% unlist(recursive = FALSE)
 ```
 
-```{r drillp, fig.cap='Drilldown Neuropsych Pct', echo=F, out.width="100%"}
+```{r drillp, fig.cap='Drilldown Neuropsych Pct', echo=F}
 colors <-
   c(
     "#058DC7",

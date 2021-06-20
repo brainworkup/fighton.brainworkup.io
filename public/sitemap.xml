@@ -30,7 +30,7 @@
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/</loc>
-    <lastmod>2021-06-20T01:10:07-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/talk/coding/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
@@ -45,7 +45,7 @@
     <lastmod>2021-06-19T22:00:49-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/authors/</loc>
-    <lastmod>2021-06-20T01:10:07-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/categories/</loc>
     <lastmod>2021-06-19T22:00:49-07:00</lastmod>
@@ -75,7 +75,7 @@
     <lastmod>2021-06-19T22:00:49-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/</loc>
-    <lastmod>2021-06-19T22:00:49-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2021-06-19T22:00:49-07:00</lastmod>
@@ -93,22 +93,19 @@
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/source-themes/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/post/jupyter/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://brainworkup.org/slides/slides0/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/slides/slides1/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/privacy/</loc>
     <lastmod>2021-06-19T22:00:49-07:00</lastmod>
@@ -156,16 +153,16 @@
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/2/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication/journal-article/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/1/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication/conference-paper/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/authors/admin/</loc>
     <lastmod>2021-06-20T01:10:07-07:00</lastmod>
@@ -181,5 +178,8 @@
   </url><url>
     <loc>https://brainworkup.org/talk/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/slides/</loc>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url>
 </urlset>
