@@ -39,18 +39,18 @@
   weight = 60
 
 [[main]]
-  name = "dropdown"
+  name = "blog"
   url = "#"
   hasChildren = true
 
 [[main]]
   parent = "dropdown"
-  name = "dropdown 1"
+  name = "neuroscience"
   url = "#"
 
 [[main]]
   parent = "dropdown"
-  name = "dropdown 2"
+  name = "neuropsychology"
   url = "#!"
 
 # Link to a PDF of your resume/CV from the menu.
