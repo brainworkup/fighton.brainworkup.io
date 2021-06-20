@@ -20,11 +20,11 @@ hero_media = "jwt.jpg"
   color = "#fff"
   
   # Background gradient.
-  # gradient_start = "#4bb4e3"
-  # gradient_end = "#000"
+  gradient_start = "#8b949e"
+  gradient_end = "#c3cbd3"
   
   # Background image.
-  # image = ""  # Name of image in `static/img/`.
+  # image = "logo_bwu_banner.png"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -42,6 +42,7 @@ hero_media = "jwt.jpg"
   label = "Contact me"
 
 +++
-## My name is **Joey** and I'm an **Asst Professor @ USC** specializing in **Neuropsychology and Genetics**
+## My name is **Dr. Joey** and I'm an **Assistant Professor of Psychiatry @ USC** specializing in **Neuropsychology** and **Genetics**
 
-I have some expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury; and neuropsychiatric illness, especially those that emerge during early adulthood. I try to be an active researcher who studies brain and neurocognitive functioning in psychiatric illness as well as trying to figure out the underlying genetic architecture of brain development.
+*new website; this site is in build mode; this is a template* 
+<!-- I have some expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury; and neuropsychiatric illness, especially those that emerge during early adulthood. I try to be an active researcher who studies brain and neurocognitive functioning in psychiatric illness as well as trying to figure out the underlying genetic architecture of brain development. -->

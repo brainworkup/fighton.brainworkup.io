@@ -2,10 +2,11 @@
 
 library(blogdown)
 library(rmarkdown)
-require(highcharter)
+library(highcharter)
 library(httpuv)
 library(htmltools)
 library(htmlwidgets)
+library(widgetframe)
 
 file.edit("~/.Rprofile")
 
