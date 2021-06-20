@@ -2,10 +2,10 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: I'm pretty much a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, pretty much a developmental neuropsychologist who sees kids and young adults referred for a wide range of cognitive difficulties, and lately have been trying to become a data scientist. 
+bio: (add bio) Department of Psychiatry and the Behavioral Sciences, USC Keck School of Medicine 
 btn:
 - label: Download CV
-  url: http://localhost:4321/files/cv.pdf
+  url: "files/cv.pdf"
 display_education: true
 education:
   courses:
