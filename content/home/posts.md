@@ -29,7 +29,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
     category = ""
     publication_type = ""
     exclude_featured = false
-    exclude_past =false
+    exclude_past = false
     exclude_future = false
   
 [design]

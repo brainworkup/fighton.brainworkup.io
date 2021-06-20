@@ -39,19 +39,16 @@
   weight = 60
 
 [[main]]
-  name = "blog"
-  url = "#"
-  hasChildren = true
-
-[[main]]
-  parent = "dropdown"
+  parent = "blog"
   name = "neuroscience"
   url = "#"
+  weight = 25
 
 [[main]]
-  parent = "dropdown"
+  parent = "blog"
   name = "neuropsychology"
   url = "#!"
+  weight = 25
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

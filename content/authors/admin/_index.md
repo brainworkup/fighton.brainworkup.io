@@ -29,7 +29,7 @@ interests:
 - Data Science
 name: Joey W. Trampush, Ph.D.
 organizations:
-- name: USC University of Southern California
+- name: USC University of Southern California |
   url: "https://usc.edu"
 - name: Keck School of Medicine
   url: "https://keck.usc.edu/"
@@ -49,8 +49,7 @@ social:
   link: https://github.com/brainworkup
 superuser: true
 user_groups:
-- Researchers
-- Visitors
+- Principal Investigators
 ---
 
 I'm a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, a developmental neuropsychologist who sees individuals referred for a wide range of cognitive difficulties, and an advocate and supporter of open-source data science.
