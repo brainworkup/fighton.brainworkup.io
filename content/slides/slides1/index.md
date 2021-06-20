@@ -7,7 +7,7 @@ slides:
   theme: black
 summary: An introduction to using academia's Slides feature.
 tags: []
-title: Slides
+title: Slides 1 another example
 ---
 
 # Welcome to Slides
