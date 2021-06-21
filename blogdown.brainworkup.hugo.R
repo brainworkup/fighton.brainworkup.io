@@ -88,3 +88,10 @@ devtools::install_github(
   build = TRUE,
   force = TRUE)
 
+# reveal slides
+# config.toml
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
