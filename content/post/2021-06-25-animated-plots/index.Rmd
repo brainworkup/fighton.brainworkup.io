@@ -36,10 +36,13 @@ library(ggthemes) # wsj, tufte, 538, hc
 library(gganimate) # animate and create gifs
 library(scales)
 library(tweenr)
+<<<<<<< HEAD
 library(htmlwidgets)
 library(widgetframe)
 library(crosstalk)
 library(manipulateWidget)
+=======
+>>>>>>> c86f8e7a6abf7595982e08d21eb75dfc7f1bebc5
 ```
 
 ```{r, eval=F}
@@ -239,3 +242,7 @@ gganimate::animate(anim, fps = 20)
 ```{r}
 knitr::include_graphics("/Users/joey/blogdown.brainworkup/static/data/anim.gif")
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> c86f8e7a6abf7595982e08d21eb75dfc7f1bebc5
