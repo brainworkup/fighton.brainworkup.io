@@ -117,7 +117,7 @@
   
   <meta property="article:published_time" content="2021-06-19T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-06-20T12:24:13-07:00">
+  <meta property="article:modified_time" content="2021-06-25T13:45:49-07:00">
   
 
   
@@ -485,7 +485,7 @@
 
 
 <meta content="2021-06-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-06-20 12:24:13 -0700 PDT" itemprop="dateModified">
+<meta content="2021-06-25 13:45:49 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -512,7 +512,7 @@
           Last updated on
       
     
-    <time>Jun 20, 2021</time>
+    <time>Jun 25, 2021</time>
   </span>
   
 
@@ -646,46 +646,72 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p><strong>Insert Lead paragraph here.</strong></p>
-<h2 id="new-cool-post">New Cool Post</h2>
-<h2 id="developmentallifespan-trajectory-of-wm-skills">Developmental/Lifespan Trajectory of WM Skills</h2>
-<h2 id="tidy-data">Tidy Data</h2>
-<h3 id="import">Import</h3>
-<pre><code>## Error in files %&gt;% purrr::set_names() %&gt;% purrr::map_df(~readr::read_tsv(file.path(data_path, : could not find function &quot;%&gt;%&quot;
-</code></pre><pre><code>## Error in as_tibble(wm): could not find function &quot;as_tibble&quot;
-</code></pre><h3 id="clean-with-janitor">Clean with Janitor</h3>
-<pre><code>## Error in wm %&gt;% janitor::clean_names(): could not find function &quot;%&gt;%&quot;
-</code></pre><h3 id="glimpse-1">Glimpse 1</h3>
-<pre><code>## Error in glimpse(wm_clean): could not find function &quot;glimpse&quot;
-</code></pre><h2 id="paged-table">paged table</h2>
-<h3 id="mean-dsf">Mean dsf</h3>
-<pre><code>## Error in select(., c(phe_digit_span_fwd, phe_digit_span_bkwd, phe_digit_span, : object 'wm_clean' not found
-</code></pre><h2 id="create-list">Create list</h2>
-<pre><code>## Error in cols(IID = col_character(), FID = col_character()): could not find function &quot;cols&quot;
-</code></pre><pre><code>## Error in glimpse(wm_list): object 'wm_list' not found
-</code></pre><pre><code>## Error in select(wm, one_of(&quot;phe_digit_span_fwd&quot;, &quot;phe_digit_span_bkwd&quot;, : object 'wm' not found
-</code></pre><pre><code>## Error in glimpse(wm_list[2]): object 'wm_list' not found
-</code></pre><h2 id="genomic-sem">Genomic SEM</h2>
-<h3 id="create-list-column">Create list column</h3>
-<pre><code>## Error in tibble::enframe(wm_list): object 'wm_list' not found
-</code></pre><pre><code>## Error in mutate(., type = map_chr(phe_digit_span_fwd, typeof), length = map_int(phe_digit_span_fwd, : object 'wm1' not found
-</code></pre><pre><code>## Error in mutate(., smry = map2_chr(name, value, ~stringr::str_c(.x, &quot;: &quot;, : object 'wm_list' not found
-</code></pre><pre><code>## Error in ncol(wm): object 'wm' not found
-</code></pre><pre><code>## Error in eval(expr, envir, enclos): object 'wm' not found
-</code></pre><pre><code>## Error in eval(expr, envir, enclos): object 'output' not found
-</code></pre><pre><code>## Error in ncol(wm): object 'wm' not found
-</code></pre><pre><code>## Error in eval(expr, envir, enclos): object 'wm' not found
-</code></pre><p>function (x, na.rm = FALSE, &hellip;)
-UseMethod(&ldquo;median&rdquo;)
-&lt;bytecode: 0x7ff8ff116068&gt;
+      
+<script src="https://brainworkup.org/post/npsych-wm/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>Insert Lead paragraph here.</strong></p>
+<div id="new-cool-post" class="section level2">
+<h2>New Cool Post</h2>
+</div>
+<div id="developmentallifespan-trajectory-of-wm-skills" class="section level2">
+<h2>Developmental/Lifespan Trajectory of WM Skills</h2>
+</div>
+<div id="tidy-data" class="section level2">
+<h2>Tidy Data</h2>
+<div id="import" class="section level3">
+<h3>Import</h3>
+<pre><code>## Error in files %&gt;% purrr::set_names() %&gt;% purrr::map_df(~readr::read_tsv(file.path(data_path, : could not find function &quot;%&gt;%&quot;</code></pre>
+<pre><code>## Error in as_tibble(wm): could not find function &quot;as_tibble&quot;</code></pre>
+</div>
+<div id="clean-with-janitor" class="section level3">
+<h3>Clean with Janitor</h3>
+<pre><code>## Error in wm %&gt;% janitor::clean_names(): could not find function &quot;%&gt;%&quot;</code></pre>
+</div>
+<div id="glimpse-1" class="section level3">
+<h3>Glimpse 1</h3>
+<pre><code>## Error in glimpse(wm_clean): could not find function &quot;glimpse&quot;</code></pre>
+</div>
+</div>
+<div id="paged-table" class="section level2">
+<h2>paged table</h2>
+<div id="mean-dsf" class="section level3">
+<h3>Mean dsf</h3>
+<pre><code>## Error in select(., c(phe_digit_span_fwd, phe_digit_span_bkwd, phe_digit_span, : object &#39;wm_clean&#39; not found</code></pre>
+</div>
+</div>
+<div id="create-list" class="section level2">
+<h2>Create list</h2>
+<pre><code>## Error in cols(IID = col_character(), FID = col_character()): could not find function &quot;cols&quot;</code></pre>
+<pre><code>## Error in glimpse(wm_list): object &#39;wm_list&#39; not found</code></pre>
+<pre><code>## Error in select(wm, one_of(&quot;phe_digit_span_fwd&quot;, &quot;phe_digit_span_bkwd&quot;, : object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in glimpse(wm_list[2]): object &#39;wm_list&#39; not found</code></pre>
+</div>
+<div id="genomic-sem" class="section level2">
+<h2>Genomic SEM</h2>
+<div id="create-list-column" class="section level3">
+<h3>Create list column</h3>
+<pre><code>## Error in tibble::enframe(wm_list): object &#39;wm_list&#39; not found</code></pre>
+<pre><code>## Error in mutate(., type = map_chr(phe_digit_span_fwd, typeof), length = map_int(phe_digit_span_fwd, : object &#39;wm1&#39; not found</code></pre>
+<pre><code>## Error in mutate(., smry = map2_chr(name, value, ~stringr::str_c(.x, &quot;: &quot;, : object &#39;wm_list&#39; not found</code></pre>
+<pre><code>## Error in ncol(wm): object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;output&#39; not found</code></pre>
+<pre><code>## Error in ncol(wm): object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found</code></pre>
+<p>function (x, na.rm = FALSE, …)
+UseMethod(“median”)
+&lt;bytecode: 0x7fef110bf9d0&gt;
 &lt;environment: namespace:stats&gt;</p>
-<pre><code>## Error in ncol(wm): object 'wm' not found
-</code></pre><pre><code>## Error in eval(expr, envir, enclos): object 'wm' not found
-</code></pre><pre><code>## Error in eval(expr, envir, enclos): object 'na' not found
-</code></pre><pre><code>## Error in select(., contains(c(&quot;filename&quot;, &quot;fid&quot;, &quot;iid&quot;, &quot;digit_span&quot;, : object 'wm_clean' not found
-</code></pre><pre><code>## Error in is.data.frame(x): object 'phe_wm' not found
-</code></pre><pre><code>## Error in glimpse(wm_list): object 'wm_list' not found
-</code></pre>
+<pre><code>## Error in ncol(wm): object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;wm&#39; not found</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;na&#39; not found</code></pre>
+<pre><code>## Error in select(., contains(c(&quot;filename&quot;, &quot;fid&quot;, &quot;iid&quot;, &quot;digit_span&quot;, : object &#39;wm_clean&#39; not found</code></pre>
+<pre><code>## Error in is.data.frame(x): object &#39;phe_wm&#39; not found</code></pre>
+<pre><code>## Error in glimpse(wm_list): object &#39;wm_list&#39; not found</code></pre>
+</div>
+</div>
+
     </div>
 
     

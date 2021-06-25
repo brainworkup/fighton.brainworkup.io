@@ -31,7 +31,7 @@
   
   <meta name="description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42.">
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://brainworkup.org/post/2020-12-01-r-rmarkdown/">
@@ -116,12 +116,12 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
   <meta property="og:title" content="Hello R Markdown | brainworkup.fighton.io">
   <meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42."><meta property="og:image" content="https://brainworkup.org/img/logo_bwu.png">
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42."><meta property="og:image" content="https://brainworkup.org/img/logo_bwu.png">
   <meta property="twitter:image" content="https://brainworkup.org/img/logo_bwu.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-12-01T21:13:14-05:00">
   
-  <meta property="article:modified_time" content="2021-06-20T12:24:13-07:00">
+  <meta property="article:modified_time" content="2021-06-25T13:45:49-07:00">
   
 
   
@@ -487,7 +487,7 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
 
 
 <meta content="2020-12-01 21:13:14 -0500 -0500" itemprop="datePublished">
-<meta content="2021-06-20 12:24:13 -0700 PDT" itemprop="dateModified">
+<meta content="2021-06-25 13:45:49 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -502,7 +502,7 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
           Last updated on
       
     
-    <time>Jun 20, 2021</time>
+    <time>Jun 25, 2021</time>
   </span>
   
 
@@ -641,38 +641,48 @@ summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.:
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <h1 id="r-markdown">R Markdown</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.</p>
+      
+<script src="https://brainworkup.org/post/2020-12-01-r-rmarkdown/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>You can embed an R code chunk like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">summary</span>(cars)
-<span style="color:#75715e">##      speed           dist       </span>
-<span style="color:#75715e">##  Min.   : 4.0   Min.   :  2.00  </span>
-<span style="color:#75715e">##  1st Qu.:12.0   1st Qu.: 26.00  </span>
-<span style="color:#75715e">##  Median :15.0   Median : 36.00  </span>
-<span style="color:#75715e">##  Mean   :15.4   Mean   : 42.98  </span>
-<span style="color:#75715e">##  3rd Qu.:19.0   3rd Qu.: 56.00  </span>
-<span style="color:#75715e">##  Max.   :25.0   Max.   :120.00</span>
-fit <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">lm</span>(dist <span style="color:#f92672">~</span> speed, data <span style="color:#f92672">=</span> cars)
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
 fit
-<span style="color:#75715e">## </span>
-<span style="color:#75715e">## Call:</span>
-<span style="color:#75715e">## lm(formula = dist ~ speed, data = cars)</span>
-<span style="color:#75715e">## </span>
-<span style="color:#75715e">## Coefficients:</span>
-<span style="color:#75715e">## (Intercept)        speed  </span>
-<span style="color:#75715e">##     -17.579        3.932</span>
-</code></pre></div><h1 id="including-plots">Including Plots</h1>
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
 <p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">par</span>(mar <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>))
-<span style="color:#a6e22e">pie</span>(
-  <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">280</span>, <span style="color:#ae81ff">60</span>, <span style="color:#ae81ff">20</span>),
-  <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#39;Sky&#39;</span>, <span style="color:#e6db74">&#39;Sunny side of pyramid&#39;</span>, <span style="color:#e6db74">&#39;Shady side of pyramid&#39;</span>),
-  col <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#39;#0292D8&#39;</span>, <span style="color:#e6db74">&#39;#F7EA39&#39;</span>, <span style="color:#e6db74">&#39;#C4B632&#39;</span>),
-  init.angle <span style="color:#f92672">=</span> <span style="color:#ae81ff">-50</span>, border <span style="color:#f92672">=</span> <span style="color:#66d9ef">NA</span>
-)
-</code></pre></div><div class="figure">
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span style="display:block;" id="fig:pie"></span>
 <img src="https://brainworkup.org/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
-<p class="caption">Figure 1: A fancy pie chart.</p>
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
 </div>
 
     </div>

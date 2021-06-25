@@ -117,7 +117,7 @@
   
   <meta property="article:published_time" content="2021-06-18T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-06-20T12:38:20-07:00">
+  <meta property="article:modified_time" content="2021-06-25T13:45:49-07:00">
   
 
   
@@ -485,7 +485,7 @@
 
 
 <meta content="2021-06-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-06-20 12:38:20 -0700 PDT" itemprop="dateModified">
+<meta content="2021-06-25 13:45:49 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -512,7 +512,7 @@
           Last updated on
       
     
-    <time>Jun 20, 2021</time>
+    <time>Jun 25, 2021</time>
   </span>
   
 
@@ -646,33 +646,37 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/htmlwidgets/htmlwidgets.js"></script>
-<script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/pymjs/pym.v1.js"></script>
-<script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/widgetframe-binding/widgetframe.js"></script>
+      
+<script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/header-attrs/header-attrs.js"></script>
 <script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/htmlwidgets/htmlwidgets.js"></script>
 <script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/pymjs/pym.v1.js"></script>
 <script src="https://brainworkup.org/post/npsych-drilldown/index.en_files/widgetframe-binding/widgetframe.js"></script>
-<h2 id="highcharter-drilldown-setup">Highcharter Drilldown Setup</h2>
-<h3 id="r-markdown-chunk-options">R Markdown chunk options</h3>
-<h3 id="load-libraries">Load libraries</h3>
+
+
+<div id="highcharter-drilldown-setup" class="section level2">
+<h2>Highcharter Drilldown Setup</h2>
+<div id="r-markdown-chunk-options" class="section level3">
+<h3>R Markdown chunk options</h3>
+</div>
+<div id="load-libraries" class="section level3">
+<h3>Load libraries</h3>
 <pre><code>## 
-## Attaching package: 'dplyr'
-## The following objects are masked from 'package:stats':
+## Attaching package: &#39;dplyr&#39;
+## The following objects are masked from &#39;package:stats&#39;:
 ## 
 ##     filter, lag
-## The following objects are masked from 'package:base':
+## The following objects are masked from &#39;package:base&#39;:
 ## 
 ##     intersect, setdiff, setequal, union
-## Registered S3 method overwritten by 'quantmod':
+## Registered S3 method overwritten by &#39;quantmod&#39;:
 ##   method            from
 ##   as.zoo.data.frame zoo
 ## ── Attaching packages ────────────────────────────────── tidyverse 1.3.1.9000 ──
-## ✓ ggplot2 3.3.4     ✓ tidyr   1.1.3
+## ✓ ggplot2 3.3.5     ✓ tidyr   1.1.3
 ## ✓ tibble  3.1.2     ✓ stringr 1.4.0
 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-</code></pre>
+## x dplyr::lag()    masks stats::lag()</code></pre>
 <style type="text/css">
 aside {
   margin-left: 100%;
@@ -696,28 +700,36 @@ rect[Attributes Style] {
     ry: 0;
 }
 </style>
-<h3 id="import-data">Import data</h3>
-<h2 id="drilldown-using-percentiles">Drilldown using percentiles</h2>
+</div>
+<div id="import-data" class="section level3">
+<h3>Import data</h3>
+</div>
+</div>
+<div id="drilldown-using-percentiles" class="section level2">
+<h2>Drilldown using percentiles</h2>
 <style type="text/css">
 .drilld {
   width: 100vw;
   margin-left: calc(50% - 50vw);
 }
 </style>
-<div class="figure">
+<div class="figure"><span style="display:block;" id="fig:drillp"></span>
 <div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"url":"index.en_files/figure-html//widgets/widget_drillp.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p class="caption">
 Figure 1: Drilldown Neuropsych Pct
 </p>
 </div>
-<h2 id="drilldown-using-zscores">Drilldown using zScores</h2>
-<div class="figure">
+</div>
+<div id="drilldown-using-zscores" class="section level2">
+<h2>Drilldown using zScores</h2>
+<div class="figure"><span style="display:block;" id="fig:drillz"></span>
 <div id="htmlwidget-2" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-2">{"x":{"url":"index.en_files/figure-html//widgets/widget_drillz.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p class="caption">
 Figure 2: Drilldown Neuropsych zScores
 </p>
+</div>
 </div>
 
     </div>
