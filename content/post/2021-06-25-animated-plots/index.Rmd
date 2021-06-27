@@ -239,7 +239,3 @@ gganimate::animate(anim, fps = 20)
 ```{r}
 knitr::include_graphics("/Users/joey/blogdown.brainworkup/static/data/anim.gif")
 ```
-<<<<<<< HEAD
-=======
-
->>>>>>> c86f8e7a6abf7595982e08d21eb75dfc7f1bebc5

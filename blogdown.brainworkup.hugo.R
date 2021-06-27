@@ -31,13 +31,6 @@ file.edit('.Rprofile')
 
 blogdown::hugo_build()
 
-rmarkdown::clean_site(preview = FALSE)
-
-blogdown::clean_duplicates(preview = FALSE)
-
-# To update a file, re-knit or use
-blogdown::build_site(build_rmd = 'timestamp')
-
 2. login to netlify
   - drag/drop "public" folder to file viewer
 3. netlify will deploy w random subdomain
@@ -50,11 +43,15 @@ blogdown::stop_server()
 # check stuff
 blogdown::check_site()
 
+# these sometimes gets used after check_site()
+rmarkdown::clean_site(preview = FALSE)
+blogdown::clean_duplicates(preview = FALSE)
+blogdown::build_site(build_rmd = 'timestamp')
+
 blogdown::check_config()
 blogdown::check_gitignore()
 blogdown::check_hugo()
 blogdown::check_netlify()
-
 
 ## how to render
 markup:

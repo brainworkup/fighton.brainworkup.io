@@ -12,6 +12,68 @@
     
     
     <item>
+      <title>Shiny Document</title>
+      <link>https://brainworkup.org/post/shiny-document/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/post/shiny-document/</guid>
+      <description>
+&lt;script src=&#34;https://brainworkup.org/post/shiny-document/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;shared/selectize/css/selectize.bootstrap3.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;shared/selectize/js/selectize.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;shared/selectize/accessibility/js/selectize-plugin-a11y.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;shared/ionrangeslider/js/ion.rangeSlider.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;shared/strftime/strftime-min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;shared/ionrangeslider/css/ion.rangeSlider.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;This R Markdown document is made interactive using Shiny.
+Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately.&lt;/p&gt;
+&lt;p&gt;To learn more, see &lt;a href=&#34;http://rmarkdown.rstudio.com/authoring_shiny.html&#34;&gt;Interactive Documents&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;section-inputs-and-outputs&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Inputs and Outputs&lt;/h2&gt;
+&lt;p&gt;You can embed Shiny inputs and outputs in your document.
+Outputs are automatically updated whenever inputs change.
+This demonstrates how a standard R plot can be made interactive by wrapping it in the Shiny &lt;code&gt;renderPlot&lt;/code&gt; function.
+The &lt;code&gt;selectInput&lt;/code&gt; and &lt;code&gt;sliderInput&lt;/code&gt; functions create the input widgets used to drive the plot.&lt;/p&gt;
+&lt;div class=&#34;shiny-input-panel&#34;&gt;
+&lt;div class=&#34;shiny-flow-layout&#34;&gt;
+&lt;div&gt;
+&lt;div class=&#34;form-group shiny-input-container&#34;&gt;
+&lt;label class=&#34;control-label&#34; id=&#34;n_breaks-label&#34; for=&#34;n_breaks&#34;&gt;Number of bins:&lt;/label&gt;
+&lt;div&gt;
+&lt;select id=&#34;n_breaks&#34;&gt;&lt;option value=&#34;10&#34;&gt;10&lt;/option&gt;
+&lt;option value=&#34;20&#34; selected&gt;20&lt;/option&gt;
+&lt;option value=&#34;35&#34;&gt;35&lt;/option&gt;
+&lt;option value=&#34;50&#34;&gt;50&lt;/option&gt;&lt;/select&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;n_breaks&#34; data-nonempty=&#34;&#34;&gt;{&#34;plugins&#34;:[&#34;selectize-plugin-a11y&#34;]}&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div class=&#34;form-group shiny-input-container&#34;&gt;
+&lt;label class=&#34;control-label&#34; id=&#34;bw_adjust-label&#34; for=&#34;bw_adjust&#34;&gt;Bandwidth adjustment:&lt;/label&gt;
+&lt;input class=&#34;js-range-slider&#34; id=&#34;bw_adjust&#34; data-skin=&#34;shiny&#34; data-min=&#34;0.2&#34; data-max=&#34;2&#34; data-from=&#34;1&#34; data-step=&#34;0.2&#34; data-grid=&#34;true&#34; data-grid-num=&#34;9&#34; data-grid-snap=&#34;false&#34; data-prettify-separator=&#34;,&#34; data-prettify-enabled=&#34;true&#34; data-keyboard=&#34;true&#34; data-data-type=&#34;number&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;div id=&#34;out554ddbdade49e2ff&#34; class=&#34;shiny-plot-output&#34; style=&#34;width:100%;height:400px;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-embedded-application&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Embedded Application&lt;/h2&gt;
+&lt;p&gt;It’s also possible to embed an entire Shiny application within an R Markdown document using the &lt;code&gt;shinyAppDir&lt;/code&gt; function.
+This example embeds a Shiny application located in another directory:&lt;/p&gt;
+&lt;p&gt;&lt;iframe data-deferred-src=&#34;app0155b5aa28ecedc4f830588700c82899/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;550&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Note the use of the &lt;code&gt;height&lt;/code&gt; parameter to determine how much vertical space the embedded application should occupy.&lt;/p&gt;
+&lt;p&gt;You can also use the &lt;code&gt;shinyApp&lt;/code&gt; function to define an application inline rather then in an external directory.&lt;/p&gt;
+&lt;p&gt;In all of R code chunks above the &lt;code&gt;echo = FALSE&lt;/code&gt; attribute is used.
+This is to prevent the R code within the chunk from rendering in the document alongside the Shiny components.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Animated Plots</title>
       <link>https://brainworkup.org/post/2021-06-25-animated-plots/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
@@ -38,107 +100,16 @@
     </item>
     
     <item>
-      <title>Another New Post</title>
-      <link>https://brainworkup.org/post/another-new-post/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/post/another-new-post/</guid>
-      <description>
-&lt;script src=&#34;https://brainworkup.org/post/another-new-post/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;new-post&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;New Post&lt;/h2&gt;
-&lt;p&gt;More and more&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Neuropsych WM</title>
-      <link>https://brainworkup.org/post/npsych-wm/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/post/npsych-wm/</guid>
-      <description>
-&lt;script src=&#34;https://brainworkup.org/post/npsych-wm/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
-&lt;div id=&#34;new-cool-post&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;New Cool Post&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;developmentallifespan-trajectory-of-wm-skills&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Developmental/Lifespan Trajectory of WM Skills&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tidy-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Tidy Data&lt;/h2&gt;
-&lt;div id=&#34;import&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Import&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;## Error in files %&amp;gt;% purrr::set_names() %&amp;gt;% purrr::map_df(~readr::read_tsv(file.path(data_path, : could not find function &amp;quot;%&amp;gt;%&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in as_tibble(wm): could not find function &amp;quot;as_tibble&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;clean-with-janitor&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Clean with Janitor&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;## Error in wm %&amp;gt;% janitor::clean_names(): could not find function &amp;quot;%&amp;gt;%&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;glimpse-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Glimpse 1&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_clean): could not find function &amp;quot;glimpse&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paged-table&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;paged table&lt;/h2&gt;
-&lt;div id=&#34;mean-dsf&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Mean dsf&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;## Error in select(., c(phe_digit_span_fwd, phe_digit_span_bkwd, phe_digit_span, : object &amp;#39;wm_clean&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;create-list&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Create list&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;## Error in cols(IID = col_character(), FID = col_character()): could not find function &amp;quot;cols&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list): object &amp;#39;wm_list&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in select(wm, one_of(&amp;quot;phe_digit_span_fwd&amp;quot;, &amp;quot;phe_digit_span_bkwd&amp;quot;, : object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list[2]): object &amp;#39;wm_list&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;genomic-sem&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Genomic SEM&lt;/h2&gt;
-&lt;div id=&#34;create-list-column&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Create list column&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;## Error in tibble::enframe(wm_list): object &amp;#39;wm_list&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in mutate(., type = map_chr(phe_digit_span_fwd, typeof), length = map_int(phe_digit_span_fwd, : object &amp;#39;wm1&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in mutate(., smry = map2_chr(name, value, ~stringr::str_c(.x, &amp;quot;: &amp;quot;, : object &amp;#39;wm_list&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &amp;#39;output&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;function (x, na.rm = FALSE, …)
-UseMethod(“median”)
-&amp;lt;bytecode: 0x7fef110bf9d0&amp;gt;
-&amp;lt;environment: namespace:stats&amp;gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;## Error in ncol(wm): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &amp;#39;wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in eval(expr, envir, enclos): object &amp;#39;na&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in select(., contains(c(&amp;quot;filename&amp;quot;, &amp;quot;fid&amp;quot;, &amp;quot;iid&amp;quot;, &amp;quot;digit_span&amp;quot;, : object &amp;#39;wm_clean&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in is.data.frame(x): object &amp;#39;phe_wm&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Error in glimpse(wm_list): object &amp;#39;wm_list&amp;#39; not found&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Drilldown on Neuropsych Data with R</title>
       <link>https://brainworkup.org/post/npsych-drilldown/</link>
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://brainworkup.org/post/npsych-drilldown/</guid>
       <description>
-&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index.en_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/post/npsych-drilldown/index_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;highcharter-drilldown-setup&#34; class=&#34;section level2&#34;&gt;
@@ -203,7 +174,7 @@ rect[Attributes Style] {
 &lt;/style&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:drillp&#34;&gt;&lt;/span&gt;
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillp.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_drillp.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Drilldown Neuropsych Pct
 &lt;/p&gt;
@@ -213,35 +184,10 @@ Figure 1: Drilldown Neuropsych Pct
 &lt;h2&gt;Drilldown using zScores&lt;/h2&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:drillz&#34;&gt;&lt;/span&gt;
 &lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.en_files/figure-html//widgets/widget_drillz.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_drillz.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2: Drilldown Neuropsych zScores
 &lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Latest Post</title>
-      <link>https://brainworkup.org/post/first-second-post/</link>
-      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/post/first-second-post/</guid>
-      <description>
-&lt;script src=&#34;https://brainworkup.org/post/first-second-post/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;header-1&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;p&gt;some content…&lt;/p&gt;
-&lt;div id=&#34;header-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;p&gt;some content …&lt;/p&gt;
-&lt;div id=&#34;header-3&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;p&gt;some content …&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
