@@ -18,7 +18,6 @@ LineEndingConversion: Posix
 
 BuildType: Website
 
-MarkdownWrap: Column
-MarkdownWrapAtColumn: 80
+MarkdownWrap: Sentence
 MarkdownReferences: Block
 MarkdownCanonical: Yes
