@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiny on brainworkup.fighton.io</title>
+    <title>shiny on fighton.brainworkup.io</title>
     <link>https://brainworkup.org/tags/shiny/</link>
-    <description>Recent content in shiny on brainworkup.fighton.io</description>
+    <description>Recent content in shiny on fighton.brainworkup.io</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
@@ -59,13 +59,13 @@ The &lt;code&gt;selectInput&lt;/code&gt; and &lt;code&gt;sliderInput&lt;/code&gt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div id=&#34;out554ddbdade49e2ff&#34; class=&#34;shiny-plot-output&#34; style=&#34;width:100%;height:400px;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div id=&#34;out0a3c7e0306b75583&#34; class=&#34;shiny-plot-output&#34; style=&#34;width:100%;height:400px;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;section-embedded-application&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Embedded Application&lt;/h2&gt;
 &lt;p&gt;It’s also possible to embed an entire Shiny application within an R Markdown document using the &lt;code&gt;shinyAppDir&lt;/code&gt; function.
 This example embeds a Shiny application located in another directory:&lt;/p&gt;
-&lt;p&gt;&lt;iframe data-deferred-src=&#34;app0155b5aa28ecedc4f830588700c82899/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;550&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe data-deferred-src=&#34;appd7247762d3e4ce9c2baa29bd80bdb9f0/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;550&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Note the use of the &lt;code&gt;height&lt;/code&gt; parameter to determine how much vertical space the embedded application should occupy.&lt;/p&gt;
 &lt;p&gt;You can also use the &lt;code&gt;shinyApp&lt;/code&gt; function to define an application inline rather then in an external directory.&lt;/p&gt;
 &lt;p&gt;In all of R code chunks above the &lt;code&gt;echo = FALSE&lt;/code&gt; attribute is used.
