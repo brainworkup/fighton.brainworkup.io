@@ -2,15 +2,17 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rprofile
 .DS_Store
 cloudflare-j.trampush@gmail.com-2021.06.13.txt
 # i added these
 Thumbs.db
-#/public/
-#/resources/
+/public/
+/resources/
 word-press-pages/
 notes_brainworkup.com.md
 hugo.netlify.domaincloud.noted.June2021
 __index-reveal.md
-*.md
+#*.md
 bfg-cleanup.txt
+/journal/
