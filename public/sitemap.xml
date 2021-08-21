@@ -33,7 +33,7 @@
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
+    <lastmod>2021-06-20T11:06:16-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/talk/qualitative/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
@@ -41,44 +41,14 @@
     <loc>https://brainworkup.org/talk/synthesizing/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/post/2021-06-25-animated-plots/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/categories/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/ggplot2/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/categories/r/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/</loc>
-    <lastmod>2021-08-04T09:38:10-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/authors/</loc>
-    <lastmod>2021-08-03T22:23:35-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/post/npsych-drilldown/</loc>
-    <lastmod>2021-08-03T22:23:35-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2021-06-25T13:45:49-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/plot/</loc>
-    <lastmod>2021-06-25T13:45:49-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/r-markdown/</loc>
-    <lastmod>2021-06-25T13:45:49-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/regression/</loc>
-    <lastmod>2021-06-25T13:45:49-07:00</lastmod>
-  </url><url>
     <loc>https://brainworkup.org/publication_types/3/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication/preprint/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/authors/</loc>
+    <lastmod>2021-06-20T11:06:16-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/</loc>
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
@@ -86,8 +56,14 @@
     <loc>https://brainworkup.org/tags/source-themes/</loc>
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/post/jupyter/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <loc>https://brainworkup.org/tags/</loc>
+    <lastmod>2021-06-20T02:47:01-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/blog/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/blog/jupyter/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/slides/slides0/</loc>
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
@@ -131,14 +107,14 @@
     <loc>https://brainworkup.org/project/skin-cancer-ai/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/post/snail/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <loc>https://brainworkup.org/blog/snail/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/academia/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/post/getting-started/</loc>
-    <lastmod>2021-06-18T19:26:35-07:00</lastmod>
+    <loc>https://brainworkup.org/blog/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/2/</loc>
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
@@ -155,11 +131,10 @@
     <loc>https://brainworkup.org/authors/admin/</loc>
     <lastmod>2021-06-20T11:06:16-07:00</lastmod>
   </url><url>
+    <loc>https://brainworkup.org/categories/</loc>
+  </url><url>
     <loc>https://brainworkup.org/courses/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/post/</loc>
-    <lastmod>2021-06-20T12:24:13-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>

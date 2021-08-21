@@ -75,7 +75,7 @@ contact_links = [
 # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
 # a map provider below.
 # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
+# https://developers.google.com/maps/documentation/javascript/get-api-key
 # To use OpenStreetMap tiles, set `map = 2`.
 # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
 #   https://www.mapbox.com/studio/account/tokens
@@ -86,7 +86,7 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 1
+map = 2
 map_api_key = "AIzaSyA_JLYDD7v5v_QE6SSKpvvQ3M9N6qk47PM"
 latitude = "34.0628874693777"
 longitude = "-118.20000697294317"
@@ -107,7 +107,7 @@ plugins_js  = []
 ############################
 
 # Get user avatars from Gravatar.com? (true/false)
-gravatar = false
+gravatar = true
 
 # Align the main menu to the right of the page? (true/false)
 menu_align_right = true
@@ -116,10 +116,10 @@ menu_align_right = true
 reading_time = true
 
 # Display comment count (if commenting enabled in config.toml)? (true/false)
-comment_count = true
+comment_count = false
 
 # Display next/previous section pager? (true/false)
-section_pager = false
+section_pager = true
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)

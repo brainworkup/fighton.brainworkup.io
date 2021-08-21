@@ -11,6 +11,7 @@ library(htmlwidgets)
 library(widgetframe)
 library(crosstalk)
 library(manipulateWidget)
+library(shiny)
 
 file.edit("~/.Rprofile")
 
@@ -48,7 +49,7 @@ blogdown::check_site()
 # these sometimes gets used after check_site()
 rmarkdown::clean_site(preview = FALSE)
 blogdown::clean_duplicates(preview = FALSE)
-blogdown::build_site(build_rmd = 'timestamp')
+blogdown::build_site(build_rmd = 'timestamp') # to update by re-rendering
 
 blogdown::build_site(build_rmd = 'newfile') # to render a file
 

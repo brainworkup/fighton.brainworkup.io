@@ -52,9 +52,8 @@ user_groups:
 - Principal Investigators
 ---
 
-I'm a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness, a developmental neuropsychologist who sees individuals referred for a wide range of cognitive difficulties, and an advocate and supporter of open-source data science.
+I'm a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness; a developmental neuropsychologist who sees patients referred for a wide-range of cognitive difficulties; and a supporter of open-source data science.
 
 <!-- My research interests include brain-behavior relationships, neurodevelopment,
 and the molecular genetic architecture of neurocognitive functions; and novel
 methods to communicate this work to the public. -->
-
