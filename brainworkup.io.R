@@ -47,7 +47,7 @@ blogdown::stop_server()
 blogdown::check_site()
 
 # these sometimes gets used after check_site()
-rmarkdown::clean_site(preview = FALSE)
+rmarkdown::clean_site(preview = FALSE) # this might delete everything in "public"
 blogdown::clean_duplicates(preview = FALSE)
 blogdown::build_site(build_rmd = 'timestamp') # to update by re-rendering
 
