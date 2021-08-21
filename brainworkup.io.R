@@ -1,4 +1,4 @@
-### Website Hugo/Blogdown/Netlify: brainworkup.fighton.io
+### Website Hugo/Blogdown/Netlify: fighton.brainworkup.io
 
 # blogdown
 

@@ -49,13 +49,7 @@ keep_md: yes
 
 ### R Markdown chunk options
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld", "rect"))
-```
-
-### Load libraries
-
-```{r, tidy=TRUE, echo=F}
+```{r setup, include = FALSE, echo = FALSE}
 ## Highcharter Drilldown
 library(blogdown)
 library(rmarkdown)
@@ -66,16 +60,24 @@ library(xaringanthemer)
 library(dataui)
 library(reactable)
 ## Import CSV files
-library(dplyr)
-library(readr)
-library(forcats)
-library(purrr)
-library(highcharter)
 library(tidyverse)
+library(highcharter)
 library(htmlwidgets)
 library(widgetframe)
 library(crosstalk)
 library(manipulateWidget)
+# Chunk options
+knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld", "rect")) # nolint
+
+print(getwd())
+print(here::here())
+readRenviron(".Renviron")
+```
+
+### Load libraries
+
+```{r, tidy=TRUE, echo=F}
+
 ```
 
 ```{css, echo=FALSE}
@@ -110,7 +112,7 @@ rect[Attributes Style] {
 # patient
 patient <- "patient"
 # path to files
-data_path <- ("~/blogdown.brainworkup/content/post/2021-06-18-npsych-drilldown/csv")
+data_path <- ("~/brainworkup.io/content/post/2021-06-18-npsych-drilldown/csv")
 # get file names of .csv files
 files <- dir(data_path, pattern = "*.csv")
 # read into env
@@ -197,8 +199,10 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
       ncogL4status <- tibble(name = ncog4$scale, y = ncog4$Pct)
       list(id = tolower(paste(x_level, y_level, z_level, sep = "_")), type = "column", data = list_parse2(ncogL4status))
     })
-  }) %>% unlist(recursive = FALSE)
-}) %>% unlist(recursive = FALSE)
+  }) %>%
+  unlist(recursive = FALSE)
+}) %>%
+unlist(recursive = FALSE)
 ```
 
 ```{css, echo=FALSE}
@@ -291,7 +295,7 @@ frameWidget(
       allowPointDrilldown = TRUE,
       series = c(ncogL2drill, ncogL3drill, ncogL4drill)
     )
-) 
+)
 ```
 
 ## Drilldown using zScores
