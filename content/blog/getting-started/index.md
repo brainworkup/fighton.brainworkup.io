@@ -90,6 +90,7 @@ Choose a stunning color and font theme for your site. Themes are fully customiza
 ## Ecosystem
 
 * **[academia Admin](https://github.com/sourcethemes/academia-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+
 * **[academia Scripts](https://github.com/sourcethemes/academia-scripts):** Scripts to help migrate content to new versions of academia
 
 ## Install
