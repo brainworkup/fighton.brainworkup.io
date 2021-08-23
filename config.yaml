@@ -49,5 +49,6 @@ markup:
     renderer:
       unsafe: true
 
+# this might need to be deleted
 permalinks:
   blog: "/:year/:month/:day/:slug/"
