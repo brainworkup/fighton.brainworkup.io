@@ -1,18 +1,39 @@
 ---
 title: Drilldown on Neuropsych Data with R
 subtitle: drilldown plot in highcharter
-summary: drilldown plot in highcharter
+summary: drilldown plot in highcharter trying to post
 slug: npsych-drilldown
 authors:
 - admin
 categories: []
 date: '2021-06-18'
 draft: false
-featured: false
+featured: true
 gallery_item:
 - album: gallery
   caption: Default
   image: theme-default.png
+- album: gallery
+  caption: Ocean
+  image: theme-ocean.png
+- album: gallery
+  caption: Forest
+  image: theme-forest.png
+- album: gallery
+  caption: Dark
+  image: theme-dark.png
+- album: gallery
+  caption: Apogee
+  image: theme-apogee.png
+- album: gallery
+  caption: 1950s
+  image: theme-1950s.png
+- album: gallery
+  caption: Coffee theme with Playfair font
+  image: theme-coffee-playfair.png
+- album: gallery
+  caption: Strawberry
+  image: theme-strawberry.png
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ""
@@ -48,9 +69,9 @@ library(manipulateWidget)
 # Chunk options
 knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld", "rect")) # nolint
 
-# print(getwd())
-# print(here::here())
-# readRenviron(".Renviron")
+print(getwd())
+print(here::here())
+#readRenviron("./Renviron")
 ```
 
 ### Load libraries

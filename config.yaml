@@ -19,7 +19,7 @@ ignoreFiles:
   - \.Rmarkdown$
   - \.knit\.md$
   - \.utf8\.md$
-  #- _files$
+  - _files$
   - _cache$
 outputs:
   home:

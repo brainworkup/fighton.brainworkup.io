@@ -1,0 +1,31 @@
+---
+title: 'BWU Post Moved '
+author: Joey T
+date: '2021-08-23'
+slug: []
+categories:
+  - shiny
+tags:
+  - R Markdown
+subtitle: ''
+summary: ''
+authors:
+  - admin
+lastmod: '2021-08-23T10:55:46-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+**Insert Lead paragraph here.**
+
+## New Cool Post
+
+Trying to fix site.
+
+### Header 3
+
+Trying to fix site again.
