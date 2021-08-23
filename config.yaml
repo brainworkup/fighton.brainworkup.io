@@ -1,5 +1,5 @@
 title: fighton.brainworkup.io
-baseURL: https://brainworkup.org
+baseURL: "https://brainworkup.org/"
 copyright: Copyright &copy; {year}
 googleAnalytics: ''
 disqusShortname: ''
@@ -19,7 +19,7 @@ ignoreFiles:
   - \.Rmarkdown$
   - \.knit\.md$
   - \.utf8\.md$
-  - _files$
+  #- _files$
   - _cache$
 outputs:
   home:
@@ -48,3 +48,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+permalinks:
+  blog: "/:year/:month/:day/:slug/"
