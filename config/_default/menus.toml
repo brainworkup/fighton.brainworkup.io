@@ -9,12 +9,12 @@
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "#blog"
   weight = 20
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "/projects"
   weight = 30
 
 [[main]]
