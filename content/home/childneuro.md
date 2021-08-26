@@ -1,21 +1,20 @@
 +++
-# A Recent Publications section created with the Pages widget.
-# This section displays recent blog posts from `content/publication/`.
+# Trying to create Child Neuropsychology page.
 
 widget = "pages"
 headless = true
 active = true
-weight = 80
+weight = 65
 
-title = "Recent Publications"
-subtitle = "Recent research studies we have published"
+title = "Child Neuropsychology"
+subtitle = "Info related to pediatric neuropsycology"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "publication"
+  page_type = "post"
 
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 3
+  # Choose how many pages you would like to display (0 = all pages)
+  count = 0
 
   # Choose how many pages you would like to offset by
   offset = 0
@@ -25,7 +24,7 @@ subtitle = "Recent research studies we have published"
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "child"
     category = ""
     publication_type = ""
     exclude_featured = false
@@ -36,7 +35,7 @@ subtitle = "Recent research studies we have published"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 1
+  view = 2
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -65,3 +64,13 @@ subtitle = "Recent research studies we have published"
  # CSS class.
  css_class = ""
 +++
+
+# ADHD
+
+Can this be an ADHD page?
+
+## ADHD subtypes
+
+1. Combined
+1. Inattentive
+1. Hyperactive/Impulsive

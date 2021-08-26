@@ -1,9 +1,9 @@
 +++
 # Hero widget.
 widget = "hero"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+headless = true
+active = true
+weight = 10
 
 title = "brainworkup"
 
@@ -35,14 +35,14 @@ hero_media = "jwt.jpg"
 # Remove a link/note by deleting a cta/note block.
 [btn]
   url = "/authors/admin"
-  label = "Know more"
+  label = "Know more..."
 
 [btn_alt]
   url = "#contact"
   label = "Contact me"
 
 +++
-## My name is **Joey** and I'm an **Assistant Professor of Psychiatry @ USC** specializing in **Neuropsychology** and **Genetics**.
+## My name is **Dr Joey Trampush** and I'm an **Assistant Professor of Psychiatry & Behavioral Sciences @ USC** specializing in **Neuropsychology** and **Genetics**.
 
 *new website; this site is in build mode; this is a template*
 <!-- I have some expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury; and neuropsychiatric illness, especially those that emerge during early adulthood. I try to be an active researcher who studies brain and neurocognitive functioning in psychiatric illness as well as trying to figure out the underlying genetic architecture of brain development. -->

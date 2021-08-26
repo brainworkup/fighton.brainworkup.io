@@ -1,12 +1,12 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 80  # Order that this section will appear.
+widget = "portfolio"
+headless = true
+active = true
+weight = 70
 
-title = "Projects"
-subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
+title = "Research Projects"
+subtitle = "One of the unfortunate things about reality is that it often poses complex problems that demand complex solutions"
 
 [content]
   # Page type to display. E.g. project.
@@ -26,20 +26,20 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
     tag = "*"
 
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Genomics"
+    tag = "genomics"
 
   [[content.filter_button]]
     name = "Other"
     tag = "Demo"
 
   [[content.filter_button]]
-    name = "Human"
-    tag = "human"
+    name = "ADHD"
+    tag = "adhd"
 
   [[content.filter_button]]
-    name = "Robotics"
-    tag = "robotics"
+    name = "Neurogenetics"
+    tag = "Deep Learning"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

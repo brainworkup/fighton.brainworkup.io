@@ -1,9 +1,9 @@
 +++
 # People widget.
 widget = "people"
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 95  # Order that this section will appear.
+headless = true
+active = true
+weight = 95
 
 title = "People"
 subtitle = "subtitle for people"
