@@ -41,8 +41,7 @@ image:
 projects: []
 tags: []
 lastmod: '2021-06-18T18:11:39-07:00'
-keep_md: yes
-output: tufte::tufte_html
+# output: tufte::tufte_html
 ---
 
 ## Highcharter Drilldown Setup
@@ -71,7 +70,7 @@ knitr::opts_chunk$set(collapse = TRUE, class.source = c("aside", "img", "drilld"
 
 print(getwd())
 print(here::here())
-#readRenviron("./Renviron")
+readRenviron("./Renviron")
 ```
 
 ### Load libraries
@@ -104,9 +103,9 @@ rect[Attributes Style] {
 
 ### Import data
 
-```{r echo=F, tidy=TRUE, include=FALSE}
+```{r echo=F, include=FALSE}
 # patient
-patient <- "patient"
+patient <- "biggie"
 # path to files
 data_path <- ("~/brainworkup.io/content/post/2021-06-18-npsych-drilldown/csv")
 # get file names of .csv files
