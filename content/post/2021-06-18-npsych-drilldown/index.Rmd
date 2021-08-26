@@ -5,7 +5,7 @@ summary: drilldown plot in highcharter trying to post
 slug: npsych-drilldown
 authors:
 - admin
-categories: []
+categories: [R]
 date: '2021-06-18'
 draft: false
 featured: true
@@ -108,7 +108,7 @@ rect[Attributes Style] {
 # patient
 patient <- "patient"
 # path to files
-data_path <- ("~/brainworkup.io/content/blog/2021-06-18-npsych-drilldown/csv")
+data_path <- ("~/brainworkup.io/content/post/2021-06-18-npsych-drilldown/csv")
 # get file names of .csv files
 files <- dir(data_path, pattern = "*.csv")
 # read into env

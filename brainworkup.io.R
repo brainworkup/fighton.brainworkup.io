@@ -14,11 +14,9 @@ library(manipulateWidget)
 library(shiny)
 
 file.edit("~/.Rprofile")
-
 file.edit('.Rprofile')
 
 # how to edit a page
-
 # Workflow
 
 ## to start a new website
@@ -31,15 +29,13 @@ file.edit('.Rprofile')
 
 ## to edit a website
 1. blogdown::hugo_build()
-
-blogdown::hugo_build()
-
 2. login to netlify
   - drag/drop "public" folder to file viewer
 3. netlify will deploy w random subdomain
   - change this
 4. use GitHub for continuous deployment
 
+blogdown::hugo_build()
 blogdown::serve_site()
 blogdown::stop_server()
 

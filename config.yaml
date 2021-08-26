@@ -1,5 +1,5 @@
 title: fighton.brainworkup.io
-baseURL: "https://brainworkup.org/"
+baseURL: https://brainworkup.org/
 copyright: Copyright &copy; {year}
 googleAnalytics: ''
 disqusShortname: ''

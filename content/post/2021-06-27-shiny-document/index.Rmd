@@ -8,7 +8,8 @@ tags:
   - shiny
 subtitle: ''
 summary: ''
-authors: []
+authors:
+  - admin
 lastmod: '2021-06-27T15:20:57-07:00'
 featured: no
 image:

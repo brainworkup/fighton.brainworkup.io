@@ -25,6 +25,6 @@ options(blogdown.hugo.version = "0.83.1")
 # more options
 options(blogdown.ext = ".Rmd",
         blogdown.author = "Joey T.",
-        blogdown.subdir = "blog"
+        blogdown.subdir = "post"
 )
 
