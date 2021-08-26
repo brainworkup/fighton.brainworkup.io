@@ -1,5 +1,6 @@
 ---
 title: "Default"
+output: hugodown::md_document
 subtitle: ""
 summary: ""
 authors: []
@@ -9,7 +10,6 @@ date: 2021-06-11T02:23:35-07:00
 lastmod: 2021-06-11T02:23:35-07:00
 featured: false
 draft: false
-slug: []
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -25,8 +25,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+rmd_hash: ad12fe1c1b68566d
+
 ---
 
-## New Cool Post
 
-**Insert Lead paragraph here.**
+
