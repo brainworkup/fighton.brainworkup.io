@@ -12,9 +12,6 @@ featured: false
 draft: false
 slug: xaringan-drilldown
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
@@ -24,30 +21,20 @@ image:
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+#   Otherwise, set `projects = ["genomics"]`.
 projects: []
-# output:
-#   bookdown::html_document2:
-#     css: xaringan-themer.css
-#     nature:
-#       slideNumberFormat: "%current%"
-#       highlightStyle: github
-#       highlightLines: true
-#       ratio: 16:9
-#       countIncrementalSlides: true
-#       includePresenterNotes: true
-#     self_contained: true    
-#   xaringan::moon_reader:
-#     #css: [default, lucy, lucy-fonts]
-#     css: xaringan-themer.css
-#     nature:
-#       slideNumberFormat: "%current%"
-#       highlightStyle: github
-#       highlightLines: true
-#       ratio: 16:9
-#       countIncrementalSlides: true
-#       includePresenterNotes: true
-#     self_contained: true
+output:
+  xaringan::moon_reader:
+    #css: [default, lucy, lucy-fonts]
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      includePresenterNotes: true
+    self_contained: true
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
@@ -55,12 +42,17 @@ projects: []
 <script src="{{< blogdown/postref >}}index_files/tile-view/tile-view.js"></script>
 <link href="{{< blogdown/postref >}}index_files/animate.css/animate.xaringan.css" rel="stylesheet" />
 <link href="{{< blogdown/postref >}}index_files/tachyons/tachyons.min.css" rel="stylesheet" />
+<script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
+<script src="{{< blogdown/postref >}}index_files/clipboard/clipboard.min.js"></script>
+<link href="{{< blogdown/postref >}}index_files/shareon/shareon.min.css" rel="stylesheet" />
+<script src="{{< blogdown/postref >}}index_files/shareon/shareon.min.js"></script>
+<link href="{{< blogdown/postref >}}index_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+<script src="{{< blogdown/postref >}}index_files/xaringanExtra-shareagain/shareagain.js"></script>
 <script src="{{< blogdown/postref >}}index_files/js-cookie/js.cookie.js"></script>
 <script src="{{< blogdown/postref >}}index_files/peerjs/peerjs.min.js"></script>
 <script src="{{< blogdown/postref >}}index_files/tiny.toast/toast.min.js"></script>
 <link href="{{< blogdown/postref >}}index_files/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
 <script src="{{< blogdown/postref >}}index_files/xaringanExtra-broadcast/broadcast.js"></script>
-<script src="{{< blogdown/postref >}}index_files/clipboard/clipboard.min.js"></script>
 <link href="{{< blogdown/postref >}}index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
 <script src="{{< blogdown/postref >}}index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
 <script>window.xaringanExtraClipboard(null, {"button":"<i class=\"fa fa-clipboard\"><\/i>","success":"<i class=\"fa fa-check\" style=\"color: #90BE6D\"><\/i>","error":"<i class=\"fa fa-times-circle\" style=\"color: #F94144\"><\/i>"})</script>
@@ -111,7 +103,18 @@ projects: []
 <script src="{{< blogdown/postref >}}index_files/highchart-binding/highchart.js"></script>
 
 
-<p><style>.panelset{--panel-tab-font-family: inherit;}</style></p>
+<div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="https://brainworkup.org/2021/08/26/xaringan-drilldown/" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+<style>.shareagain-bar {
+--shareagain-foreground: rgb(255, 255, 255);
+--shareagain-background: rgba(0, 0, 0, 0.5);
+--shareagain-facebook: none;
+--shareagain-pinterest: none;
+--shareagain-pocket: none;
+--shareagain-reddit: none;
+}</style>
 <div id="distribution-of-scores-population-level-interpretation" class="section level1">
 <h1>Distribution of Scores: Population-level Interpretation</h1>
 <div class="figure"><span style="display:block;" id="fig:gauss-plot1"></span>

@@ -12,9 +12,6 @@ featured: false
 draft: false
 slug: xaringan-drilldown
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
@@ -24,30 +21,20 @@ image:
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+#   Otherwise, set `projects = ["genomics"]`.
 projects: []
-# output:
-#   bookdown::html_document2:
-#     css: xaringan-themer.css
-#     nature:
-#       slideNumberFormat: "%current%"
-#       highlightStyle: github
-#       highlightLines: true
-#       ratio: 16:9
-#       countIncrementalSlides: true
-#       includePresenterNotes: true
-#     self_contained: true    
-#   xaringan::moon_reader:
-#     #css: [default, lucy, lucy-fonts]
-#     css: xaringan-themer.css
-#     nature:
-#       slideNumberFormat: "%current%"
-#       highlightStyle: github
-#       highlightLines: true
-#       ratio: 16:9
-#       countIncrementalSlides: true
-#       includePresenterNotes: true
-#     self_contained: true
+output:
+  xaringan::moon_reader:
+    #css: [default, lucy, lucy-fonts]
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      includePresenterNotes: true
+    self_contained: true
 ---
 
 ```{r setup, include=FALSE}
@@ -86,7 +73,22 @@ knitr::opts_chunk$set(
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-```{r broadcast}
+```{r embed-xaringan}
+xaringanExtra::embed_xaringan(url = "https://brainworkup.org/2021/08/26/xaringan-drilldown/",
+                              ratio = "4:3")
+```
+
+```{r xaringan-share-again}
+xaringanExtra::use_share_again()
+```
+
+```{r style-share-again, echo=FALSE}
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "instagram")
+)
+```
+
+```{r xaringan-broadcast}
 xaringanExtra::use_broadcast()
 ```
 
@@ -101,9 +103,6 @@ htmltools::tagList(
 )
 ```
 
-```{r xarnigan-style-panelset-tabs}
-xaringanExtra::style_panelset_tabs(font_family = "inherit")
-```
 
 ```{r xaringan-themer, include=FALSE}
 library(xaringanthemer)
@@ -140,7 +139,6 @@ colors <-
     "#24CBE5",
     "#64E572"
   )
-
 ```
 
 ```{r}
