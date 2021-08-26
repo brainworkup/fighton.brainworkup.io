@@ -2,14 +2,14 @@
 date: "2018-09-09T00:00:00Z"
 draft: false
 lastmod: "2018-09-09T00:00:00Z"
-linktitle: An Example Course
+linktitle: An Example Course 2
 menu:
   example:
-    name: Overview
-    weight: 1
+    name: Overview 3
+    weight: 3
 summary: Learn how to use Academia's docs layout for publishing online courses, software
   documentation, and tutorials.
-title: Overview
+title: Overview 3
 toc: true
 type: docs
 weight: 1
