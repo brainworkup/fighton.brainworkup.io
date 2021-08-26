@@ -42,7 +42,7 @@ hero_media = "jwt.jpg"
   label = "Contact me"
 
 +++
-## My name is **Dr Joey Trampush** and I'm an **Assistant Professor of Psychiatry & Behavioral Sciences @ USC** specializing in **Neuropsychology** and **Genetics**.
+## My name is **Joey** and I'm an **Assistant Professor of Psychiatry & Behavioral Sciences @ USC** specializing in **Neuropsychology** and **Genetics**.
 
 *new website; this site is in build mode; this is a template*
 <!-- I have some expertise in the evaluation and diagnosis of neurodevelopmental disorders including ADHD, autism and learning problems; sports-related brain injury; and neuropsychiatric illness, especially those that emerge during early adulthood. I try to be an active researcher who studies brain and neurocognitive functioning in psychiatric illness as well as trying to figure out the underlying genetic architecture of brain development. -->
