@@ -33,20 +33,20 @@ Your privacy is important to us.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://brainworkup.org/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Courses</title>
       <link>https://brainworkup.org/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brainworkup.org/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://brainworkup.org/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/post/</guid>
       <description></description>
     </item>
     

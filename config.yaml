@@ -1,5 +1,5 @@
 title: fighton.brainworkup.io
-baseURL: "https://brainworkup.org/"
+baseURL: https://brainworkup.org
 copyright: Copyright &copy; {year}
 googleAnalytics: ''
 disqusShortname: ''
@@ -19,7 +19,7 @@ ignoreFiles:
   - \.Rmarkdown$
   - \.knit\.md$
   - \.utf8\.md$
-  #- _files$
+  - _files$
   - _cache$
 outputs:
   home:
@@ -43,12 +43,14 @@ taxonomies:
   category: categories
   publication_type: publication_types
   tag: tags
-
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+permalinks:
+  post: /:year/:month/:day/:slug/
 markup:
+  defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
-      unsafe: true
-
-# this might need to be deleted
-permalinks:
-  blog: "/:year/:month/:day/:slug/"
+      unsafe: yes
