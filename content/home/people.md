@@ -3,7 +3,7 @@
 widget = "people"
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 68  # Order that this section will appear.
+weight = 95  # Order that this section will appear.
 
 title = "People"
 subtitle = "subtitle for people"

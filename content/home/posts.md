@@ -12,7 +12,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
 
 [content]
   page_type = "post"
-  count = 5
+  count = 3
   offset = 0
   order = "desc"
 
@@ -49,7 +49,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
   # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = true # i uncommented this
+  # text_color_light = true # i uncommented this
 
 [advanced]
   # Custom CSS.
