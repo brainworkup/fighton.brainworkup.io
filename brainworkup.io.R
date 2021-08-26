@@ -36,6 +36,7 @@ file.edit('.Rprofile')
 4. use GitHub for continuous deployment
 
 blogdown::hugo_build()
+
 blogdown::serve_site()
 blogdown::stop_server()
 
