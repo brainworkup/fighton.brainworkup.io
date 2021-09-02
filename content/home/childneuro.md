@@ -7,7 +7,7 @@ active = true
 weight = 65
 
 title = "Child Neuropsychology"
-subtitle = "Info related to pediatric neuropsycology"
+subtitle = "Info related to pediatric neuropsychology"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

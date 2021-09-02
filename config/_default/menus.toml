@@ -19,7 +19,7 @@
   hasChildren = true
 
 [[main]]
-  #parent = "Clinical"
+  parent = "Clinical"
   name = "Child Neuropsychology"
   url = "childneuro/"
   weight = 35
@@ -28,11 +28,7 @@
   parent = "Clinical"
   name = "Adult Neuropsychology"
   url = "#adultneuro"
-
-[[main]]
-  name = "Recommendations"
-  url = "recommendations/"
-  weight = 40
+  weight = 35
 
 [[main]]
   name = "Research"

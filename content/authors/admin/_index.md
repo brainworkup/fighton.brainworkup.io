@@ -2,7 +2,7 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: (add bio) Department of Psychiatry and the Behavioral Sciences, USC Keck School of Medicine 
+bio: Department of Psychiatry and the Behavioral Sciences, USC Keck School of Medicine
 btn:
 - label: Download CV
   url: "files/cv.pdf"
