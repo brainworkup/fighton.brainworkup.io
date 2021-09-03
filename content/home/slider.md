@@ -3,7 +3,7 @@
 widget = "slider"
 headless = true
 active = true
-weight = 75
+weight = 85
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).

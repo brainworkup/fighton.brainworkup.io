@@ -42,7 +42,7 @@ hero_media = "jwt.jpg"
   label = "Contact me"
 
 +++
-## My name is Joey and I am an Assistant Professor of Psychiatry & Behavioral Sciences @ USC specializing in Neuropsychology and Genetics.
+## My name is **Joey** and I am an **Assistant Professor of Psychiatry & Behavioral Sciences** @ USC specializing in **Neuropsychology** and **Genetics**.
 
 *new website; this site is in build mode; this is a template*
 ...
