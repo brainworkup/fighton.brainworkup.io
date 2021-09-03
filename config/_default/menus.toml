@@ -8,7 +8,7 @@
   weight = 10
 
 [[main]]
-  name = "Digital Garden"
+  name = "Blog"
   url = "#posts"
   weight = 20
 
