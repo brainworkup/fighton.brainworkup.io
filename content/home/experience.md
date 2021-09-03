@@ -33,22 +33,31 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Assistant Professor"
+  company = "Zucker Hillside Hospital"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
+  location = "New York"
+  date_start = "2012-12-01"
+  date_end = "2016-06-30"
   description = """Taught electronic engineering and researched semiconductor physics."""
 
 [[experience]]
-  title = "Professor"
-  company = "University Y"
+  title = "Postdoctoral Fellow"
+  company = "NIMH"
   company_url = ""
+  location = "Washington, DC"
+  date_start = "2010-08-01"
+  date_end = "2012-11-30"
+  description = """Postdoc in psychiatric genetics."""
+
+[[experience]]
+  title = "Being born"
+  company = ""
+  company_url = "https://brainworkup.org"
   location = "California"
-  date_start = "2017-01-01"
-  date_end = "2016-12-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_start = "1977-07-13"
+  date_end = "1977-07-13"
+  description = """I was born the day hip-hop was born on July 13, 1977."""
 
 +++
 
