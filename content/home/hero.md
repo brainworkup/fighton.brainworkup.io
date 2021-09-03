@@ -17,7 +17,7 @@ hero_media = "jwt.jpg"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#fff"
+  # color = "#fff"
 
   # Background gradient.
   # gradient_start = "#8b949e"
@@ -28,7 +28,7 @@ hero_media = "jwt.jpg"
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  # text_color_light = false
 
 # Call to action links (optional).
 # Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.

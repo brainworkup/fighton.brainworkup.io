@@ -2,7 +2,7 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: Department of Psychiatry and the Behavioral Sciences, USC Keck School of Medicine
+bio: insert bio
 btn:
 - label: Download CV
   url: "files/cv.pdf"
@@ -51,9 +51,4 @@ superuser: true
 user_groups:
 - Principal Investigators
 ---
-
-I study how molecular genetics shape our behavior and risk for psychiatric illness using tools based on open-source data science. As a clinician and developmental neuropsychologist, I specialize in the evaluation of cognitive/learning/emotional difficulties and provide diagnostic clarification in children and young adults in the Department of Psychiatry and Behavioral Sciences @ USC.
-
-<!-- My research interests include brain-behavior relationships, neurodevelopment,
-and the molecular genetic architecture of neurocognitive functions; and novel
-methods to communicate this work to the public. -->
+I study how molecular genetics shape our behavior and risk for psychiatric illness using tools based on open-source data science. As a clinician and developmental neuropsychologist, I specialize in the evaluation of cognitive/learning/emotional difficulties and provide diagnostic clarification in children and young adults.
