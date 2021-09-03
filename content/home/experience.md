@@ -50,14 +50,14 @@ date_format = "Jan 2006"
   date_end = "2012-11-30"
   description = """Postdoc in psychiatric genetics."""
 
-[[experience]]
-  title = "Being born"
-  company = ""
-  company_url = "https://brainworkup.org"
-  location = "California"
-  date_start = "1977-07-13"
-  date_end = "1977-07-13"
-  description = """I was born the day hip-hop was born on July 13, 1977."""
+# [[experience]]
+ # title = "Being born"
+ # company = ""
+ # company_url = "https://brainworkup.org"
+ # location = "California"
+ # date_start = "1977-07-13"
+ # date_end = "1977-07-13"
+ # description = """I was born the day hip-hop was born on July 13, 1977."""
 
 +++
 
