@@ -2,7 +2,7 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: insert bio
+bio: ""
 btn:
 - label: Download CV
   url: "files/cv.pdf"
