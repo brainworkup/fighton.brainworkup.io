@@ -2,7 +2,7 @@
 authors:
 - admin
 avatar_image: jwt_fighton.jpg
-bio: ""
+bio: Developmental Neuropsychologist & Geneticist | Psychiatry & Behavioral Sciences | Keck Medicine of USC
 btn:
 - label: Download CV
   url: "files/cv.pdf"
