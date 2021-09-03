@@ -3,7 +3,7 @@
 
 widget = "pages"
 headless = false
-active = true
+active = false
 weight = 65
 
 title = "Adult Neuropsychology"
