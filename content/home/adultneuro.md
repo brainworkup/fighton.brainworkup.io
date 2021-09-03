@@ -2,7 +2,7 @@
 # Trying to create Child Neuropsychology page.
 
 widget = "pages"
-headless = true
+headless = false
 active = true
 weight = 65
 

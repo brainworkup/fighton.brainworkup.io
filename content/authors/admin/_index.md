@@ -9,16 +9,16 @@ btn:
 display_education: true
 education:
   courses:
-  - course: PhD in Clinical Neuropsychology
+  - course: PhD, Clinical Neuropsychology
     institution: CUNY Graduate Center
     year: 2010
-  - course: MPhil in Clinical Neuropsychology
+  - course: MPhil, Clinical Neuropsychology
     institution: CUNY Graduate Center
     year: 2008
-  - course: MA in Clinical Neuropsychology
+  - course: MA, Clinical Neuropsychology
     institution: CUNY Queens College
     year: 2007
-  - course: BA in Psychology
+  - course: BA, Psychology
     institution: Bowling Green State University
     year: 2000
 email: "trampush@usc.edu"
@@ -52,7 +52,7 @@ user_groups:
 - Principal Investigators
 ---
 
-I'm a neuroscientist who studies how genetics shape our behavior and risk for psychiatric illness; a developmental neuropsychologist who sees patients referred for a wide-range of cognitive difficulties; and a supporter of open-source data science.
+I study how molecular genetics shape our behavior and risk for psychiatric illness using tools based on open-source data science. As a clinician and developmental neuropsychologist, I specialize in the evaluation of cognitive/learning/emotional difficulties and provide diagnostic clarification in children and young adults in the Department of Psychiatry and Behavioral Sciences @ USC.
 
 <!-- My research interests include brain-behavior relationships, neurodevelopment,
 and the molecular genetic architecture of neurocognitive functions; and novel
