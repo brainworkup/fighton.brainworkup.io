@@ -34,12 +34,13 @@ hero_media = "jwt.jpg"
 # Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 # Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "/authors/admin"
-  label = "More..."
+  url = "#about"
+ # url = "/authors/admin"
+  label = "Learn More"
 
 [btn_alt]
   url = "#contact"
-  label = "Contact me"
+  label = "Contact Me"
 
 +++
 ## My name is **Joey** and I am an **Assistant Professor of Psychiatry & Behavioral Sciences** @ USC specializing in **Neuropsychology** and **Genetics**.
