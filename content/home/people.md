@@ -2,7 +2,7 @@
 # People widget.
 widget = "people"
 headless = true
-active = true
+active = false
 weight = 95
 
 title = "People"
