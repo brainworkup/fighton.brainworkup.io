@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joey W Trampush</title>
+    <title>Dr Joey Trampush</title>
     <link>https://brainworkup.org/</link>
-    <description>Recent content on Joey W Trampush</description>
+    <description>Recent content on Dr Joey Trampush</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
@@ -29,6 +29,15 @@ Your privacy is important to us.&lt;/p&gt;
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://brainworkup.org/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adult Neuropsychology</title>
+      <link>https://brainworkup.org/adultneuro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/adultneuro/</guid>
       <description></description>
     </item>
     
@@ -65,15 +74,6 @@ Your privacy is important to us.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brainworkup.org/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recommendations</title>
-      <link>https://brainworkup.org/recommendations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/recommendations/</guid>
       <description></description>
     </item>
     

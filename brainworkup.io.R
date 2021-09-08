@@ -2,8 +2,10 @@
 
 # blogdown
 
-library(blogdown)
 library(rmarkdown)
+library(bookdown)
+library(blogdown)
+library(hugodown)
 library(highcharter)
 library(httpuv)
 library(htmltools)
@@ -12,6 +14,8 @@ library(widgetframe)
 library(crosstalk)
 library(manipulateWidget)
 library(shiny)
+library(pandocfilters)
+library(tidyverse)
 
 file.edit("~/.Rprofile")
 file.edit('.Rprofile')

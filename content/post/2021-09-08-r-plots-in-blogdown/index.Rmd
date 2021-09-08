@@ -1,21 +1,22 @@
 ---
-title: "Default"
-subtitle: ""
-summary: ""
-author:
-  - admin
+title: R Plots in Blogdown
+author: Joey Trampush
+date: '2021-09-08'
+slug: r-plots-in-blogdown
+categories:
+  - R
+tags:
+  - blogdown
+subtitle: ''
+summary: ''
 authors: []
-tags: []
-categories: []
-date: 2021-06-11T02:23:35-07:00
-lastmod: 2021-06-11T02:23:35-07:00
-featured: false
-draft: false
-slug: []
+lastmod: '2021-06-11T02:23:35-07:00'
+featured: no
+draft: no
 image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
+  caption: ''
+  focal_point: ''
+  preview_only: no
 projects: []
 output:
   blogdown::html_page:
@@ -27,7 +28,7 @@ output:
 rmd_hash: ad12fe1c1b68566d
 ---
 
-```{r}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(rmarkdown)
 library(bookdown)
 library(blogdown)
@@ -48,3 +49,13 @@ library(plotly)
 ## New Cool Post
 
 **Insert Lead paragraph here.**
+
+### Subtopic
+
+Subtopic goes here.
+
+## Plot
+
+```{r cool-plot, fig.cap="A cool plot"}
+plot(cars, pch = 20)
+```

@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://brainworkup.org/adultneuro/example/example1/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
+  </url><url>
     <loc>https://brainworkup.org/childneuro/example/example1/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example/example1/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example.1/example3/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example.1/example3/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example.1/example3/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example.2/example3/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example.2/example3/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/recommendations/example.2/example3/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/recommendations/example/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
+    <loc>https://brainworkup.org/adultneuro/example/</loc>
+    <lastmod>2021-09-03T10:50:21-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/adultneuro/example.1/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
+  </url><url>
     <loc>https://brainworkup.org/childneuro/example.1/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example.1/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example.2/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example.2/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example.2/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example.2/example4/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example.2/example4/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example.2/example4/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example/example2/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example/example2/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/recommendations/example/example2/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
+    <loc>https://brainworkup.org/adultneuro/example.1/example4/</loc>
+    <lastmod>2021-09-03T10:17:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/example.1/example4/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/recommendations/example.1/example4/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/talk/coding/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/</loc>
-    <lastmod>2021-08-26T01:38:35-07:00</lastmod>
+    <lastmod>2021-09-03T13:14:10-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/talk/qualitative/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
@@ -68,25 +68,28 @@
     <loc>https://brainworkup.org/talk/synthesizing/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/authors/</loc>
-    <lastmod>2021-08-26T01:38:35-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/2021/08/26/xaringan-drilldown/</loc>
-    <lastmod>2021-08-26T01:38:35-07:00</lastmod>
-  </url><url>
     <loc>https://brainworkup.org/tags/blogdown/</loc>
     <lastmod>2021-08-25T22:16:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/categories/</loc>
-    <lastmod>2021-08-25T22:16:05-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/2021/08/25/joey-post-3/</loc>
-    <lastmod>2021-08-25T22:16:05-07:00</lastmod>
+    <lastmod>2021-08-26T10:34:09-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/categories/r/</loc>
-    <lastmod>2021-08-25T22:16:05-07:00</lastmod>
+    <lastmod>2021-08-26T10:34:09-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/2021/09/08/r-plots-in-blogdown/</loc>
+    <lastmod>2021-06-11T02:23:35-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/</loc>
+    <lastmod>2021-08-25T22:16:05-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/authors/</loc>
+    <lastmod>2021-09-03T13:14:10-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/2021/08/26/xaringan-drilldown/</loc>
+    <lastmod>2021-08-26T10:34:09-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/2021/08/25/joey-post-3/</loc>
     <lastmod>2021-08-25T22:16:05-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/shiny/</loc>
@@ -114,7 +117,7 @@
     <lastmod>2021-08-25T18:32:41-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/2021/06/18/npsych-drilldown/</loc>
-    <lastmod>2021-08-25T18:32:41-07:00</lastmod>
+    <lastmod>2021-08-26T10:34:09-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/publication_types/3/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
@@ -189,7 +192,10 @@
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/authors/admin/</loc>
-    <lastmod>2021-08-21T14:04:39-07:00</lastmod>
+    <lastmod>2021-09-03T13:14:10-07:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/adultneuro/</loc>
+    <lastmod>2021-09-03T10:50:21-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/childneuro/</loc>
     <lastmod>2021-08-26T00:49:42-07:00</lastmod>
@@ -202,9 +208,6 @@
   </url><url>
     <loc>https://brainworkup.org/talk/</loc>
     <lastmod>2021-06-18T19:26:35-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/recommendations/</loc>
-    <lastmod>2021-08-26T00:49:42-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/slides/</loc>
     <lastmod>2021-06-20T02:47:01-07:00</lastmod>
