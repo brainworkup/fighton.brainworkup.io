@@ -31,7 +31,11 @@
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#distribution-of-scores-population-level-interpretation&#34;&gt;Distribution of Scores: Population-level Interpretation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#neuropsych-drilldown-z-scores-m-0-sd-1&#34;&gt;Neuropsych Drilldown: z-Scores (M = 0, SD = 1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#neuropsych-drilldown-z-scores-m-0-sd-1&#34;&gt;Neuropsych Drilldown: z-Scores (M = 0, SD = 1)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#insert-space&#34;&gt;Insert space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#insert-more-space&#34;&gt;Insert more space&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -47,7 +51,13 @@ Figure 1: Statistical classification of neuropsychological test scores in the ge
 &lt;div id=&#34;neuropsych-drilldown-z-scores-m-0-sd-1&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Neuropsych Drilldown: z-Scores (M = 0, SD = 1)&lt;/h1&gt;
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:336px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_unnamed-chunk-3.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_drillz-plot.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;div id=&#34;insert-space&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Insert space&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;insert-more-space&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Insert more space&lt;/h2&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>

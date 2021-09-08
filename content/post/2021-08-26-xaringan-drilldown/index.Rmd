@@ -203,7 +203,7 @@ tt <- tooltip_table(x, y)
 ```
 
 
-```{r}
+```{r drillz-plot}
 frameWidget(
   highchart() %>%
     hc_title(text = "biggie",
@@ -252,3 +252,9 @@ frameWidget(
     )
 )
 ```
+
+## Insert space
+
+
+## Insert more space
+
