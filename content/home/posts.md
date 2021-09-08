@@ -12,7 +12,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
 
 [content]
   page_type = "post"
-  count = 5
+  count = 3
   offset = 0
   order = "desc"
 
@@ -29,7 +29,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
   # 2 = Compact
   # 3 = Card
   # 4 = Citation (publication only)
-  view = 2
+  view = 3
 
 [design.background]
   # Apply a background color, gradient, or image.
