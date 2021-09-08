@@ -2,10 +2,9 @@
 title: "Xaringan Drilldown"
 subtitle: ""
 summary: ""
-authors:
-  - admin
-tags: []
-categories: []
+authors: "Joey Trampush"
+tags: [R]
+categories: [xaringan]
 date: 2021-08-26
 lastmod: 2021-08-26
 featured: false
@@ -202,7 +201,6 @@ y <- c("{point.name}", "{point.y}", "{point.rangez}")
 tt <- tooltip_table(x, y)
 ```
 
-
 ```{r drillz-plot}
 frameWidget(
   highchart() %>%
@@ -252,9 +250,3 @@ frameWidget(
     )
 )
 ```
-
-## Insert space
-
-
-## Insert more space
-
