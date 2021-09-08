@@ -1,7 +1,7 @@
 ---
 title: Animated Plots
 authors:
-  - admin
+  - Joey Trampush
 date: '2021-06-25'
 slug: animated-plots
 subtitle: Trajectory of working memory using gganimate
@@ -18,9 +18,9 @@ tags: ["R Markdown", "plot", "ggplot2", "gganimate"]
 output:
   blogdown::html_page:
     toc: false
-    # fig_width: 7
-    # fig_asp: 0.618
-    # fig_retina: 2
+    fig_width: 7
+    fig_asp: 0.618
+    fig_retina: 2
     # dev: "svg"
 rmd_hash: ad12fe1c1b68566d
 ---

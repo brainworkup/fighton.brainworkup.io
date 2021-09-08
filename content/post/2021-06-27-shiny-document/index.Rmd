@@ -17,18 +17,19 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-runtime: shiny
 output:
   blogdown::html_page:
-    toc: true
+    toc: false
     fig_width: 7
     fig_asp: 0.618
     fig_retina: 2
-    dev: "svg"
+    #dev: "svg"
 rmd_hash: ad12fe1c1b68566d
+runtime: shiny
 ---
 
-```{r echo=F}
+```{r setup, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(rmarkdown)
 library(bookdown)
 library(blogdown)
@@ -45,10 +46,6 @@ library(shiny)
 library(pandocfilters)
 library(plotly)
 library(knitr)
-```
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
 This R Markdown document is made interactive using Shiny.
