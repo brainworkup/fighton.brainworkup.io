@@ -28,7 +28,7 @@
   parent = "Neuropsychology"
   name = "Adult Neuropsychology"
   url = "adultneuro/"
-  weight = 36
+  weight = 40
 
 [[main]]
   name = "Research"
@@ -38,18 +38,15 @@
 
 [[main]]
   parent = "Research"
-  name = "Projects"
-  url = "#projects"
+  name = "Publications"
+  url = "#publications"
+  weight = 55
 
 [[main]]
   parent = "Research"
-  name = "Publications"
-  url = "#publications"
-
-# [[main]]
-  # name = "People"
-  # url = "#people"
-  # weight = 60
+  name = "Projects"
+  url = "#projects"
+  weight = 60
 
 [[main]]
   name = "Contact"

@@ -19,7 +19,7 @@ image:
 projects: []
 output:
   blogdown::html_page:
-    toc: true
+    toc: false
     fig_width: 7
     fig_asp: 0.618
     fig_retina: 2
