@@ -43,6 +43,7 @@ library(manipulateWidget)
 library(shiny)
 library(pandocfilters)
 library(plotly)
+library(knitr)
 ```
 
 ## New Cool Post

@@ -18,7 +18,14 @@ image:
   preview_only: no
 projects: []
 runtime: shiny
-output: html_document
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 7
+    fig_asp: 0.618
+    fig_retina: 2
+    dev: "svg"
+rmd_hash: ad12fe1c1b68566d
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
@@ -29,7 +36,62 @@ output: html_document
 <script src="shared/strftime/strftime-min.js"></script>
 <link href="shared/ionrangeslider/css/ion.rangeSlider.css" rel="stylesheet" />
 
+<div id="TOC">
+<ul>
+<li><a href="#section-inputs-and-outputs">Inputs and Outputs</a></li>
+<li><a href="#section-embedded-application">Embedded Application</a></li>
+</ul>
+</div>
 
+<pre><code>## 
+## Attaching package: &#39;hugodown&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:blogdown&#39;:
+## 
+##     hugo_build, hugo_version, shortcode</code></pre>
+<pre><code>## The following object is masked from &#39;package:rmarkdown&#39;:
+## 
+##     md_document</code></pre>
+<pre><code>## ── Attaching packages ────────────────────────────────── tidyverse 1.3.1.9000 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.5     ✓ purrr   0.3.4
+## ✓ tibble  3.1.4     ✓ dplyr   1.0.7
+## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+## ✓ readr   2.0.1     ✓ forcats 0.5.1</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;quantmod&#39;:
+##   method            from
+##   as.zoo.data.frame zoo</code></pre>
+<pre><code>## 
+## Attaching package: &#39;shiny&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:crosstalk&#39;:
+## 
+##     getDefaultReactiveDomain</code></pre>
+<pre><code>## 
+## Attaching package: &#39;pandocfilters&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:methods&#39;:
+## 
+##     Math</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:pandocfilters&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
 <p>This R Markdown document is made interactive using Shiny.
 Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately.</p>
 <p>To learn more, see <a href="http://rmarkdown.rstudio.com/authoring_shiny.html">Interactive Documents</a>.</p>
@@ -61,13 +123,13 @@ The <code>selectInput</code> and <code>sliderInput</code> functions create the i
 </div>
 </div>
 </div>
-<p><div id="out8e57bc5fd0530255" class="shiny-plot-output" style="width:100%;height:400px;"></div></p>
+<p><div id="outffaae9c3f06e384f" class="shiny-plot-output" style="width:100%;height:400px;"></div></p>
 </div>
 <div id="section-embedded-application" class="section level2">
 <h2>Embedded Application</h2>
 <p>It’s also possible to embed an entire Shiny application within an R Markdown document using the <code>shinyAppDir</code> function.
 This example embeds a Shiny application located in another directory:</p>
-<p><iframe data-deferred-src="app834aafbfcdcf7c979ec0e4728731511e/?w=&amp;__subapp__=1" width="100%" height="550" class="shiny-frame shiny-frame-deferred"></iframe></p>
+<p><iframe data-deferred-src="appf8719bbdcb7da1b679f74d62752867a2/?w=&amp;__subapp__=1" width="100%" height="550" class="shiny-frame shiny-frame-deferred"></iframe></p>
 <p>Note the use of the <code>height</code> parameter to determine how much vertical space the embedded application should occupy.</p>
 <p>You can also use the <code>shinyApp</code> function to define an application inline rather then in an external directory.</p>
 <p>In all of R code chunks above the <code>echo = FALSE</code> attribute is used.
