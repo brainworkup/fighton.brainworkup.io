@@ -1,7 +1,6 @@
 ---
 title: Animated Plots
-authors:
-- admin
+authors: Joey
 date: '2021-06-25'
 slug: animated-plots
 subtitle: Trajectory of working memory using gganimate
@@ -15,6 +14,14 @@ image:
 projects: []
 categories: ["R"]
 tags: ["R Markdown", "plot", "ggplot2", "gganimate"]
+output:
+  blogdown::html_page:
+    toc: false
+    # fig_width: 7
+    # fig_asp: 0.618
+    # fig_retina: 2
+    # dev: "svg"
+rmd_hash: ad12fe1c1b68566d
 ---
 
 **Insert Lead paragraph here.**
@@ -42,7 +49,7 @@ library(crosstalk)
 library(manipulateWidget)
 ```
 
-```{r, eval=F}
+```{r, eval=F, include=F}
 # NIH EXAMINER working memory data - fill sample
 wm <- data.table::fread("/Users/joey/brainworkup.io/static/data/wm.csv")
 # tidy data
@@ -200,12 +207,11 @@ pwalk(list(paths, plot_list), ggsave, path = getwd(), device = "pdf", scale = 1,
 library(cowplot)
 plot_grid(plotlist = plot_list, ncol = 2)
 ggsave("cow.pdf", path = getwd(), device = "pdf", scale = 1, width = 11.69, height = 8.27, units = "in")
-
 ```
 
 ## WM animations using `gganimate`
 
-```{r}
+```{r data-wm}
 # NIH EXAMINER working memory data - fill sample
 wm <- data.table::fread("wm.csv")
 
