@@ -2,7 +2,8 @@
 title: "Xaringan Drilldown"
 subtitle: ""
 summary: ""
-authors: "Joey Trampush"
+authors: 
+  - Joey Trampush
 tags: [R]
 categories: [xaringan]
 date: 2021-08-26
