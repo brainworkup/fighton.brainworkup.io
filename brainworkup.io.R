@@ -83,7 +83,6 @@ devtools::install_github(
   build = TRUE,
   force = TRUE)
 
-
 devtools::install_github(
   "kbodwin/flair",
   lib = .libPaths()[[2L]],
