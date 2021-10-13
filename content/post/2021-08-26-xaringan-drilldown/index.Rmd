@@ -39,6 +39,12 @@ rmd_hash: ad12fe1c1b68566d
 self_contained: yes
 ---
 
+
+```{r not-setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+xaringanExtra::use_panelset() # So we can add some slides with fancy panelsets!
+```
+
 ```{r setup, include=FALSE}
 library(rmarkdown)
 library(revealjs)
@@ -89,11 +95,17 @@ style_mono_accent(
 )
 ```
 
+
+---
+
+
 # Distribution of Scores: Population-level Interpretation
 
 ```{r gauss-plot1, fig.cap='Statistical classification of neuropsychological test scores in the general population.', fig.width=4, fig.height=4, out.width = "50%"}
 knitr::include_graphics("plot_narrow.png", auto_pdf = TRUE)
 ```
+
+---
 
 # Neuropsych Drilldown: z-Scores (M = 0, SD = 1)
 
