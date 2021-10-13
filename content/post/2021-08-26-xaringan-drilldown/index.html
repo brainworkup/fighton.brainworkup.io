@@ -1,43 +1,51 @@
 ---
-title: "Xaringan Drilldown"
-subtitle: "R + neuropsychological data"
-summary: "Where does the summary show up?"
-authors: 
-  - "Joey Trampush"
-tags: ["R"]
-categories: ["xaringan"]
-date: 2021-08-26
-lastmod: 2021-08-26
-featured: false
-draft: false
+title: Xaringan Drilldown
+author: Joey Trampush
+date: '2021-08-26'
+categories:
+  - xaringan
+tags:
+  - R
+subtitle: R + neuropsychological data
+summary: Where does the summary show up?
+authors:
+  - Joey Trampush
+lastmod: '2021-08-26'
+featured: no
+draft: no
 slug: xaringan-drilldown
 image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-projects: []
+  caption: ''
+  focal_point: ''
+  preview_only: no
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
     nature:
-      slideNumberFormat: "%current%"
+      slideNumberFormat: '%current%'
       highlightStyle: github
-      highlightLines: true
-      ratio: 16:9
-      countIncrementalSlides: true
-      includePresenterNotes: true
-    self_contained: true
+      highlightLines: yes
+      ratio: '16:9'
+      countIncrementalSlides: yes
+      includePresenterNotes: yes
+    self_contained: yes
   blogdown::html_page:
-    toc: false
+    toc: no
     fig_width: 7
     fig_asp: 0.618
     fig_retina: 2
-    dev: "svg"
+    dev: svg
 rmd_hash: ad12fe1c1b68566d
-self_contained: true
+self_contained: yes
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+<script src="{{< blogdown/postref >}}index_files/clipboard/clipboard.min.js"></script>
+<link href="{{< blogdown/postref >}}index_files/shareon/shareon.min.css" rel="stylesheet" />
+<script src="{{< blogdown/postref >}}index_files/shareon/shareon.min.js"></script>
+<link href="{{< blogdown/postref >}}index_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+<script src="{{< blogdown/postref >}}index_files/xaringanExtra-shareagain/shareagain.js"></script>
+<script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 <script src="{{< blogdown/postref >}}index_files/js-cookie/js.cookie.js"></script>
 <script src="{{< blogdown/postref >}}index_files/peerjs/peerjs.min.js"></script>
 <script src="{{< blogdown/postref >}}index_files/tiny.toast/toast.min.js"></script>
@@ -48,6 +56,21 @@ self_contained: true
 <script src="{{< blogdown/postref >}}index_files/widgetframe-binding/widgetframe.js"></script>
 
 
+<div id="share-again" class="section level2">
+<h2>share-again</h2>
+<style>.shareagain-bar {
+--shareagain-foreground: rgb(255, 255, 255);
+--shareagain-background: rgba(0, 0, 0, 0.5);
+--shareagain-facebook: none;
+--shareagain-pinterest: none;
+--shareagain-pocket: none;
+--shareagain-reddit: none;
+}</style>
+<div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="https://brainworkup.org/2021/08/26/xaringan-drilldown/" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+</div>
 <div id="distribution-of-scores-population-level-interpretation" class="section level1">
 <h1>Distribution of Scores: Population-level Interpretation</h1>
 <div class="figure"><span style="display:block;" id="fig:gauss-plot1"></span>

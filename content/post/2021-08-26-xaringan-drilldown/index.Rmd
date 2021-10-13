@@ -1,40 +1,42 @@
 ---
-title: "Xaringan Drilldown"
-subtitle: "R + neuropsychological data"
-summary: "Where does the summary show up?"
-authors: 
-  - "Joey Trampush"
-tags: ["R"]
-categories: ["xaringan"]
-date: 2021-08-26
-lastmod: 2021-08-26
-featured: false
-draft: false
+title: Xaringan Drilldown
+author: Joey Trampush
+date: '2021-08-26'
+categories:
+  - xaringan
+tags:
+  - R
+subtitle: R + neuropsychological data
+summary: Where does the summary show up?
+authors:
+  - Joey Trampush
+lastmod: '2021-08-26'
+featured: no
+draft: no
 slug: xaringan-drilldown
 image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-projects: []
+  caption: ''
+  focal_point: ''
+  preview_only: no
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
     nature:
-      slideNumberFormat: "%current%"
+      slideNumberFormat: '%current%'
       highlightStyle: github
-      highlightLines: true
-      ratio: 16:9
-      countIncrementalSlides: true
-      includePresenterNotes: true
-    self_contained: true
+      highlightLines: yes
+      ratio: '16:9'
+      countIncrementalSlides: yes
+      includePresenterNotes: yes
+    self_contained: yes
   blogdown::html_page:
-    toc: false
+    toc: no
     fig_width: 7
     fig_asp: 0.618
     fig_retina: 2
-    dev: "svg"
+    dev: svg
 rmd_hash: ad12fe1c1b68566d
-self_contained: true
+self_contained: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -70,21 +72,24 @@ knitr::opts_chunk$set(
 )
 ```
 
+## share-again
 
-```{r embed-xaringan, eval=FALSE}
-xaringanExtra::embed_xaringan(url = "https://brainworkup.org/2021/08/26/xaringan-drilldown/",
-                              ratio = "4:3")
-```
-
-```{r xaringan-share-again, eval=FALSE}
+```{r xaringan-share-again, echo=F}
 xaringanExtra::use_share_again()
 ```
 
-```{r style-share-again, eval=FALSE}
+```{r style-share-again, echo=F}
 xaringanExtra::style_share_again(
   share_buttons = c("twitter", "linkedin", "instagram")
 )
 ```
+
+```{r embed-xaringan, echo=F}
+xaringanExtra::embed_xaringan(
+  url = "https://brainworkup.org/2021/08/26/xaringan-drilldown/",
+  ratio = "4:3")
+```
+
 
 ```{r xaringan-broadcast}
 xaringanExtra::use_broadcast()
