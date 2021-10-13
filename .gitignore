@@ -15,3 +15,7 @@ __index-reveal.md
 bfg-cleanup.txt
 /journal/
 cloudfare_codes_save.zip
+
+node_modules
+.dendron.*
+build
