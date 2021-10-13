@@ -1,7 +1,7 @@
 ---
 title: "Xaringan Drilldown"
-subtitle: ""
-summary: ""
+subtitle: "R + neuropsychological data"
+summary: "Where does the summary show up?"
 authors: 
   - "Joey Trampush"
 tags: ["R"]
@@ -42,6 +42,7 @@ library(rmarkdown)
 library(revealjs)
 library(xaringan)
 library(xaringanExtra)
+library(xaringanBuilder)
 library(xaringanthemer)
 library(blogdown)
 library(dataui)
