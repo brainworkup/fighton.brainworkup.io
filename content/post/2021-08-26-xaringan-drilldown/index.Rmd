@@ -72,11 +72,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-```{r xaringan-broadcast}
+```{r xaringan-broadcast, echo=FALSE}
 xaringanExtra::use_broadcast()
 ```
-
 
 ```{r xaringan-themer}
 library(xaringanthemer)
