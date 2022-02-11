@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Joey Trampush</title>
+    <link>https://brainworkup.org/tags/blogdown/</link>
+    <description>Recent content in blogdown on Joey Trampush</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://brainworkup.org/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Plots in Blogdown</title>
+      <link>https://brainworkup.org/2021/09/08/r-plots-in-blogdown/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/2021/09/08/r-plots-in-blogdown/</guid>
+      <description>
+&lt;script src=&#34;https://brainworkup.org/2021/09/08/r-plots-in-blogdown/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#new-cool-post&#34;&gt;New Cool Post&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#subtopic&#34;&gt;Subtopic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#plot&#34;&gt;Plot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;new-cool-post&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;New Cool Post&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;subtopic&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Subtopic&lt;/h3&gt;
+&lt;p&gt;Subtopic goes here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Plot&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cars, pch = 20)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:cool-plot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://brainworkup.org/2021/09/08/r-plots-in-blogdown/index_files/figure-html/cool-plot-1.svg&#34; alt=&#34;A cool plot&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A cool plot
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
