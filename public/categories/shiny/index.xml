@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiny on Joey Trampush</title>
+    <title>shiny on Joey Trampush, PhD</title>
     <link>https://brainworkup.org/categories/shiny/</link>
-    <description>Recent content in shiny on Joey Trampush</description>
+    <description>Recent content in shiny on Joey Trampush, PhD</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
@@ -19,13 +19,12 @@
       
       <guid>https://brainworkup.org/2021/06/27/shiny-document/</guid>
       <description>
-&lt;script src=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;shared/selectize/css/selectize.bootstrap3.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;shared/selectize/js/selectize.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;shared/selectize/accessibility/js/selectize-plugin-a11y.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;shared/ionrangeslider/js/ion.rangeSlider.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;shared/strftime/strftime-min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;shared/ionrangeslider/css/ion.rangeSlider.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/selectize/css/selectize.bootstrap3.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/selectize/js/selectize.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/selectize/accessibility/js/selectize-plugin-a11y.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/ionrangeslider-javascript/js/ion.rangeSlider.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/strftime/strftime-min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://brainworkup.org/2021/06/27/shiny-document/index_files/ionrangeslider-css/css/ion.rangeSlider.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
 &lt;p&gt;This R Markdown document is made interactive using Shiny.
@@ -59,13 +58,13 @@ The &lt;code&gt;selectInput&lt;/code&gt; and &lt;code&gt;sliderInput&lt;/code&gt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;div id=&#34;out6781c7fc2454622f&#34; class=&#34;shiny-plot-output&#34; style=&#34;width:100%;height:400px;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div id=&#34;out715f2610fdfb04b8&#34; class=&#34;shiny-plot-output&#34; style=&#34;width:100%;height:400px;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;section-embedded-application&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Embedded Application&lt;/h2&gt;
 &lt;p&gt;It’s also possible to embed an entire Shiny application within an R Markdown document using the &lt;code&gt;shinyAppDir&lt;/code&gt; function.
 This example embeds a Shiny application located in another directory:&lt;/p&gt;
-&lt;p&gt;&lt;iframe data-deferred-src=&#34;app55f72d29cf76eccf9ce2f70b95db3a07/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;550&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe data-deferred-src=&#34;app60670a96f8d099f348451a216d5d8c11/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;550&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Note the use of the &lt;code&gt;height&lt;/code&gt; parameter to determine how much vertical space the embedded application should occupy.&lt;/p&gt;
 &lt;p&gt;You can also use the &lt;code&gt;shinyApp&lt;/code&gt; function to define an application inline rather then in an external directory.&lt;/p&gt;
 &lt;p&gt;In all of R code chunks above the &lt;code&gt;echo = FALSE&lt;/code&gt; attribute is used.

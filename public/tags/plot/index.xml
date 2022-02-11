@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>plot on Joey Trampush</title>
+    <title>plot on Joey Trampush, PhD</title>
     <link>https://brainworkup.org/tags/plot/</link>
-    <description>Recent content in plot on Joey Trampush</description>
+    <description>Recent content in plot on Joey Trampush, PhD</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
@@ -19,12 +19,12 @@
       
       <guid>https://brainworkup.org/2021/06/25/animated-plots/</guid>
       <description>
-&lt;script src=&#34;https://brainworkup.org/2021/06/25/animated-plots/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
 &lt;div id=&#34;ridgeline-plots-using-ggridges&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Ridgeline plots using &lt;code&gt;ggridges&lt;/code&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;here&amp;#39; was built under R version 4.2.0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://brainworkup.org/2021/06/25/animated-plots/index_files/figure-html/wm-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;wm-animations-using-gganimate&#34; class=&#34;section level2&#34;&gt;
