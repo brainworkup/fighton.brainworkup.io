@@ -19,3 +19,9 @@ cloudfare_codes_save.zip
 node_modules
 .dendron.*
 build
+/vault/
+forensic_neuropsych_note.md
+brainworkup.io.R
+.Renviron
+.Rprofile
+.bwu-color-picker.jsonc

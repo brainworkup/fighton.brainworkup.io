@@ -26,8 +26,6 @@ commands:
             confirmVaultOnCreate: false
             leaveTrace: false
             bubbleUpCreateNew: true
-            vaultSelectionModeOnCreate: smart
-            fuzzThreshold: 0.2
     insertNote:
         initialValue: templates
     insertNoteLink:
@@ -60,7 +58,7 @@ workspace:
     maxNoteLength: 204800
     enableUserTags: true
     enableHashTags: true
-    dendronVersion: 0.81.0
+    dendronVersion: 0.71.3
     task:
         name: ''
         dateFormat: ''
@@ -81,11 +79,9 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
-    enableEditorDecorations: true
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    automaticallyShowPreview: false
