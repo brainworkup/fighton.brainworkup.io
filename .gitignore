@@ -25,3 +25,5 @@ brainworkup.io.R
 .Renviron
 .Rprofile
 .bwu-color-picker.jsonc
+/private/
+private/
