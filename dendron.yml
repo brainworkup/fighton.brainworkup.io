@@ -1,24 +1,6 @@
-useFMTitle: true
-useNoteTitleForLink: true
-mermaid: true
-useKatex: true
 dev:
     enablePreviewV2: true
-site:
-    copyAssets: true
-    siteHierarchies:
-        - root
-    siteRootDir: docs
-    usePrettyRefs: true
-    title: Dendron
-    description: Personal knowledge space
-    siteLastModified: true
-    gh_edit_branch: main
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
-version: 4
+version: 5
 commands:
     lookup:
         note:
@@ -36,6 +18,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
     randomNote: {}
+    copyNoteLink: {}
 workspace:
     vaults:
         -
@@ -60,7 +43,7 @@ workspace:
     maxNoteLength: 204800
     enableUserTags: true
     enableHashTags: true
-    dendronVersion: 0.81.0
+    dendronVersion: 0.88.0
     task:
         name: ''
         dateFormat: ''
@@ -89,3 +72,33 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    copyAssets: true
+    siteHierarchies:
+        - root
+    enableSiteLastModified: true
+    siteRootDir: docs
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault
+    writeStubs: false
+    seo:
+        title: Dendron
+        description: Personal knowledge space
+    github:
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: main
+        editViewMode: tree
+    enablePrettyLinks: true

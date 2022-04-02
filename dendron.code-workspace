@@ -27,7 +27,8 @@
             "activityBar.inactiveForeground": "#e7e7e799",
             "activityBarBadge.background": "#22297e",
             "activityBarBadge.foreground": "#e7e7e7",
-            "sash.hoverBorder": "#26731f"
+            "sash.hoverBorder": "#26731f",
+            "sideBar.border": "#26731f"
         },
         "peacock.color": "#194b14"
     },
