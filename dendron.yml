@@ -94,7 +94,7 @@ publishing:
             - vault
     writeStubs: false
     seo:
-        title: Dendron
+        title: brainworkup.io
         description: Personal knowledge space
     github:
         enableEditLink: true
