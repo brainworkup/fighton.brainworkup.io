@@ -12,7 +12,7 @@ subtitle = "RESEARCH/CLINICAL/DATA SCIENCE"
 
 [content]
   page_type = "post"
-  count = 5
+  count = 4
   offset = 0
   order = "desc"
 
