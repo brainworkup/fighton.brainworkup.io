@@ -123,7 +123,7 @@ neuropsych <- neuropsych %>%
   dplyr::mutate(domain = forcats::as_factor(domain)) %>%
   dplyr::mutate(subdomain = forcats::as_factor(subdomain)) %>%
   dplyr::mutate(narrow = forcats::as_factor(narrow)) %>%
-  dplyr::mutate(verbal = forcats::as_factor(verbal)) %>%
+  # dplyr::mutate(verbal = forcats::as_factor(verbal)) %>%
   dplyr::mutate(pass = forcats::as_factor(pass)) %>%
   dplyr::mutate(timed = forcats::as_factor(timed))
 ```

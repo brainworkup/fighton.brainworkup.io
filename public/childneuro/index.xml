@@ -14,7 +14,7 @@
     <item>
       <title>Overview</title>
       <link>https://brainworkup.org/childneuro/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://brainworkup.org/childneuro/example/</guid>
       <description>&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
@@ -24,7 +24,8 @@
 &lt;li&gt;&lt;strong&gt;Project or software documentation&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;courses&lt;/code&gt; folder may be renamed. For example, we can rename it to &lt;code&gt;docs&lt;/code&gt; for software/project documentation or &lt;code&gt;tutorials&lt;/code&gt; for creating an online course.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;courses&lt;/code&gt; folder may be renamed.
+For example, we can rename it to &lt;code&gt;docs&lt;/code&gt; for software/project documentation or &lt;code&gt;tutorials&lt;/code&gt; for creating an online course.&lt;/p&gt;
 &lt;h2 id=&#34;delete-tutorials&#34;&gt;Delete tutorials&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;To remove these pages, delete the &lt;code&gt;courses&lt;/code&gt; folder and see below to delete the associated menu link.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;update-site-menu&#34;&gt;Update site menu&lt;/h2&gt;
@@ -40,7 +41,8 @@
   &lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/&amp;#34;&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;update-the-docs-menu&#34;&gt;Update the docs menu&lt;/h2&gt;
-&lt;p&gt;If you use the &lt;em&gt;docs&lt;/em&gt; layout, note that the name of the menu in the front matter should be in the form &lt;code&gt;[menu.X]&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the folder name. Hence, if you rename the &lt;code&gt;courses/example/&lt;/code&gt; folder, you should also rename the menu definitions in the front matter of files within &lt;code&gt;courses/example/&lt;/code&gt; from &lt;code&gt;[menu.example]&lt;/code&gt; to &lt;code&gt;[menu.&amp;lt;NewFolderName&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you use the &lt;em&gt;docs&lt;/em&gt; layout, note that the name of the menu in the front matter should be in the form &lt;code&gt;[menu.X]&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the folder name.
+Hence, if you rename the &lt;code&gt;courses/example/&lt;/code&gt; folder, you should also rename the menu definitions in the front matter of files within &lt;code&gt;courses/example/&lt;/code&gt; from &lt;code&gt;[menu.example]&lt;/code&gt; to &lt;code&gt;[menu.&amp;lt;NewFolderName&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     

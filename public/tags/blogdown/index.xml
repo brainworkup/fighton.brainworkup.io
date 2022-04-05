@@ -22,11 +22,11 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#new-cool-post&#34;&gt;New Cool Post&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#new-cool-post&#34; id=&#34;toc-new-cool-post&#34;&gt;New Cool Post&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#subtopic&#34;&gt;Subtopic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#subtopic&#34; id=&#34;toc-subtopic&#34;&gt;Subtopic&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#plot&#34;&gt;Plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#plot&#34; id=&#34;toc-plot&#34;&gt;Plot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
