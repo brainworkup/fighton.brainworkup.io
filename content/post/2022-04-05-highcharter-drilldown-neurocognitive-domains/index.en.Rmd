@@ -1,9 +1,8 @@
 ---
 title: Highcharter Drilldown on Neuropsychological Domains and Test Scores
-subtitle: ""
-summary: ""
+subtitle: Subtitle
+summary: Summary
 patient: "Biggie"
-author: runner
 authors: [admin]
 date: '2022-04-05'
 slug: highcharter-drilldown-neurocognitive-domains
@@ -15,7 +14,7 @@ tags:
   - R
   - R Markdown
 lastmod: '2022-04-05T13:50:26-07:00'
-featured: no
+featured: yes
 draft: no
 image:
   caption: ''
