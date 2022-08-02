@@ -6,7 +6,7 @@
         },
         {
             "path": "vault",
-            "name": "vault"
+            "name": "notes"
         }
     ],
     "settings": {
@@ -14,8 +14,6 @@
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
-        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
@@ -28,8 +26,8 @@
             "activityBar.inactiveForeground": "#e7e7e799",
             "activityBarBadge.background": "#22297e",
             "activityBarBadge.foreground": "#e7e7e7",
-            "sash.hoverBorder": "#26731f",
-            "sideBar.border": "#26731f"
+            "sideBar.border": "#26731f",
+            "tab.activeBorder": "#26731f"
         },
         "peacock.color": "#194b14"
     },
