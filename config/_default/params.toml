@@ -59,7 +59,10 @@ address = "2250 Alcazar St., Suite 2200, Department of Psychiatry and the Behavi
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+appointment_url = "<!-- Morgen inline widget begin -->
+<iframe src="https://book.morgen.so/brainworkup" width="100%" height="700px" style="border: none"></iframe>
+<!-- Morgen inline widget end -->
+"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
