@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
+email = "brainwu@proton.me"
 phone = "800 USC-CARE"
 address = "2250 Alcazar St., Suite 2200, Department of Psychiatry and the Behavioral Sciences, Keck Medicine of USC, Los Angeles, California, 90033, USA"
 
@@ -59,7 +59,7 @@ address = "2250 Alcazar St., Suite 2200, Department of Psychiatry and the Behavi
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://book.morgen.so/brainworkup"
+#appointment_url = "https://book.morgen.so/brainworkup"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
