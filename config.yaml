@@ -19,6 +19,8 @@ ignoreFiles:
   - \.Rmarkdown$
   - \.knit\.md$
   - \.utf8\.md$
+  - \.qmd$
+  - \.py$
   #- _files$
   #- _cache$
 outputs:
@@ -49,4 +51,4 @@ markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
-      unsafe: yes
+      unsafe: true
