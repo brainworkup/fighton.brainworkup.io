@@ -1,28 +1,33 @@
+version: 5
 dev:
     enablePreviewV2: true
-version: 5
+    enableSelfContainedVaults: true
 commands:
     lookup:
         note:
             selectionMode: extract
-            confirmVaultOnCreate: false
+            confirmVaultOnCreate: true
+            vaultSelectionModeOnCreate: smart
             leaveTrace: false
             bubbleUpCreateNew: true
-            vaultSelectionModeOnCreate: smart
             fuzzThreshold: 0.2
-    insertNote:
-        initialValue: templates
+    randomNote: {}
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    randomNote: {}
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
+    templateHierarchy: template
 workspace:
     vaults:
-        -
-            fsPath: vault
+        - fsPath: .
+          selfContained: true
+          name: fighton.brainworkup.io
+          remote:
+              type: git
+              url: https://github.com/brainworkup/fighton.brainworkup.io.git
     journal:
         dailyDomain: daily
         name: journal
@@ -32,24 +37,12 @@ workspace:
         name: scratch
         dateFormat: y.MM.dd.HHmmss
         addBehavior: asOwnDomain
-    graph:
-        zoomSpeed: 1
-    enableAutoCreateOnDefinition: false
-    enableXVaultWikiLink: false
-    enableRemoteVaultInit: true
-    workspaceVaultSyncMode: noCommit
-    enableAutoFoldFrontmatter: true
-    maxPreviewsCached: 10
-    maxNoteLength: 204800
-    enableUserTags: true
-    enableHashTags: true
-    dendronVersion: 0.88.0
     task:
-        name: ''
-        dateFormat: ''
-        addBehavior: childOfCurrent
+        name: task
+        dateFormat: y.MM.dd
+        addBehavior: asOwnDomain
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -57,48 +50,60 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
+        taskCompleteStatus:
+            - done
+            - x
         prioritySymbols:
             H: high
             M: medium
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+    graph:
+        zoomSpeed: 1
+        createStub: false
+    enableAutoCreateOnDefinition: true
+    enableXVaultWikiLink: true
+    enableRemoteVaultInit: true
+    enableUserTags: true
+    enableHashTags: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: true
     enableEditorDecorations: true
+    maxPreviewsCached: 10
+    maxNoteLength: 204800
+    enableFullHierarchyNoteTitle: false
 preview:
-    enableFMTitle: true
+    enableFMTitle: false
     enableNoteTitleForLink: true
-    enableMermaid: true
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
 publishing:
-    enableFMTitle: true
+    enableFMTitle: false
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
     siteHierarchies:
         - root
-    enableSiteLastModified: true
-    siteRootDir: docs
-    enableFrontmatterTags: true
-    enableHashesForFMTags: false
-    enableRandomlyColoredTags: true
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
     writeStubs: false
+    siteRootDir: docs
     seo:
-        title: brainworkup.io
-        description: Personal knowledge space
+        title: BrainWorkUp
+        description: BWU website
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
+    enableSiteLastModified: true
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    enableTaskNotes: true
     enablePrettyLinks: true
+    searchMode: lookup

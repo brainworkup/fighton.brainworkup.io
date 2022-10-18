@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+.backup
+.dendron.port
+.dendron.ws
+notes/.dendron.cache.json
