@@ -1,6 +1,6 @@
-# brainworkup.fighton.io
+# fighton.brainworkup.io
 
-Static repository for brainworkup.org
+Static repository for brainworkup.org, brainworkup.io
 
 ## New website via blogdown and academic theme
 
