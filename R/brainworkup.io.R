@@ -20,6 +20,7 @@ library(xaringan)
 library(xaringanExtra)
 library(xaringanthemer)
 library(quarto)
+library(tidytable)
 
 file.edit("~/.Rprofile")
 file.edit('.Rprofile')
@@ -108,3 +109,22 @@ devtools::install_github(
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
+
+# ************************
+# quarto ----
+# ************************
+
+## to convert to quarto
+
+library(fs)
+library(stringr)
+rmd_names <- dir_ls(path = ".", glob = "*.Rmd")
+qmd_names <- str_replace(string = rmd_names,
+                         pattern = "Rmd",
+                         replacement = "qmd")
+file_move(path = rmd_names,
+          new_path = qmd_names)
+
+file_move(path = "_bookdown.yml",
+          new_path = "_quarto.yml")
+
