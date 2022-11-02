@@ -1,0 +1,40 @@
+---
+title: "Quarto Post Attempt"
+subtitle: ""
+summary: ""
+author:
+  - admin
+authors: []
+tags: []
+categories: []
+date: now
+lastmod: last-modified
+featured: false
+draft: false
+slug: []
+projects: []
+format: html
+---
+
+```{r}
+library(rmarkdown)
+library(bookdown)
+library(blogdown)
+library(hugodown)
+library(tidyverse)
+library(highcharter)
+library(httpuv)
+library(htmltools)
+library(htmlwidgets)
+library(widgetframe)
+library(crosstalk)
+library(manipulateWidget)
+library(shiny)
+library(pandocfilters)
+library(plotly)
+library(knitr)
+```
+
+## New Cool Post
+
+Insert Lead paragraph here.

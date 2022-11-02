@@ -13,3 +13,6 @@
 notes/.dendron.cache.json
 notes/
 private/
+
+.DS_Store
+Thumbs.db

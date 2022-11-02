@@ -7,24 +7,13 @@ author:
 authors: []
 tags: []
 categories: []
-date: {{ .Date }}
-lastmod: {{ .Date }}
+date: now
+lastmod: last-modified
 featured: false
 draft: false
 slug: []
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
 projects: []
-output:
-  blogdown::html_page:
-    toc: false
-    fig_width: 7
-    fig_asp: 0.618
-    fig_retina: 2
-    dev: "svg"
-rmd_hash: ad12fe1c1b68566d
+format: html
 ---
 
 ```{r}
