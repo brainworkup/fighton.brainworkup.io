@@ -58,6 +58,7 @@ blogdown::check_site()
 rmarkdown::clean_site(preview = FALSE) # this might delete everything in "public"
 rmarkdown::clean_site(preview = TRUE)
 blogdown::clean_duplicates(preview = FALSE)
+
 blogdown::build_site(build_rmd = "timestamp") # to update by re-rendering
 
 blogdown::build_site(build_rmd = "newfile") # to render a file

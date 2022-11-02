@@ -25,27 +25,14 @@
 
 [[main]]
   parent = "Clinical"
-  name = "Child Neuropsychology"
+  name = "Neuropsychology"
   url = "childneuro/"
   weight = 45
 
 [[main]]
-  name = "Research"
-  url = "#"
-  weight = 50
-  hasChildren = true
-
-[[main]]
-  parent = "Research"
   name = "Publications"
   url = "#publications"
-  weight = 55
-
-[[main]]
-  parent = "Research"
-  name = "Projects"
-  url = "#projects"
-  weight = 60
+  weight = 50
 
 [[main]]
   name = "Contact"
