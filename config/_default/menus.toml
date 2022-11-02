@@ -13,22 +13,21 @@
   weight = 20
 
 [[main]]
-  name = "Neuropsychology"
-  url = "#"
+  name = "Projects"
+  url = "#projects"
   weight = 30
+
+[[main]]
+  name = "Clinical"
+  url = "#"
+  weight = 40
   hasChildren = true
 
 [[main]]
-  parent = "Neuropsychology"
+  parent = "Clinical"
   name = "Child Neuropsychology"
   url = "childneuro/"
-  weight = 35
-
-[[main]]
-  parent = "Neuropsychology"
-  name = "Adult Neuropsychology"
-  url = "adultneuro/"
-  weight = 40
+  weight = 45
 
 [[main]]
   name = "Research"
