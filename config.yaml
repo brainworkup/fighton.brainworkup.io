@@ -3,7 +3,7 @@ baseURL: https://brainworkup.org
 copyright: Copyright &copy; {year}
 googleAnalytics: ""
 disqusShortname: ""
-theme: academia-hugo
+theme: academia-hugo #ananke
 enableGitInfo: yes
 defaultContentLanguage: en
 hasCJKLanguage: no
