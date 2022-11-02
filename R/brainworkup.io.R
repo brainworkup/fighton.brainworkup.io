@@ -130,3 +130,8 @@ file_move(path = rmd_names,
 file_move(path = "_bookdown.yml",
           new_path = "_quarto.yml")
 
+# ⸠ hugo ----
+
+## to download more themes
+
+`git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke`
