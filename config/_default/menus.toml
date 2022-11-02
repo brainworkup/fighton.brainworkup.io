@@ -18,23 +18,23 @@
   weight = 30
 
 [[main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 40
+
+[[main]]
   name = "Clinical"
   url = "#"
-  weight = 40
+  weight = 50
   hasChildren = true
 
 [[main]]
   parent = "Clinical"
   name = "Neuropsychology"
   url = "childneuro/"
-  weight = 45
-
-[[main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 50
+  weight = 55
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 60
