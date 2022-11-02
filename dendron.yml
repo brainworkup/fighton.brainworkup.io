@@ -58,7 +58,7 @@ workspace:
             H: high
             M: medium
             L: low
-        todoIntegration: false
+        todoIntegration: true
         createTaskSelectionType: selection2link
     graph:
         zoomSpeed: 1
@@ -73,7 +73,7 @@ workspace:
     enableEditorDecorations: true
     maxPreviewsCached: 10
     maxNoteLength: 204800
-    enableFullHierarchyNoteTitle: false
+    enableFullHierarchyNoteTitle: true
 preview:
     enableFMTitle: false
     enableNoteTitleForLink: true

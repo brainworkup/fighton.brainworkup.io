@@ -2,8 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+.Renviron
+.Rprofile
+
+.vscode/
 
 .backup
 .dendron.port
 .dendron.ws
 notes/.dendron.cache.json
+notes/
+private/
