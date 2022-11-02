@@ -7,10 +7,34 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://brainworkup.org/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello, Quarto</title>
+      <link>https://brainworkup.org/project/quarto/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/project/quarto/</guid>
+      <description>&lt;h2 id=&#34;polar-axis&#34;&gt;Polar Axis&lt;/h2&gt;
+&lt;p&gt;For a demonstration of a line plot on a polar axis, see @fig-polar.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{python}&#34; data-lang=&#34;{python}&#34;&gt;#| label: fig-polar
+#| fig-cap: &amp;quot;A line plot on a polar axis&amp;quot;
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={&#39;projection&#39;: &#39;polar&#39;})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     
     <item>
       <title>Artificial Intelligence</title>

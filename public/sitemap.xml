@@ -20,8 +20,8 @@
     <loc>https://brainworkup.org/adultneuro/example.2/example3/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/childneuro/example.2/example3/</loc>
-    <lastmod>2022-02-11T13:54:21-08:00</lastmod>
+    <loc>https://brainworkup.org/childneuro/example.2/example5/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/adultneuro/example/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
@@ -41,8 +41,8 @@
     <loc>https://brainworkup.org/adultneuro/example.2/example4/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/childneuro/example.2/example4/</loc>
-    <lastmod>2022-02-11T13:54:21-08:00</lastmod>
+    <loc>https://brainworkup.org/childneuro/example.2/example6/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/adultneuro/example/example2/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
@@ -68,10 +68,22 @@
     <loc>https://brainworkup.org/talk/synthesizing/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/authors/</loc>
+    <loc>https://brainworkup.org/categories/</loc>
     <lastmod>2022-11-01T20:49:55-07:00</lastmod>
   </url><url>
-    <loc>https://brainworkup.org/categories/</loc>
+    <loc>https://brainworkup.org/categories/coordinates/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/project/quarto/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/categories/matplotlib/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/project/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brainworkup.org/authors/</loc>
     <lastmod>2022-11-01T20:49:55-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/tags/ggplot2/</loc>
@@ -171,9 +183,6 @@
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/project/internal-project/</loc>
-    <lastmod>2022-02-11T13:54:21-08:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/project/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/project/robotics/</loc>
