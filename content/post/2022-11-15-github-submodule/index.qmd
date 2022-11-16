@@ -1,5 +1,5 @@
 ---
-title: "Default"
+title: "GitHub Submodules"
 subtitle: ""
 summary: ""
 author:
@@ -13,7 +13,7 @@ featured: false
 draft: false
 slug: []
 projects: []
-format: html
+format: hugo-md
 ---
 
 ```{r}
