@@ -13,5 +13,10 @@ notes/
 private/
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 /.quarto/
 index-copy.Rmd
+=======
+
+/.quarto/
+>>>>>>> f86d991 (RESTART)
