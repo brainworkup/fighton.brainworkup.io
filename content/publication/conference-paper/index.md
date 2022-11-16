@@ -11,10 +11,6 @@ authors:
 date: "2013-07-01T00:00:00Z"
 doi: ""
 featured: true
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
 links: null
 projects: null
 publication: In *Source Themes Conference*
@@ -38,4 +34,3 @@ Click the *Slides* button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
