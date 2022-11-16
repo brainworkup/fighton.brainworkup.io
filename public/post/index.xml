@@ -263,5 +263,97 @@ Figure 2: Drilldown Neuropsych zScores
 </description>
     </item>
     
+    <item>
+      <title>bwu blog quarto</title>
+      <link>https://brainworkup.org/1/01/01/bwu-blog-quarto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brainworkup.org/1/01/01/bwu-blog-quarto/</guid>
+      <description>
+
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rmarkdown)
+library(bookdown)
+library(blogdown)
+library(hugodown)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;hugodown&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:blogdown&amp;#39;:
+## 
+##     hugo_build, hugo_version, shortcode&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:rmarkdown&amp;#39;:
+## 
+##     md_document&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Attaching packages
+## ────────────────────────────────── tidyverse
+## 1.3.2.9000 ──&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ✔ ggplot2   3.4.0.9000        ✔ dplyr     1.0.99.9000  
+## ✔ tibble    3.1.8.9002        ✔ stringr   1.4.1.9000   
+## ✔ tidyr     1.2.1.9001        ✔ forcats   0.5.2.9000   
+## ✔ readr     2.1.3.9000        ✔ lubridate 1.9.0.9000   
+## ✔ purrr     0.9000.0.9000     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(highcharter)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Registered S3 method overwritten by &amp;#39;quantmod&amp;#39;:
+##   method            from
+##   as.zoo.data.frame zoo&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(httpuv)
+library(htmltools)
+library(htmlwidgets)
+library(widgetframe)
+library(crosstalk)
+library(manipulateWidget)
+library(shiny)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;shiny&amp;#39;
+## 
+## The following object is masked from &amp;#39;package:crosstalk&amp;#39;:
+## 
+##     getDefaultReactiveDomain&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(pandocfilters)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;pandocfilters&amp;#39;
+## 
+## The following object is masked from &amp;#39;package:dplyr&amp;#39;:
+## 
+##     filter
+## 
+## The following object is masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     filter
+## 
+## The following object is masked from &amp;#39;package:methods&amp;#39;:
+## 
+##     Math&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(plotly)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;plotly&amp;#39;
+## 
+## The following object is masked from &amp;#39;package:pandocfilters&amp;#39;:
+## 
+##     filter
+## 
+## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
+## 
+##     last_plot
+## 
+## The following object is masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     filter
+## 
+## The following object is masked from &amp;#39;package:graphics&amp;#39;:
+## 
+##     layout&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(knitr)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;new-cool-post-no-its-not&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;New Cool Post No its not&lt;/h2&gt;
+&lt;p&gt;Insert Lead paragraph here.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
