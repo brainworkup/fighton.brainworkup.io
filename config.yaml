@@ -1,6 +1,6 @@
 title: "Joey W. Trampush, Ph.D."
 baseURL: https://brainworkup.org
-copyright: Copyright &copy; {year}
+copyright: "Copyright &copy; {year} Joey Trampush"
 googleAnalytics: ""
 disqusShortname: ""
 theme: academia-hugo
