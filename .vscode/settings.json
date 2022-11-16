@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "activityBarBadge.background": "#05baa9",
     "activityBarBadge.foreground": "#15202b",
     "sash.hoverBorder": "#fcf290"
@@ -15,6 +16,8 @@
 >>>>>>> 8916981 (fuck you)
 =======
 >>>>>>> f86d991 (RESTART)
+=======
+>>>>>>> 21446d4 (redo)
     "activityBarBadge.background": "#6664bb",
     "activityBarBadge.foreground": "#e7e7e7",
     "editorGroup.border": "#6ebf70",
@@ -22,11 +25,14 @@
     "tab.activeBorder": "#6ebf70"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9c481ce (copied back version from 11/2)
 =======
 >>>>>>> 8916981 (fuck you)
 =======
 >>>>>>> f86d991 (RESTART)
+=======
+>>>>>>> 21446d4 (redo)
   },
   "peacock.color": "#4dad4f"
 }

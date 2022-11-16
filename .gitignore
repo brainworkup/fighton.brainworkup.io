@@ -14,9 +14,14 @@ private/
 .DS_Store
 Thumbs.db
 <<<<<<< HEAD
+<<<<<<< HEAD
 /.quarto/
 index-copy.Rmd
 =======
 
 /.quarto/
 >>>>>>> f86d991 (RESTART)
+=======
+
+/.quarto/
+>>>>>>> 21446d4 (redo)
