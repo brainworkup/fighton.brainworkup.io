@@ -14,10 +14,6 @@ lastmod: '2021-08-26'
 featured: no
 draft: no
 slug: xaringan-drilldown
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -36,7 +32,6 @@ output:
     fig_retina: 2
     dev: svg
 rmd_hash: ad12fe1c1b68566d
-self_contained: yes
 ---
 
 
@@ -65,13 +60,13 @@ library(manipulateWidget)
 library(tibble)
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
-  fig.width = 9, 
-  fig.height = 3.5, 
+  fig.width = 9,
+  fig.height = 3.5,
   fig.retina = 3,
   out.width = "100%",
   cache = FALSE,
   echo = FALSE,
-  message = FALSE, 
+  message = FALSE,
   warning = FALSE,
   fig.show = TRUE,
   hiline = TRUE
@@ -85,10 +80,10 @@ xaringanExtra::use_broadcast()
 ```{r xaringan-themer}
 library(xaringanthemer)
 style_mono_accent(
-  base_color = "#690f0d",               # bright red
+  base_color = "#690f0d", # bright red
   inverse_background_color = "#002B36", # dark dark blue
-  inverse_header_color = "#31b09e",     # light aqua green
-  inverse_text_color = "#FFFFFF",       # white
+  inverse_header_color = "#31b09e", # light aqua green
+  inverse_text_color = "#FFFFFF", # white
   title_slide_background_color = "var(--base)",
   text_font_google = google_font("Sen"),
   header_font_google = google_font("NATS")
@@ -117,8 +112,7 @@ neurocog <- read_csv("neurocog.csv")
 # for zscores
 ncogz <- neurocog %>%
   group_by(domain) %>%
-  summarize(zMean = mean(z)
-  )
+  summarize(zMean = mean(z))
 
 ncogz <- arrange(ncogz, desc(zMean))
 
@@ -127,7 +121,7 @@ ncogL1statusz <- tibble(
   name = ncogz$domain,
   y = ncogz$zMean,
   drilldown = tolower(name)
-  )
+)
 ncogL1statusz$y <- round(ncogL1statusz$y, 1)
 
 ## Level 2
@@ -203,8 +197,10 @@ tt <- tooltip_table(x, y)
 ```{r drillz-plot}
 frameWidget(
   highchart() %>%
-    hc_title(text = "biggie",
-             style = list(fontSize = "15px")) %>%
+    hc_title(
+      text = "biggie",
+      style = list(fontSize = "15px")
+    ) %>%
     hc_add_series(
       ncogL1statusz,
       type = "bar",
