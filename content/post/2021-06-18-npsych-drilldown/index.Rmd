@@ -1,7 +1,7 @@
 ---
-title: Drilldown on Neuropsych Data with R
+title: "Drilldown on Neuropsych Data with R"
 subtitle: drilldown plot in highcharter
-summary: drilldown plot in highcharter trying to post
+summary: "drilldown plot in highcharter trying to post"
 slug: npsych-drilldown
 authors:
 - admin
@@ -9,46 +9,16 @@ categories: [R]
 date: '2021-06-18'
 draft: false
 featured: true
-gallery_item:
-- album: gallery
-  caption: Default
-  image: theme-default.png
-- album: gallery
-  caption: Ocean
-  image: theme-ocean.png
-- album: gallery
-  caption: Forest
-  image: theme-forest.png
-- album: gallery
-  caption: Dark
-  image: theme-dark.png
-- album: gallery
-  caption: Apogee
-  image: theme-apogee.png
-- album: gallery
-  caption: 1950s
-  image: theme-1950s.png
-- album: gallery
-  caption: Coffee theme with Playfair font
-  image: theme-coffee-playfair.png
-- album: gallery
-  caption: Strawberry
-  image: theme-strawberry.png
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  preview_only: false
 projects: []
 tags: []
 lastmod: '2021-06-18T18:11:39-07:00'
-# output: tufte::tufte_html
 ---
 
 ## Highcharter Drilldown Setup
 
 ### R Markdown chunk options
 
-```{r setup, include = FALSE, echo = FALSE}
+```{r setup, include = FALSE}
 library(blogdown)
 library(rmarkdown)
 library(revealjs)
@@ -104,7 +74,7 @@ rect[Attributes Style] {
 # patient
 patient <- "biggie"
 # path to files
-data_path <- ("~/brainworkup.io/content/post/2021-06-18-npsych-drilldown/csv")
+data_path <- ("~/fighton.brainworkup.io/content/post/2021-06-18-npsych-drilldown/csv")
 # get file names of .csv files
 files <- dir(data_path, pattern = "*.csv")
 # read into env
@@ -112,9 +82,10 @@ files <- dir(data_path, pattern = "*.csv")
 neuropsych <-
   files %>%
   purrr::set_names() %>%
-  purrr::map_df( ~ readr::read_csv(file.path(data_path, .)),
-                 na = c("", "NA", "--", "-"),
-                 .id = "filename") %>%
+  purrr::map_df(~ readr::read_csv(file.path(data_path, .)),
+    na = c("", "NA", "--", "-"),
+    .id = "filename"
+  ) %>%
   dplyr::filter(!is.na(percentile)) %>%
   dplyr::distinct() %>%
   dplyr::mutate(z = qnorm(percentile / 100))
@@ -133,16 +104,16 @@ neuropsych <- neuropsych %>%
 ```{r echo=F}
 ncog <- neuropsych %>%
   group_by(domain) %>%
-  summarize(Pct = mean(percentile)
-  )
+  summarize(Pct = mean(percentile))
 
 ncog <- arrange(ncog, desc(Pct))
 
 ## Level 1
 ncogL1status <- tibble(
   name = ncog$domain,
-   y = ncog$Pct,
-    drilldown = tolower(name))
+  y = ncog$Pct,
+  drilldown = tolower(name)
+)
 
 ## Level 2
 ncogL2drill <- lapply(unique(neuropsych$domain), function(x_level) {
@@ -190,9 +161,9 @@ ncogL4drill <- lapply(unique(neuropsych$domain), function(x_level) {
       list(id = tolower(paste(x_level, y_level, z_level, sep = "_")), type = "column", data = list_parse2(ncogL4status))
     })
   }) %>%
-  unlist(recursive = FALSE)
+    unlist(recursive = FALSE)
 }) %>%
-unlist(recursive = FALSE)
+  unlist(recursive = FALSE)
 ```
 
 ```{css, echo=FALSE}
@@ -252,8 +223,10 @@ tt <- tooltip_table(x, y)
 
 frameWidget(
   highchart() %>%
-    hc_title(text = patient,
-             style = list(fontSize = "15px")) %>%
+    hc_title(
+      text = patient,
+      style = list(fontSize = "15px")
+    ) %>%
     hc_add_series(
       ncogL1status,
       type = "bar",
@@ -296,16 +269,16 @@ library(tidyverse)
 
 ncogz <- neuropsych %>%
   group_by(domain) %>%
-  summarize(zMean = mean(z)
-  )
+  summarize(zMean = mean(z))
 
 ncogz <- arrange(ncogz, desc(zMean))
 
 ## Level 1
 ncogL1statusz <- tibble(
   name = ncogz$domain,
-   y = ncogz$zMean,
-    drilldown = tolower(name))
+  y = ncogz$zMean,
+  drilldown = tolower(name)
+)
 
 ## Level 2
 ncogL2drillz <- lapply(unique(neuropsych$domain), function(x_level) {
@@ -406,8 +379,10 @@ tt <- tooltip_table(x, y)
 
 frameWidget(
   highchart() %>%
-    hc_title(text = patient,
-             style = list(fontSize = "15px")) %>%
+    hc_title(
+      text = patient,
+      style = list(fontSize = "15px")
+    ) %>%
     hc_add_series(
       ncogL1statusz,
       type = "bar",

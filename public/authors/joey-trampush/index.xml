@@ -19,9 +19,9 @@
       
       <guid>https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/</guid>
       <description>
-&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index.en_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index.en_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index.en_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/index_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;neuropsychological-testing-results&#34; class=&#34;section level2&#34;&gt;
@@ -116,6 +116,8 @@ Figure 1: Statistical classification of neuropsychological test scores in the ge
 &lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
 &lt;div id=&#34;ridgeline-plots-using-ggridges&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Ridgeline plots using &lt;code&gt;ggridges&lt;/code&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: `stat(x)` was deprecated in ggplot2 3.4.0.
+## ℹ Please use `after_stat(x)` instead.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://brainworkup.org/2021/06/25/animated-plots/index_files/figure-html/wm-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;wm-animations-using-gganimate&#34; class=&#34;section level2&#34;&gt;

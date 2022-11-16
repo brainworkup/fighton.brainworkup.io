@@ -12,11 +12,13 @@ lastmod: last-modified
 featured: false
 draft: false
 slug: []
-projects: []
+projects: [robotics]
 format: hugo-md
 ---
 
 ```{r}
+#| label: setup
+#| include: false
 library(rmarkdown)
 library(bookdown)
 library(blogdown)
