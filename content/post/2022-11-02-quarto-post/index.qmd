@@ -13,11 +13,9 @@ featured: false
 draft: false
 slug: []
 projects: [internal-project]
-format: hugo-md
 ---
 
 ```{r}
-#| label: setup
 #| include: false
 library(rmarkdown)
 library(bookdown)
