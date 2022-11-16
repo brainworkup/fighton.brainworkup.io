@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 0dcac6b5-de31-477d-b21f-2baa37a5bbaf
+      url: 'https://frolicking-sherbet-a5db57.netlify.app'

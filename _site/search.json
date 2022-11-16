@@ -1,0 +1,618 @@
+[
+  {
+    "objectID": "content/home/slides.html",
+    "href": "content/home/slides.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Recent Blog Posts section created with the Pages widget. # This section displays recent blog posts from content/post/.\nwidget = “pages” headless = true active = true weight = 80\ntitle = “Slides” subtitle = “INTERACTIVE SLIDE CONTENT”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “slide”\n# Choose how much pages you would like to display (0 = all pages) count = 5\n# Choose how many pages you would like to offset by offset = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “” category = “” publication_type = “” exclude_featured = false exclude_past =false exclude_future = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 2\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/slider.html",
+    "href": "content/home/slider.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Slider widget. widget = “slider” headless = true active = true weight = 85\n\nSlide interval.\n\n\nUse false to disable animation or enter a time in ms, e.g. 5000 (5s).\ninterval = false\n\n\nSlide height (optional).\n\n\nE.g. 500px for 500 pixels or calc(100vh - 70px) for full screen.\nheight = “calc(100vh - 70px)”\n\n\nSlides.\n\n\nDuplicate an [[item]] block to add more slides.\n[[item]] title = “Hello” content = “I am center aligned :smile:” align = “center” # Choose center, left, or right.\n# Overlay a color or image (optional). # Deactivate an option by commenting out the line, prefixing it with #. overlay_color = “#666” # An HTML color value. overlay_img = “headers/bubbles-wide.jpg” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n# Call to action button (optional). # Activate the button by specifying a URL and button label below. # Deactivate by commenting out parameters, prefixing lines with #. cta_label = “Get academia” cta_url = “https://sourcethemes.com/academic/” cta_icon_pack = “fas” cta_icon = “graduation-cap”\n[[item]] title = “Left” content = “I am left aligned :smile:” align = “left”\noverlay_color = “#555” # An HTML color value. overlay_img = “” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n[[item]] title = “Right” content = “I am right aligned :smile:” align = “right”\noverlay_color = “#333” # An HTML color value. overlay_img = “” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1. +++"
+  },
+  {
+    "objectID": "content/home/people.html",
+    "href": "content/home/people.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # People widget. widget = “people” headless = true active = false weight = 95\ntitle = “People” subtitle = “subtitle for people”\n\nList user groups to display.\n\n\nEdit each user’s user_groups to add them to one or more of these groups.\nuser_groups = [“Principal Investigators”, “Researchers”, “Grad Students”, “Administration”, “Visitors”, “Alumni”] +++"
+  },
+  {
+    "objectID": "content/home/accomplishments.html",
+    "href": "content/home/accomplishments.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Accomplishments widget. widget = “accomplishments” headless = true active = true weight = 50\ntitle = “Accomplishments” subtitle = “PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE”\n\nDate format\n\n\nRefer to https://sourcethemes.com/academic/docs/customization/#date-format\ndate_format = “Jan 2006”\n\n\nAccomplishments.\n\n\nAdd/remove as many [[item]] blocks below as you like.\n\n\ntitle, organization and date_start are the required parameters.\n\n\nLeave other parameters empty if not required.\n\n\nBegin/end multi-line descriptions with 3 quotes \"\"\".\n[[item]] organization = “CA Board of Psychology” organization_url = “https://www.coursera.org” title = “License” url = “” certificate_url = “https://www.coursera.org” date_start = “2018-10-01” date_end = “” description = “Formulated informed blockchain models, hypotheses, and use cases.”\n[[item]] organization = “edX” organization_url = “https://www.edx.org” title = “Blockchain Fundamentals” url = “https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals” certificate_url = “https://www.edx.org” date_start = “2018-03-01” date_end = “” description = “Formulated informed blockchain models, hypotheses, and use cases.”\n[[item]] organization = “DataCamp” organization_url = “https://www.datacamp.com” title = “Object-Oriented Programming in R: S3 and R6 Course” url = “” certificate_url = “https://www.datacamp.com” date_start = “2017-07-01” date_end = “2017-12-21” description = “”\n[[item]] organization = “RDX” organization_url = “https://www.rdx.com” title = “Object-Oriented Programming in R: S3 and R6 Course” url = “” certificate_url = “https://www.datacamp.com” date_start = “2017-07-01” date_end = “2017-12-21” description = “”\n+++"
+  },
+  {
+    "objectID": "content/home/hero.html",
+    "href": "content/home/hero.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Hero widget. widget = “hero” headless = true active = true weight = 10\ntitle = “brainworkup”\n\nHero image (optional). Enter filename of an image in the static/img/ folder.\nhero_media = “jwt.jpg”\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “#fff”\n# Background gradient. # gradient_start = “#8b949e” # gradient_end = “#c3cbd3”\n# Background image. # image = “logo_bwu_banner.png” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = false\n\n\nCall to action links (optional).\n\n\nDisplay link(s) by specifying a URL and label below. Icon is optional for [cta].\n\n\nRemove a link/note by deleting a cta/note block.\n[btn] url = “#about” # url = “/authors/admin” label = “Learn More”\n[btn_alt] url = “#contact” label = “Contact Me”\n+++ ## My name is Joey and I am an Assistant Professor of Psychiatry & Behavioral Sciences @ USC specializing in Neuropsychology and Genetics.\nnew website; this site is in build mode; this is a template …"
+  },
+  {
+    "objectID": "content/home/gallery/index.html",
+    "href": "content/home/gallery/index.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Gallery section using the Blank widget and Gallery element (shortcode). widget = “blank” # See https://sourcethemes.com/academic/docs/page-builder/ headless = true # This file represents a page section. active = false # Activate this widget? true/false weight = 90 # Order that this section will appear.\ntitle = “Gallery” subtitle = “I have done many projects, here are some featured images” +++"
+  },
+  {
+    "objectID": "content/home/contact.html",
+    "href": "content/home/contact.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Contact widget. widget = “contact” headless = true active = true weight = 130\ntitle = “Contact” subtitle = “Connect with me”\n\nAutomatically link email and phone?\nautolink = true\n\n\nEmail form provider\n\n\n0: Disable email form\n\n\n1: Netlify (requires that the site is hosted by Netlify)\n\n\n2: formspree.io\nemail_form = 1 +++"
+  },
+  {
+    "objectID": "content/home/projects.html",
+    "href": "content/home/projects.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Projects section created with the Portfolio widget. widget = “portfolio” headless = true active = true weight = 70\ntitle = “Research Projects” subtitle = “One of the unfortunate things about reality is that it often poses complex problems that demand complex solutions”\n[content] # Page type to display. E.g. project. page_type = “project”\n# Filter toolbar (optional). # Add or remove as many filters ([[content.filter_button]] instances) as you like. # To show all items, set tag to “*“. # To filter by a specific tag, set tag to an existing tag name. # To remove toolbar, delete/comment all instances of [[content.filter_button]] below.\n# Default filter index (e.g. 0 corresponds to the first [[filter_button]] instance below). filter_default = 0\n[[content.filter_button]] name = “All” tag = “*”\n[[content.filter_button]] name = “Genomics” tag = “genomics”\n[[content.filter_button]] name = “Other” tag = “Demo”\n[[content.filter_button]] name = “ADHD” tag = “adhd”\n[[content.filter_button]] name = “Neurogenetics” tag = “Deep Learning”\n[design] # Choose how many columns the section has. Valid values: 1 or 2. columns = “2”\n# Toggle between the various page layout types. # 1 = List # 3 = Card # 5 = Showcase view = 3\n# For Showcase view, flip alternate rows? flip_alt_rows = false\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/adultneuro.html",
+    "href": "content/home/adultneuro.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Trying to create Child Neuropsychology page.\nwidget = “pages” headless = false active = false weight = 65\ntitle = “Adult Neuropsychology” subtitle = “Info related to adult neuropsycology”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “post”\n# Choose how many pages you would like to display (0 = all pages) count = 0\n# Choose how many pages you would like to offset by offset = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “adult” category = “” publication_type = “” exclude_featured = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 2\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/adultneuro.html#adult-adhd-subtypes",
+    "href": "content/home/adultneuro.html#adult-adhd-subtypes",
+    "title": "",
+    "section": "Adult ADHD subtypes",
+    "text": "Adult ADHD subtypes\n\nCombined\nInattentive\nHyperactive/Impulsive"
+  },
+  {
+    "objectID": "content/home/publications.html",
+    "href": "content/home/publications.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Recent Publications section created with the Pages widget. # This section displays recent blog posts from content/publication/.\nwidget = “pages” headless = true active = true weight = 80\ntitle = “Recent Publications” subtitle = “Recent research studies we have published”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “publication”\n# Choose how much pages you would like to display (0 = all pages) count = 3\n# Choose how many pages you would like to offset by offset = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “” category = “” publication_type = “” exclude_featured = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 1\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/skills.html",
+    "href": "content/home/skills.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Skills section created with the Featurette widget. widget = “featurette” headless = true active = true weight = 30\ntitle = “Skills” subtitle = “I have wide ranging clinical and research skills”\n\nShowcase personal skills or business features.\n\n\n\n\n\nAdd/remove as many [[feature]] blocks below as you like.\n\n\n\n\n\nFor available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons\n[[feature]] icon = “chart-line” icon_pack = “fas” name = “Data Analysis” parcent = “90%”\n[[feature]] icon = “user-secret” icon_pack = “fas” name = “Leadership” parcent = “80%”\n[[feature]] icon = “camera-retro” icon_pack = “fas” name = “Assessment” parcent = “70%”\n[[feature]] icon = “searchengin” icon_pack = “fab” name = “Research” parcent = “95%”\n+++"
+  },
+  {
+    "objectID": "content/home/index.html",
+    "href": "content/home/index.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Homepage type = “widget_page” headless = true +++"
+  },
+  {
+    "objectID": "content/home/tags.html",
+    "href": "content/home/tags.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Tag Cloud widget. widget = “tag_cloud” headless = true active = true weight = 120\ntitle = “Popular Topics” subtitle = “TODO: Make this useful” draft = true +++"
+  },
+  {
+    "objectID": "content/home/childneuro.html",
+    "href": "content/home/childneuro.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Trying to create Child Neuropsychology page.\nwidget = “pages” headless = false active = false weight = 65\ntitle = “Child Neuropsychology” subtitle = “Info related to pediatric neuropsychology”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “post”\n# Choose how many pages you would like to display (0 = all pages) count = 0\n# Choose how many pages you would like to offset by offset = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “child” category = “” publication_type = “” exclude_featured = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 2\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/childneuro.html#adhd-subtypes",
+    "href": "content/home/childneuro.html#adhd-subtypes",
+    "title": "",
+    "section": "ADHD subtypes",
+    "text": "ADHD subtypes\n\nCombined\nInattentive\nHyperactive/Impulsive"
+  },
+  {
+    "objectID": "content/home/featured.html",
+    "href": "content/home/featured.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Featured Publications section created with the Featured Content widget. # This section displays publications from content/publication/ which have # featured = true in their front matter.\nwidget = “featured” headless = true active = true weight = 80 draft = false\ntitle = “Featured Publications” subtitle = “Cognitive Genomics”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “publication”\n# Choose how much pages you would like to display (0 = all pages) count = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “” category = “” publication_type = “”\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 3\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = false\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/talks.html",
+    "href": "content/home/talks.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Recent and Upcoming Talks section created with the Pages widget. # This section displays recent talks from content/talk/.\nwidget = “pages” headless = true active = true weight = 100\ntitle = “Recent & Upcoming Talks” subtitle = “Working on it …”\n[content] # Page type to display. E.g. post, talk, or publication. page_type = “talk”\n# Choose how much pages you would like to display (0 = all pages) count = 5\n# Choose how many pages you would like to offset by offset = 0\n# Page order. Descending (desc) or ascending (asc) date. order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “” category = “” publication_type = “” exclude_featured = false exclude_past = false exclude_future = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 3\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/posts.html",
+    "href": "content/home/posts.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # A Recent Blog Posts section created with the Pages widget. # This section displays recent blog posts from content/post/.\nwidget = “pages” headless = true active = true weight = 60\ntitle = “Recent Posts” subtitle = “RESEARCH/CLINICAL/DATA SCIENCE”\n[content] page_type = “post” count = 4 offset = 0 order = “desc”\n# Filter posts by a taxonomy term. [content.filters] tag = “” category = “” publication_type = “” exclude_featured = false\n[design] # Toggle between the various page layout types. # 1 = List # 2 = Compact # 3 = Card # 4 = Citation (publication only) view = 1\n[design.background] # Apply a background color, gradient, or image. # Uncomment (by removing #) an option to apply it. # Choose a light or dark text color by setting text_color_light. # Any HTML color name or Hex value is valid.\n# Background color. # color = “navy”\n# Background gradient. # gradient_start = “DeepSkyBlue” # gradient_end = “SkyBlue”\n# Background image. # image = “background.jpg” # Name of image in static/img/. # image_darken = 0.6 # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.\n# Text color (true=light or false=dark). # text_color_light = true # i uncommented this\n[advanced] # Custom CSS. css_style = “”\n# CSS class. css_class = “” +++"
+  },
+  {
+    "objectID": "content/home/experience.html",
+    "href": "content/home/experience.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # Experience widget. widget = “experience” headless = true active = true weight = 40\ntitle = “Experience” subtitle = “The long version”\n\nDate format for experience\n\n\nRefer to https://sourcethemes.com/academic/docs/customization/#date-format\ndate_format = “Jan 2006”\n\n\nExperiences.\n\n\nAdd/remove as many [[experience]] blocks below as you like.\n\n\nRequired fields are title, company, and date_start.\n\n\nLeave date_end empty if it’s your current employer.\n\n\nBegin/end multi-line descriptions with 3 quotes \"\"\".\n[experience] title = “Della Martin Assistant Professor of Psychiatry” company = “USC Keck School of Medicine” company_url = “https://usc.edu” location = “California” date_start = “2018-03-01” date_end = “” description = ““” Responsibilities include:\n\nAnalyzing\nModelling\nDeploying ““”\n\n[experience] title = “Assistant Professor” company = “Zucker Hillside Hospital” company_url = “” location = “New York” date_start = “2012-12-01” date_end = “2016-06-30” description = “““Taught electronic engineering and researched semiconductor physics.”“”\n[experience] title = “Postdoctoral Fellow” company = “NIMH” company_url = “” location = “Washington, DC” date_start = “2010-08-01” date_end = “2012-11-30” description = “““Postdoc in psychiatric genetics.”“”\n\n\n[experience]\n# title = “Being born” # company = “” # company_url = “https://brainworkup.org” # location = “California” # date_start = “1977-07-13” # date_end = “1977-07-13” # description = “““I was born the day hip-hop was born on July 13, 1977.”“”\n+++"
+  },
+  {
+    "objectID": "content/home/about.html",
+    "href": "content/home/about.html",
+    "title": "",
+    "section": "",
+    "text": "+++ # About widget widget = “about” headless = true active = true weight = 20 # Choose the user profile to display # This should be the username of a profile in your content/authors/ folder. # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself author = “admin” avatar_image = “jwt_fighton.jpg” +++"
+  },
+  {
+    "objectID": "content/post/2021-06-25-animated-plots/index.html",
+    "href": "content/post/2021-06-25-animated-plots/index.html",
+    "title": "Animated Plots",
+    "section": "",
+    "text": "Insert Lead paragraph here."
+  },
+  {
+    "objectID": "content/post/2021-06-25-animated-plots/index.html#ridgeline-plots-using-ggridges",
+    "href": "content/post/2021-06-25-animated-plots/index.html#ridgeline-plots-using-ggridges",
+    "title": "Animated Plots",
+    "section": "Ridgeline plots using ggridges",
+    "text": "Ridgeline plots using ggridges\n\n\n\n\n\nWarning: `stat(x)` was deprecated in ggplot2 3.4.0.\nℹ Please use `after_stat(x)` instead."
+  },
+  {
+    "objectID": "content/post/2021-06-25-animated-plots/index.html#wm-animations-using-gganimate",
+    "href": "content/post/2021-06-25-animated-plots/index.html#wm-animations-using-gganimate",
+    "title": "Animated Plots",
+    "section": "WM animations using gganimate",
+    "text": "WM animations using gganimate"
+  },
+  {
+    "objectID": "content/post/2021-06-27-shiny-document/index.html",
+    "href": "content/post/2021-06-27-shiny-document/index.html",
+    "title": "Shiny Document",
+    "section": "",
+    "text": "This R Markdown document is made interactive using Shiny. Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately.\nTo learn more, see Interactive Documents."
+  },
+  {
+    "objectID": "content/post/2021-06-27-shiny-document/index.html#inputs-and-outputs",
+    "href": "content/post/2021-06-27-shiny-document/index.html#inputs-and-outputs",
+    "title": "Shiny Document",
+    "section": "Inputs and Outputs",
+    "text": "Inputs and Outputs\nYou can embed Shiny inputs and outputs in your document. Outputs are automatically updated whenever inputs change. This demonstrates how a standard R plot can be made interactive by wrapping it in the Shiny renderPlot function. The selectInput and sliderInput functions create the input widgets used to drive the plot.\n\n\n\n\n\n\nNumber of bins:\n\n10\n20\n35\n50\n\n\n\n\n\n\nBandwidth adjustment:"
+  },
+  {
+    "objectID": "content/post/2021-06-27-shiny-document/index.html#embedded-application",
+    "href": "content/post/2021-06-27-shiny-document/index.html#embedded-application",
+    "title": "Shiny Document",
+    "section": "Embedded Application",
+    "text": "Embedded Application\nIt’s also possible to embed an entire Shiny application within an R Markdown document using the shinyAppDir function. This example embeds a Shiny application located in another directory:\n\n\n\n\n\nNote the use of the height parameter to determine how much vertical space the embedded application should occupy.\nYou can also use the shinyApp function to define an application inline rather then in an external directory.\nIn all of R code chunks above the echo = FALSE attribute is used. This is to prevent the R code within the chunk from rendering in the document alongside the Shiny components."
+  },
+  {
+    "objectID": "content/post/2021-06-18-npsych-drilldown/index.html#drilldown-using-percentiles",
+    "href": "content/post/2021-06-18-npsych-drilldown/index.html#drilldown-using-percentiles",
+    "title": "Drilldown on Neuropsych Data with R",
+    "section": "Drilldown using percentiles",
+    "text": "Drilldown using percentiles\n\n\n\n\n\n\n\n\n\n\nDrilldown Neuropsych Pct"
+  },
+  {
+    "objectID": "content/post/2021-06-18-npsych-drilldown/index.html#drilldown-using-zscores",
+    "href": "content/post/2021-06-18-npsych-drilldown/index.html#drilldown-using-zscores",
+    "title": "Drilldown on Neuropsych Data with R",
+    "section": "Drilldown using zScores",
+    "text": "Drilldown using zScores\n\n\n\n\n\n\n\nDrilldown Neuropsych zScores"
+  },
+  {
+    "objectID": "content/publication/preprint/index.html",
+    "href": "content/publication/preprint/index.html",
+    "title": "An example preprint / working paper",
+    "section": "",
+    "text": "{{% alert note %}} Click the Slides button above to demo academia’s Markdown slides feature. {{% /alert %}}\nSupplementary notes can be added here, including code and math."
+  },
+  {
+    "objectID": "content/publication/conference-paper/index.html",
+    "href": "content/publication/conference-paper/index.html",
+    "title": "An example conference paper",
+    "section": "",
+    "text": "{{% alert note %}} Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software. {{% /alert %}}\n{{% alert note %}} Click the Slides button above to demo academia’s Markdown slides feature. {{% /alert %}}\nSupplementary notes can be added here, including code and math."
+  },
+  {
+    "objectID": "content/publication/journal-article/index.html",
+    "href": "content/publication/journal-article/index.html",
+    "title": "An example journal article",
+    "section": "",
+    "text": "{{% alert note %}} Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software. {{% /alert %}}\n{{% alert note %}} Click the Slides button above to demo academia’s Markdown slides feature. {{% /alert %}}\nSupplementary notes can be added here, including code and math."
+  },
+  {
+    "objectID": "content/privacy.html",
+    "href": "content/privacy.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Purpose A primary goal of brainworkup.io is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).\n\nThis code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.\nWe invite all those who participate in Gwm.Flow to help us create safe and positive experiences for everyone.\n\nOpen [Source/Culture/Tech] Citizenship A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.\n\nCommunities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.\nIf you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.\n\nExpected Behavior The following behaviors are expected and requested of all community members:\n\nParticipate in an authentic and active way. In doing so, you contribute to the health and longevity of this community. Exercise consideration and respect in your speech and actions. Attempt collaboration before conflict. Refrain from demeaning, discriminatory, or harassing behavior and speech. Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential. Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.\n\nUnacceptable Behavior The following behaviors are considered harassment and are unacceptable within our community:\n\nViolence, threats of violence or violent language directed against another person. Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language. Posting or displaying sexually explicit or violent material. Posting or threatening to post other people’s personally identifying information (“doxing”). Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability. Inappropriate photography or recording. Inappropriate physical contact. You should have someone’s consent before touching them. Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances. Deliberate intimidation, stalking or following (online or in person). Advocating for, or encouraging, any of the above behavior. Sustained disruption of community events, including talks and presentations.\n\nWeapons Policy No weapons will be allowed at bwu events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.\nConsequences of Unacceptable Behavior Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.\n\nAnyone asked to stop unacceptable behavior is expected to comply immediately.\nIf a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).\n\nReporting Guidelines If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. j.trampush@gmail.com.\n\nAdditionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.\n\nAddressing Grievances If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies.\n\nStrict adherence to USC CoC policies.\n\nScope We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community business.\n\nThis code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.\n\nContact info j.trampush@gmail.com\nLicense and attribution The Citizen Code of Conduct is distributed by Stumptown Syndicate under a Creative Commons Attribution-ShareAlike license.\n\nPortions of text derived from the Django Code of Conduct and the Geek Feminism Anti-Harassment Policy.\nRevision 2.3. Posted 6 March 2017.\nRevision 2.2. Posted 4 February 2016.\nRevision 2.1. Posted 23 June 2014.\nRevision 2.0, adopted by the Stumptown Syndicate board on 10 January 2013. Posted 17 March 2013."
+  },
+  {
+    "objectID": "content/slides/slides0/index.html",
+    "href": "content/slides/slides0/index.html",
+    "title": "Slides 0 example",
+    "section": "",
+    "text": "academia\n\n\n\n\nEfficiently write slides in Markdown\n3-in-1: Create, Present, and Publish your slides\nSupports speaker notes\nMobile friendly slides\n\n\n\n\n\n\nNext: Right Arrow or Space\nPrevious: Left Arrow\nStart: Home\nFinish: End\nOverview: Esc\nSpeaker notes: S\nFullscreen: F\nZoom: Alt + Click\nPDF Export: E\n\n\n\n\n\nInline code: variable\nCode block:\nporridge = \"blueberry\"\nif porridge == \"blueberry\":\n  print(\"Eating...\")\n\n\n\n\nIn-line math: \\(x + y = z\\)\nBlock math:\n\\[\nf\\left( x \\right) = \\;\\frac{{2\\left( {x + 4} \\right)\\left( {x - 4} \\right)}}{{\\left( {x + 4} \\right)\\left( {x + 1} \\right)}}\n\\]\n\n\n\n\nMake content appear incrementally\n{{%/* fragment */%}} One {{%/* /fragment */%}}\n{{%/* fragment */%}} **Two** {{%/* /fragment */%}}\n{{%/* fragment */%}} Three {{%/* /fragment */%}}\nPress Space to play!\n{{% fragment %}} One {{% /fragment %}} {{% fragment %}} Two {{% /fragment %}} {{% fragment %}} Three {{% /fragment %}}\n\nA fragment can accept two optional parameters:\n\nclass: use a custom style (requires definition in custom CSS)\nweight: sets the order in which a fragment appears\n\n\n\n\n\nAdd speaker notes to your presentation\n{{%/* speaker_note */%}}\n- Only the speaker can read these notes\n- Press `S` key to view\n{{%/* /speaker_note */%}}\nPress the S key to view the speaker notes!\n\n\nOnly the speaker can read these notes\nPress S key to view\n\n\n\n\n\n\n\nblack: Black background, white text, blue links (default)\nwhite: White background, black text, blue links\nleague: Gray background, white text, blue links\nbeige: Beige background, dark text, brown links\nsky: Blue background, thin dark text, blue links\n\n\n\nnight: Black background, thick white text, orange links\nserif: Cappuccino background, gray text, brown links\nsimple: White background, black text, blue links\nsolarized: Cream-colored background, dark green text, blue links\n\n\n\n\n\n\nCustomize the slide style and background\n{{< slide background-image=\"/img/boards.jpg\" >}}\n{{< slide background-color=\"#0000FF\" >}}\n{{< slide class=\"my-style\" >}}\n\n\n\n\nLet’s make headers navy colored.\nCreate assets/css/reveal_custom.css with:\n.reveal section h1,\n.reveal section h2,\n.reveal section h3 {\n  color: navy;\n}"
+  },
+  {
+    "objectID": "content/slides/slides1/index.html",
+    "href": "content/slides/slides1/index.html",
+    "title": "Slides 1 another example",
+    "section": "",
+    "text": "academia\n\n\n\n\nEfficiently write slides in Markdown\n3-in-1: Create, Present, and Publish your slides\nSupports speaker notes\nMobile friendly slides\n\n\n\n\n\n\nNext: Right Arrow or Space\nPrevious: Left Arrow\nStart: Home\nFinish: End\nOverview: Esc\nSpeaker notes: S\nFullscreen: F\nZoom: Alt + Click\nPDF Export: E\n\n\n\n\n\nInline code: variable\nCode block:\nporridge = \"blueberry\"\nif porridge == \"blueberry\":\n  print(\"Eating...\")\n\n\n\n\nIn-line math: \\(x + y = z\\)\nBlock math:\n\\[\nf\\left( x \\right) = \\;\\frac{{2\\left( {x + 4} \\right)\\left( {x - 4} \\right)}}{{\\left( {x + 4} \\right)\\left( {x + 1} \\right)}}\n\\]\n\n\n\n\nMake content appear incrementally\n{{%/* fragment */%}} One {{%/* /fragment */%}}\n{{%/* fragment */%}} **Two** {{%/* /fragment */%}}\n{{%/* fragment */%}} Three {{%/* /fragment */%}}\nPress Space to play!\n{{% fragment %}} One {{% /fragment %}} {{% fragment %}} Two {{% /fragment %}} {{% fragment %}} Three {{% /fragment %}}\n\nA fragment can accept two optional parameters:\n\nclass: use a custom style (requires definition in custom CSS)\nweight: sets the order in which a fragment appears\n\n\n\n\n\nAdd speaker notes to your presentation\n{{%/* speaker_note */%}}\n- Only the speaker can read these notes\n- Press `S` key to view\n{{%/* /speaker_note */%}}\nPress the S key to view the speaker notes!\n\n\nOnly the speaker can read these notes\nPress S key to view\n\n\n\n\n\n\n\nblack: Black background, white text, blue links (default)\nwhite: White background, black text, blue links\nleague: Gray background, white text, blue links\nbeige: Beige background, dark text, brown links\nsky: Blue background, thin dark text, blue links\n\n\n\nnight: Black background, thick white text, orange links\nserif: Cappuccino background, gray text, brown links\nsimple: White background, black text, blue links\nsolarized: Cream-colored background, dark green text, blue links\n\n\n\n\n\n\nCustomize the slide style and background\n{{< slide background-image=\"/img/boards.jpg\" >}}\n{{< slide background-color=\"#0000FF\" >}}\n{{< slide class=\"my-style\" >}}\n\n\n\n\nLet’s make headers navy colored.\nCreate assets/css/reveal_custom.css with:\n.reveal section h1,\n.reveal section h2,\n.reveal section h3 {\n  color: navy;\n}"
+  },
+  {
+    "objectID": "content/project/internal-project/index.html",
+    "href": "content/project/internal-project/index.html",
+    "title": "Internal Project",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.1/example3.html",
+    "href": "content/childneuro/example.1/example3.html",
+    "title": "Example Page 1",
+    "section": "",
+    "text": "In this tutorial, I’ll share my top 10 tips for getting started with Academia:"
+  },
+  {
+    "objectID": "content/childneuro/example.1/example3.html#tip-1",
+    "href": "content/childneuro/example.1/example3.html#tip-1",
+    "title": "Example Page 1",
+    "section": "Tip 1",
+    "text": "Tip 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.1/example3.html#tip-2",
+    "href": "content/childneuro/example.1/example3.html#tip-2",
+    "title": "Example Page 1",
+    "section": "Tip 2",
+    "text": "Tip 2\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.1/example4.html",
+    "href": "content/childneuro/example.1/example4.html",
+    "title": "Example Page 2",
+    "section": "",
+    "text": "Here are some more tips for getting started with academia:"
+  },
+  {
+    "objectID": "content/childneuro/example.1/example4.html#tip-3",
+    "href": "content/childneuro/example.1/example4.html#tip-3",
+    "title": "Example Page 2",
+    "section": "Tip 3",
+    "text": "Tip 3\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.1/example4.html#tip-4",
+    "href": "content/childneuro/example.1/example4.html#tip-4",
+    "title": "Example Page 2",
+    "section": "Tip 4",
+    "text": "Tip 4\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example/example2.html",
+    "href": "content/childneuro/example/example2.html",
+    "title": "Example Page 2",
+    "section": "",
+    "text": "Here are some more tips for getting started with academia:"
+  },
+  {
+    "objectID": "content/childneuro/example/example2.html#tip-3",
+    "href": "content/childneuro/example/example2.html#tip-3",
+    "title": "Example Page 2",
+    "section": "Tip 3",
+    "text": "Tip 3\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example/example2.html#tip-4",
+    "href": "content/childneuro/example/example2.html#tip-4",
+    "title": "Example Page 2",
+    "section": "Tip 4",
+    "text": "Tip 4\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example/example1.html",
+    "href": "content/childneuro/example/example1.html",
+    "title": "Example Page 1",
+    "section": "",
+    "text": "In this tutorial, I’ll share my top 10 tips for getting started with Academia:"
+  },
+  {
+    "objectID": "content/childneuro/example/example1.html#tip-1",
+    "href": "content/childneuro/example/example1.html#tip-1",
+    "title": "Example Page 1",
+    "section": "Tip 1",
+    "text": "Tip 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example/example1.html#tip-2",
+    "href": "content/childneuro/example/example1.html#tip-2",
+    "title": "Example Page 1",
+    "section": "Tip 2",
+    "text": "Tip 2\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.2/example3.html",
+    "href": "content/childneuro/example.2/example3.html",
+    "title": "Example Page 1",
+    "section": "",
+    "text": "In this tutorial, I’ll share my top 10 tips for getting started with Academia:"
+  },
+  {
+    "objectID": "content/childneuro/example.2/example3.html#tip-1",
+    "href": "content/childneuro/example.2/example3.html#tip-1",
+    "title": "Example Page 1",
+    "section": "Tip 1",
+    "text": "Tip 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.2/example3.html#tip-2",
+    "href": "content/childneuro/example.2/example3.html#tip-2",
+    "title": "Example Page 1",
+    "section": "Tip 2",
+    "text": "Tip 2\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.2/example4.html",
+    "href": "content/childneuro/example.2/example4.html",
+    "title": "Example Page 2",
+    "section": "",
+    "text": "Here are some more tips for getting started with academia:"
+  },
+  {
+    "objectID": "content/childneuro/example.2/example4.html#tip-3",
+    "href": "content/childneuro/example.2/example4.html#tip-3",
+    "title": "Example Page 2",
+    "section": "Tip 3",
+    "text": "Tip 3\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/childneuro/example.2/example4.html#tip-4",
+    "href": "content/childneuro/example.2/example4.html#tip-4",
+    "title": "Example Page 2",
+    "section": "Tip 4",
+    "text": "Tip 4\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\nNullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.\nCras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.\nSuspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.\nAliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at."
+  },
+  {
+    "objectID": "content/talk/Qualitative/index.html",
+    "href": "content/talk/Qualitative/index.html",
+    "title": "Qualitative Research Summer Intensive",
+    "section": "",
+    "text": "{{% alert note %}} Click on the Slides button above to view the built-in slides feature. {{% /alert %}}\nSlides can be added in a few ways:\n\nCreate slides using academia’s Slides feature and link using slides parameter in the front matter of the talk file\nUpload an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file\nEmbed your slides (e.g. Google Slides) or presentation video on this page using shortcodes.\n\nFurther talk details can easily be added to this page using Markdown and \\(\\rm \\LaTeX\\) math code."
+  },
+  {
+    "objectID": "content/talk/Synthesizing/index.html",
+    "href": "content/talk/Synthesizing/index.html",
+    "title": "Synthesizing Qualitative Data",
+    "section": "",
+    "text": "{{% alert note %}} Click on the Slides button above to view the built-in slides feature. {{% /alert %}}\nSlides can be added in a few ways:\n\nCreate slides using academia’s Slides feature and link using slides parameter in the front matter of the talk file\nUpload an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file\nEmbed your slides (e.g. Google Slides) or presentation video on this page using shortcodes.\n\nFurther talk details can easily be added to this page using Markdown and \\(\\rm \\LaTeX\\) math code."
+  },
+  {
+    "objectID": "content/talk/Coding/index.html",
+    "href": "content/talk/Coding/index.html",
+    "title": "Coding and Analyzing Qualitative Data",
+    "section": "",
+    "text": "{{% alert note %}} Click on the Slides button above to view the built-in slides feature. {{% /alert %}}\nSlides can be added in a few ways:\n\nCreate slides using academia’s Slides feature and link using slides parameter in the front matter of the talk file\nUpload an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file\nEmbed your slides (e.g. Google Slides) or presentation video on this page using shortcodes.\n\nFurther talk details can easily be added to this page using Markdown and \\(\\rm \\LaTeX\\) math code."
+  },
+  {
+    "objectID": "public/shiny/07_widgets/Readme.html",
+    "href": "public/shiny/07_widgets/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates some additional widgets included in Shiny, such as helpText and actionButton. The latter is used to delay rendering output until the user explicitly requests it (a construct which also introduces two important server functions, eventReactive and isolate)."
+  },
+  {
+    "objectID": "public/shiny/10_download/Readme.html",
+    "href": "public/shiny/10_download/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "We can add a download button to the UI using downloadButton(), and write the content of the file in downloadHandler() in the server function."
+  },
+  {
+    "objectID": "public/shiny/08_html/Readme.html",
+    "href": "public/shiny/08_html/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "Normally we use the built-in functions, such as textInput(), to generate the HTML UI in the R script ui.R. Actually shiny also works with a custom HTML page www/index.html. See the tutorial for more details."
+  },
+  {
+    "objectID": "public/shiny/03_reactivity/Readme.html",
+    "href": "public/shiny/03_reactivity/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates a core feature of Shiny: reactivity. In the server function, a reactive called datasetInput is declared.\nNotice that the reactive expression depends on the input expression input$dataset, and that it’s used by two output expressions: output$summary and output$view. Try changing the dataset (using Choose a dataset) while looking at the reactive and then at the outputs; you will see first the reactive and then its dependencies flash.\nNotice also that the reactive expression doesn’t just update whenever anything changes–only the inputs it depends on will trigger an update. Change the “Caption” field and notice how only the output$caption expression is re-evaluated; the reactive and its dependents are left alone."
+  },
+  {
+    "objectID": "public/shiny/06_tabsets/Readme.html",
+    "href": "public/shiny/06_tabsets/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates the tabsetPanel and tabPanel widgets.\nNotice that outputs that are not visible are not re-evaluated until they become visible. Try this:\n\nScroll to the bottom of the server function. You might need to use the show with app option so you can easily view the code and interact with the app at the same time.\nChange the number of observations, and observe that only output$plot is evaluated.\nClick the Summary tab, and observe that output$summary is evaluated.\nChange the number of observations again, and observe that now only output$summary is evaluated."
+  },
+  {
+    "objectID": "public/shiny/09_upload/Readme.html",
+    "href": "public/shiny/09_upload/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "We can add a file upload input in the UI using the function fileInput(), e.g. fileInput('foo'). In the server function, we can access the uploaded files via input$foo."
+  },
+  {
+    "objectID": "public/shiny/05_sliders/Readme.html",
+    "href": "public/shiny/05_sliders/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates Shiny’s versatile sliderInput widget.\nSlider inputs can be used to select single values, to select a continuous range of values, and even to animate over a range."
+  },
+  {
+    "objectID": "public/shiny/11_timer/Readme.html",
+    "href": "public/shiny/11_timer/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "The function invalidateLater() can be used to invalidate an observer or reactive expression in a given number of milliseconds. In this example, the output currentTime is updated every second, so it shows the current time on a second basis."
+  },
+  {
+    "objectID": "public/shiny/04_mpg/Readme.html",
+    "href": "public/shiny/04_mpg/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates the following concepts:\n\nGlobal variables: The mpgData variable is declared outside of the ui and server function definitions. This makes it available anywhere inside app.R. The code in app.R outside of ui and server function definitions is only run once when the app starts up, so it can’t contain user input.\nReactive expressions: formulaText is a reactive expression. Note how it re-evaluates when the Variable field is changed, but not when the Show Outliers box is unchecked."
+  },
+  {
+    "objectID": "public/shiny/01_hello/Readme.html",
+    "href": "public/shiny/01_hello/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This small Shiny application demonstrates Shiny’s automatic UI updates.\nMove the Number of bins slider and notice how the renderPlot expression is automatically re-evaluated when its dependant, input$bins, changes, causing a histogram with a new number of bins to be rendered."
+  },
+  {
+    "objectID": "public/shiny/02_text/Readme.html",
+    "href": "public/shiny/02_text/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates output of raw text from R using the renderPrint function in server and the verbatimTextOutput function in ui. In this case, a textual summary of the data is shown using R’s built-in summary function."
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-03.html",
+    "href": "notes/daily-note-2021-08-03.html",
+    "title": "Daily Note 2021 08 03",
+    "section": "",
+    "text": "I changed brainworkup.net and joeytrampush.com to CloudFare I paid for them, but not sure how much overall I registered brainworkup.io with DreamHost; cost was $29.99/year - still need to add DNS to CloudFare … wasn’t registered yet … check back in a few days\nhttps://panel.dreamhost.com/index.cgi?tree=domain.dashboard#!/site/brainworkup.io/dns\nTODO #1 check back with cloudfare in next few days"
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-03 2.html",
+    "href": "notes/daily-note-2021-08-03 2.html",
+    "title": "Daily Note 2021 08 03 2",
+    "section": "",
+    "text": "I changed brainworkup.net and joeytrampush.com to CloudFare I paid for them, but not sure how much overall I registered brainworkup.io with DreamHost; cost was $29.99/year - still need to add DNS to CloudFare … wasn’t registered yet … check back in a few days\nhttps://panel.dreamhost.com/index.cgi?tree=domain.dashboard#!/site/brainworkup.io/dns\nTODO #1 check back with cloudfare in next few days"
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-04 2.html",
+    "href": "notes/daily-note-2021-08-04 2.html",
+    "title": "Daily Note 2021 08 04 2",
+    "section": "",
+    "text": "changed name to “brainworkup.io”\n\nneed to change scripts\n\nFigure out archetypes for .rmd posts\nchange post directory to “Blog”?"
+  },
+  {
+    "objectID": "notes/root.html",
+    "href": "notes/root.html",
+    "title": "Root",
+    "section": "",
+    "text": "This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n\nThis section contains useful links to related resources.\n\nGetting Started Guide\nDiscord\nHome Page\nGithub\nDeveloper Docs"
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-25 2.html",
+    "href": "notes/daily-note-2021-08-25 2.html",
+    "title": "Daily Note 2021 08 25 2",
+    "section": "",
+    "text": "changed “blog” to “post” under content/"
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-25.html",
+    "href": "notes/daily-note-2021-08-25.html",
+    "title": "Daily Note 2021 08 25",
+    "section": "",
+    "text": "changed “blog” to “post” under content/"
+  },
+  {
+    "objectID": "notes/daily-note-2021-08-04.html",
+    "href": "notes/daily-note-2021-08-04.html",
+    "title": "Daily Note 2021 08 04",
+    "section": "",
+    "text": "changed name to “brainworkup.io”\n\nneed to change scripts\n\nFigure out archetypes for .rmd posts\nchange post directory to “Blog”?"
+  },
+  {
+    "objectID": "private/forensic_neuropsych_note.html",
+    "href": "private/forensic_neuropsych_note.html",
+    "title": "",
+    "section": "",
+    "text": "Forensic or Privately Paid Neuropsychological Evaluations\nDr. Han is available for forensic (non-clinical) neuropsychological evaluations, independent medical examinations (IMEs), and privately paid neuropsychological evaluations. These are evaluations that will not be documented in a hospital medical record. Dr. Han is board-certified in the practice of clinical neuropsychology by the American Board of Professional Psychology (ABPP) and has deposition experience. Forensic or privately paid neuropsychological evaluations may be conducted in the Alhambra offices and are considered on a case-by-case basis. Dr. Han can be contacted directly via email regarding possible forensic, IME, or privately paid evaluations at Duke.Han@med.usc.edu."
+  },
+  {
+    "objectID": "static/shiny/07_widgets/Readme.html",
+    "href": "static/shiny/07_widgets/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates some additional widgets included in Shiny, such as helpText and actionButton. The latter is used to delay rendering output until the user explicitly requests it (a construct which also introduces two important server functions, eventReactive and isolate)."
+  },
+  {
+    "objectID": "static/shiny/10_download/Readme.html",
+    "href": "static/shiny/10_download/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "We can add a download button to the UI using downloadButton(), and write the content of the file in downloadHandler() in the server function."
+  },
+  {
+    "objectID": "static/shiny/08_html/Readme.html",
+    "href": "static/shiny/08_html/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "Normally we use the built-in functions, such as textInput(), to generate the HTML UI in the R script ui.R. Actually shiny also works with a custom HTML page www/index.html. See the tutorial for more details."
+  },
+  {
+    "objectID": "static/shiny/03_reactivity/Readme.html",
+    "href": "static/shiny/03_reactivity/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates a core feature of Shiny: reactivity. In the server function, a reactive called datasetInput is declared.\nNotice that the reactive expression depends on the input expression input$dataset, and that it’s used by two output expressions: output$summary and output$view. Try changing the dataset (using Choose a dataset) while looking at the reactive and then at the outputs; you will see first the reactive and then its dependencies flash.\nNotice also that the reactive expression doesn’t just update whenever anything changes–only the inputs it depends on will trigger an update. Change the “Caption” field and notice how only the output$caption expression is re-evaluated; the reactive and its dependents are left alone."
+  },
+  {
+    "objectID": "static/shiny/06_tabsets/Readme.html",
+    "href": "static/shiny/06_tabsets/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates the tabsetPanel and tabPanel widgets.\nNotice that outputs that are not visible are not re-evaluated until they become visible. Try this:\n\nScroll to the bottom of the server function. You might need to use the show with app option so you can easily view the code and interact with the app at the same time.\nChange the number of observations, and observe that only output$plot is evaluated.\nClick the Summary tab, and observe that output$summary is evaluated.\nChange the number of observations again, and observe that now only output$summary is evaluated."
+  },
+  {
+    "objectID": "static/shiny/09_upload/Readme.html",
+    "href": "static/shiny/09_upload/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "We can add a file upload input in the UI using the function fileInput(), e.g. fileInput('foo'). In the server function, we can access the uploaded files via input$foo."
+  },
+  {
+    "objectID": "static/shiny/05_sliders/Readme.html",
+    "href": "static/shiny/05_sliders/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates Shiny’s versatile sliderInput widget.\nSlider inputs can be used to select single values, to select a continuous range of values, and even to animate over a range."
+  },
+  {
+    "objectID": "static/shiny/11_timer/Readme.html",
+    "href": "static/shiny/11_timer/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "The function invalidateLater() can be used to invalidate an observer or reactive expression in a given number of milliseconds. In this example, the output currentTime is updated every second, so it shows the current time on a second basis."
+  },
+  {
+    "objectID": "static/shiny/04_mpg/Readme.html",
+    "href": "static/shiny/04_mpg/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates the following concepts:\n\nGlobal variables: The mpgData variable is declared outside of the ui and server function definitions. This makes it available anywhere inside app.R. The code in app.R outside of ui and server function definitions is only run once when the app starts up, so it can’t contain user input.\nReactive expressions: formulaText is a reactive expression. Note how it re-evaluates when the Variable field is changed, but not when the Show Outliers box is unchecked."
+  },
+  {
+    "objectID": "static/shiny/01_hello/Readme.html",
+    "href": "static/shiny/01_hello/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This small Shiny application demonstrates Shiny’s automatic UI updates.\nMove the Number of bins slider and notice how the renderPlot expression is automatically re-evaluated when its dependant, input$bins, changes, causing a histogram with a new number of bins to be rendered."
+  },
+  {
+    "objectID": "static/shiny/02_text/Readme.html",
+    "href": "static/shiny/02_text/Readme.html",
+    "title": "",
+    "section": "",
+    "text": "This example demonstrates output of raw text from R using the renderPrint function in server and the verbatimTextOutput function in ui. In this case, a textual summary of the data is shown using R’s built-in summary function."
+  },
+  {
+    "objectID": "themes/academia-hugo/LICENSE.html",
+    "href": "themes/academia-hugo/LICENSE.html",
+    "title": "",
+    "section": "",
+    "text": "The MIT License (MIT)\nCopyright (c) 2016-present George Cushen\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  }
+]
