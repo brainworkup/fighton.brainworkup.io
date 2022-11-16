@@ -60,11 +60,7 @@
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/</loc>
-<<<<<<< HEAD
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
-=======
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
->>>>>>> 8916981 (fuck you)
   </url><url>
     <loc>https://brainworkup.org/talk/qualitative/</loc>
     <lastmod>2022-02-11T13:54:21-08:00</lastmod>
@@ -76,7 +72,6 @@
     <lastmod>2022-11-02T14:29:39-07:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/authors/</loc>
-<<<<<<< HEAD
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
   </url><url>
     <loc>https://brainworkup.org/categories/</loc>
@@ -105,36 +100,6 @@
   </url><url>
     <loc>https://brainworkup.org/tags/</loc>
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
-=======
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/categories/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/ggplot2/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/categories/highcharter/</loc>
-    <lastmod>2022-04-05T13:50:26-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/2022/04/05/highcharter-drilldown-neurocognitive-domains/</loc>
-    <lastmod>2022-04-05T13:50:26-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/authors/joey-trampush/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/r/</loc>
-    <lastmod>2022-04-05T13:50:26-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/categories/r/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/r-markdown/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
-  </url><url>
-    <loc>https://brainworkup.org/tags/</loc>
-    <lastmod>2022-04-05T14:51:33-07:00</lastmod>
->>>>>>> 8916981 (fuck you)
   </url><url>
     <loc>https://brainworkup.org/categories/xaringan/</loc>
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
@@ -142,7 +107,6 @@
     <loc>https://brainworkup.org/2021/08/26/xaringan-drilldown/</loc>
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
   </url><url>
-<<<<<<< HEAD
     <loc>https://brainworkup.org/tags/shiny/</loc>
     <lastmod>2022-11-15T23:18:57-08:00</lastmod>
   </url><url>
@@ -152,8 +116,6 @@
     <loc>https://brainworkup.org/2021/06/27/shiny-document/</loc>
     <lastmod>2022-11-15T23:18:57-08:00</lastmod>
   </url><url>
-=======
->>>>>>> 8916981 (fuck you)
     <loc>https://brainworkup.org/2021/06/25/animated-plots/</loc>
     <lastmod>2022-11-16T00:10:22-08:00</lastmod>
   </url><url>

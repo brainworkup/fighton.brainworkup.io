@@ -12,7 +12,6 @@
     
     
     <item>
-<<<<<<< HEAD
       <title>Shiny Document</title>
       <link>https://brainworkup.org/2021/06/27/shiny-document/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
@@ -74,8 +73,6 @@ This is to prevent the R code within the chunk from rendering in the document al
     </item>
     
     <item>
-=======
->>>>>>> 8916981 (fuck you)
       <title>Drilldown on Neuropsych Data with R</title>
       <link>https://brainworkup.org/2021/06/18/npsych-drilldown/</link>
       <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
