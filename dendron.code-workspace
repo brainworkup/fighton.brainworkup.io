@@ -1,44 +1,43 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ],
-    "settings": {
-        "dendron.rootDir": ".",
-        "files.autoSave": "onFocusChange",
-        "pasteImage.path": "${currentFileDir}/assets/images",
-        "pasteImage.prefix": "/",
-        "editor.snippetSuggestions": "inline",
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on",
-        "workbench.colorCustomizations": {
-          "activityBar.activeBackground": "#1f6fd0",
-          "activityBar.activeBorder": "#22297e",
-          "activityBar.background": "#1f6fd0",
-          "activityBar.foreground": "#e7e7e7",
-          "activityBar.inactiveForeground": "#e7e7e799",
-          "activityBarBadge.background": "#ee90bb",
-          "activityBarBadge.foreground": "#15202b",
-          "tab.activeBorder": "#1f6fd0",
-          "editorGroup.border": "#1f6fd0",
-          "sash.hoverBorder": "#1f6fd0"
-        },
-        "peacock.color": "#1857a4"
-    },
-    "extensions": {
-        "recommendations": [
-            "dendron.dendron-paste-image",
-            "dendron.dendron-markdown-shortcuts",
-            "redhat.vscode-yaml"
-        ],
-        "unwantedRecommendations": [
-            "dendron.dendron-markdown-links",
-            "dendron.dendron-markdown-notes",
-            "shd101wyy.markdown-preview-enhanced",
-            "kortina.vscode-markdown-notes",
-            "mushan.vscode-paste-image"
-        ]
+  "folders": [
+    {
+      "path": "."
     }
+  ],
+  "settings": {
+    "dendron.rootDir": ".",
+    "files.autoSave": "onFocusChange",
+    "pasteImage.path": "${currentFileDir}/assets/images",
+    "pasteImage.prefix": "/",
+    "editor.snippetSuggestions": "inline",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showSnippets": true,
+    "editor.tabCompletion": "on",
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#1f6fd0",
+      "activityBar.background": "#1f6fd0",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#ee90bb",
+      "activityBarBadge.foreground": "#15202b",
+      "editorGroup.border": "#1f6fd0",
+      "sash.hoverBorder": "#1f6fd0",
+      "tab.activeBorder": "#1f6fd0"
+    },
+    "peacock.color": "#1857a4"
+  },
+  "extensions": {
+    "recommendations": [
+      "dendron.dendron-paste-image",
+      "dendron.dendron-markdown-shortcuts",
+      "redhat.vscode-yaml"
+    ],
+    "unwantedRecommendations": [
+      "dendron.dendron-markdown-links",
+      "dendron.dendron-markdown-notes",
+      "shd101wyy.markdown-preview-enhanced",
+      "kortina.vscode-markdown-notes",
+      "mushan.vscode-paste-image"
+    ]
+  }
 }

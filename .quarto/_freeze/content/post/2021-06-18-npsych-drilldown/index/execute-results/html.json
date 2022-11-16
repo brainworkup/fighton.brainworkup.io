@@ -1,0 +1,20 @@
+{
+  "hash": "4c7cdac8035baf653b16413cb9115762",
+  "result": {
+    "markdown": "---\ntitle: Drilldown on Neuropsych Data with R\nsubtitle: drilldown plot in highcharter\nsummary: drilldown plot in highcharter trying to post\nslug: npsych-drilldown\nauthors:\n- admin\ncategories: [R]\ndate: '2021-06-18'\ndraft: false\nfeatured: true\nprojects: []\ntags: []\nlastmod: '2021-06-18T18:11:39-07:00'\n# output: tufte::tufte_html\n---\n\n\n## Highcharter Drilldown Setup\n\n### R Markdown chunk options\n\n\n\n\n\n### Load libraries\n\n\n::: {.cell}\n<style type=\"text/css\">\naside {\n  margin-left: 100%;\n  position: absolute;\n}\n</style>\n:::\n\n::: {.cell}\n<style type=\"text/css\">\nimg {\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n}\n</style>\n:::\n\n::: {.cell}\n<style type=\"text/css\">\nrect[Attributes Style] {\n    fill: transparent;\n    x: 0;\n    y: 0;\n    width: 800;\n    height: 500;\n    rx: 0;\n    ry: 0;\n}\n</style>\n:::\n\n\n### Import data\n\n\n\n\n\n## Drilldown using percentiles\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n<style type=\"text/css\">\n.drilld {\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n}\n</style>\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-0998cfa456f12f40a61e\" style=\"width:100%;height:480px;\" class=\"widgetframe html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-0998cfa456f12f40a61e\">{\"x\":{\"url\":\"index_files/figure-html//widgets/widget_drillp.html\",\"options\":{\"xdomain\":\"*\",\"allowfullscreen\":false,\"lazyload\":false}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n\nDrilldown Neuropsych Pct\n:::\n:::\n\n\n## Drilldown using zScores\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-2e06b136dbbfba114ee3\" style=\"width:100%;height:480px;\" class=\"widgetframe html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-2e06b136dbbfba114ee3\">{\"x\":{\"url\":\"index_files/figure-html//widgets/widget_drillz.html\",\"options\":{\"xdomain\":\"*\",\"allowfullscreen\":false,\"lazyload\":false}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n\nDrilldown Neuropsych zScores\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../../../site_libs/htmlwidgets-1.5.4.9001/htmlwidgets.js\"></script>\n<script src=\"../../../site_libs/pymjs-1.3.2/pym.v1.js\"></script>\n<script src=\"../../../site_libs/widgetframe-binding-0.3.1/widgetframe.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
