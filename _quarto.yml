@@ -1,24 +1,5 @@
 project:
   type: website
-<<<<<<< HEAD
-
-website:
-  title: "fighton.brainworkup.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
-=======
 # website:
 #   title: "fighton.brainworkup.io"
 #   navbar:
@@ -32,4 +13,3 @@ format:
 #     theme: cosmo
 #     css: styles.css
 #     toc: true
->>>>>>> 21446d4 (redo)
