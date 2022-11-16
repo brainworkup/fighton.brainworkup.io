@@ -13,7 +13,6 @@ featured: false
 draft: false
 slug: []
 projects: []
-format: hugo-md
 ---
 
 ```{r}
