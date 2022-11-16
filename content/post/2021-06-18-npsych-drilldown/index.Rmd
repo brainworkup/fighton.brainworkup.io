@@ -70,7 +70,7 @@ rect[Attributes Style] {
 
 ### Import data
 
-```{r echo=F, include=FALSE}
+```{r include=FALSE}
 # patient
 patient <- "biggie"
 # path to files
