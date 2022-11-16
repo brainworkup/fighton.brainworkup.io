@@ -67,45 +67,6 @@ Figure 1: HighchartR Drilldown
     </item>
     
     <item>
-      <title>R Plots in Blogdown</title>
-      <link>https://brainworkup.org/2021/09/08/r-plots-in-blogdown/</link>
-      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brainworkup.org/2021/09/08/r-plots-in-blogdown/</guid>
-      <description>
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#new-cool-post&#34; id=&#34;toc-new-cool-post&#34;&gt;New Cool Post&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#subtopic&#34; id=&#34;toc-subtopic&#34;&gt;Subtopic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#plot&#34; id=&#34;toc-plot&#34;&gt;Plot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;new-cool-post&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;New Cool Post&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
-&lt;div id=&#34;subtopic&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Subtopic&lt;/h3&gt;
-&lt;p&gt;Subtopic goes here.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;plot&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Plot&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(cars, pch = 20)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:cool-plot&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://brainworkup.org/2021/09/08/r-plots-in-blogdown/index_files/figure-html/cool-plot-1.svg&#34; alt=&#34;A cool plot&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A cool plot
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Animated Plots</title>
       <link>https://brainworkup.org/2021/06/25/animated-plots/</link>
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
